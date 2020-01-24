@@ -37,9 +37,9 @@ Used when you have a set of expected conditions and outcomes to go along with yo
 _behave_ will run the scenario once for each (non-heading) line appearing in the example data tables.
 ```gherkin
 Scenario Outline: Blenders
-    Given I put <thing> in a blender,
+    Given I put "<thing>" in a blender,
     When I switch the blender on
-    Then it should transform into <other thing>
+    Then it should transform into "<other thing>"
 
 Examples: Amphibians
     | thing         | other thing |
