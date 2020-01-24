@@ -42,13 +42,13 @@ Scenario Outline: Blenders
     Then it should transform into <other thing>
 
 Examples: Amphibians
-  | thing         | other thing |
-  | Red Tree Frog |        mush |
+    | thing         | other thing |
+    | Red Tree Frog |        mush |
 
 Examples: Consumer Electronics
-  | thing        | other thing |
-  | iPhone       | toxic waste |
-  | Galaxy Nexus | toxic waste |
+    | thing        | other thing |
+    | iPhone       | toxic waste |
+    | Galaxy Nexus | toxic waste |
 ```
 
 ## Steps
