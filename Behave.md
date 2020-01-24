@@ -12,12 +12,12 @@ Feature: feature name
 
   Background: some requirement of this test
     Given some setup condition
-      And some other setup action
+    And some other setup action
 
   Scenario: some scenario
     Given some condition
-      When some action is taken
-      Then some result is expected.
+    When some action is taken
+    Then some result is expected.
   ```
 
 ## Background
@@ -37,9 +37,9 @@ Used when you have a set of expected conditions and outcomes to go along with yo
 _behave_ will run the scenario once for each (non-heading) line appearing in the example data tables.
 ```gherkin
 Scenario Outline: Blenders
- Given I put <thing> in a blender,
-   When I switch the blender on
-   Then it should transform into <other thing>
+    Given I put <thing> in a blender,
+    When I switch the blender on
+    Then it should transform into <other thing>
 
 Examples: Amphibians
   | thing         | other thing |
@@ -67,12 +67,12 @@ _behave_ doesn’t technically distinguish between the various kinds of steps - 
 - **And, But**
 ```gherkin
 Scenario: Multiple Givens
- Given one thing
-  And another thing
-  And yet another thing
-  When I open my eyes
-  Then I see something
-  But I don't see something else
+    Given one thing
+    And another thing
+    And yet another thing
+    When I open my eyes
+    Then I see something
+    But I don't see something else
 ```
 
 ### Step Data
@@ -87,9 +87,9 @@ Scenario: some scenario
     | Pudey     | Silly Walks |
     | Two-Lumps | Silly Walks |
 
-   When we count the number of people in each department
-   Then we will find two people in "Silly Walks"
-   But we will find one person in "Beer Cans"
+     When we count the number of people in each department
+     Then we will find two people in "Silly Walks"
+     But we will find one person in "Beer Cans"
 ```
 
 ## Tags
@@ -111,14 +111,14 @@ Feature: Fight or flight
 
 @slow
 Scenario: Weaker opponent
- Given the ninja has a third level black-belt
-  When attacked by a samurai
-  Then the ninja should engage the opponent
+    Given the ninja has a third level black-belt
+    When attacked by a samurai
+    Then the ninja should engage the opponent
 
 Scenario: Stronger opponent
- Given the ninja has a third level black-belt
-  When attacked by Chuck Norris
-  Then the ninja should run for his life
+    Given the ninja has a third level black-belt
+    When attacked by Chuck Norris
+    Then the ninja should run for his life
 ```
 Running `behave --tags=slow` will run _just_ the scenarios tagged `@slow`.
 Running `behave --tags="not slow` will run everything _except_ the `@slow`.
