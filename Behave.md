@@ -11,13 +11,13 @@ Feature: feature name
  further description
 
   Background: some requirement of this test
-    Given some setup condition
-    And some other setup action
+      Given some setup condition
+      And some other setup action
 
   Scenario: some scenario
-    Given some condition
-    When some action is taken
-    Then some result is expected.
+      Given some condition
+      When some action is taken
+      Then some result is expected.
   ```
 
 ## Background
