@@ -127,7 +127,7 @@ Running `behave --tags="not slow` will run everything _except_ the `@slow`.
 There are also environmental controls specific to tags, so in the above example _behave_ will attempt to invoke an `environment.py` function `before_tag` and `after_tag` before and after the Scenario tagged `@slow`, passing in the name “slow”. If multiple tags are present then the functions will be called multiple times with each tag in the order they’re defined in the feature file.
 
 Re-visiting the example from above; if only some of the features required a browser and web server then you could tag them `@fixture.browser` and `@fixture.webserver`:
-```gherkin
+```python
 # -- FILE: features/environment.py
 from behave.fixture import fixture, use_fixture_by_tag
 
