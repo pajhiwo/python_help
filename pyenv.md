@@ -47,9 +47,11 @@ pyenv install 3.8
 pyenv global 3.8
 * set version as local (i.e. 3.8)
 pyenv local 3.8
-* create virtualenv **project_x using given version (if pyenv-vrutalenv plugin isntalled - installer installs it) 
+* create virtualenv **project_x** using **3.8** python version (if pyenv-vrutalenv plugin isntalled - installer installs it)
+pyenv virtualenv 3.8 project_x
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDUxMzA4OCwtMTUzNjUzODcwOSwtMT
+eyJoaXN0b3J5IjpbMTMzNDA0MjA4MSwtMTUzNjUzODcwOSwtMT
 QyMjgwODk0NCwtMTQzNDE0NTU4MF19
 -->
