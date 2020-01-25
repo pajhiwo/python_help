@@ -5,6 +5,7 @@ If you have old version of python on yor OS do not upgrade (as OS may use system
 ### Supported OS
 * Linux
 * MacOS
+* Windows (via pyenv-win fork)
 
 ### Installation
 * install pyenv:
@@ -20,6 +21,6 @@ xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI4MDg5NDQsLTE0MzQxNDU1ODBdfQ
-==
+eyJoaXN0b3J5IjpbLTE1MzY1Mzg3MDksLTE0MjI4MDg5NDQsLT
+E0MzQxNDU1ODBdfQ==
 -->
