@@ -38,11 +38,14 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
 * list available python version
+pyenv install --list
+* list installed python version
+pyenv versions
 * install python version
 * set version as global
 * set version as 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Nzk4NTY0MywtMTUzNjUzODcwOSwtMT
-QyMjgwODk0NCwtMTQzNDE0NTU4MF19
+eyJoaXN0b3J5IjpbLTE0OTc2MDAyMjcsLTE1MzY1Mzg3MDksLT
+E0MjI4MDg5NDQsLTE0MzQxNDU1ODBdfQ==
 -->
