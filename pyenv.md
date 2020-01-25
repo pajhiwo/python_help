@@ -1,5 +1,9 @@
 ## Pyenv
-Allows to install and use additional version of 
+Allows to install and use additional version of python.
+
+### Supported OS
+* Linux
+* MacOS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1NDE2NTM2XX0=
+eyJoaXN0b3J5IjpbLTE0MzQxNDU1ODBdfQ==
 -->
