@@ -1,6 +1,6 @@
 ## Pyenv
 Allows to install and use additional version of python.
-If you have old version of python on yor OS do not u
+If you have old version of python on yor OS do not upgrade (as OS may use system wide version for many apps), just install pyenv. 
 
 ### Supported OS
 * Linux
@@ -20,5 +20,6 @@ xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTI0NzkwNywtMTQzNDE0NTU4MF19
+eyJoaXN0b3J5IjpbLTE0MjI4MDg5NDQsLTE0MzQxNDU1ODBdfQ
+==
 -->
