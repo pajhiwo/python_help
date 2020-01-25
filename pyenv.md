@@ -18,9 +18,16 @@ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
 xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
 ``` 
-
+* restart shell
+```bash
+exec $SHELL
+```
+### Usage
+* update
+* remove
+* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzY1Mzg3MDksLTE0MjI4MDg5NDQsLT
-E0MzQxNDU1ODBdfQ==
+eyJoaXN0b3J5IjpbMjE0NzY2MDI4LC0xNTM2NTM4NzA5LC0xND
+IyODA4OTQ0LC0xNDM0MTQ1NTgwXX0=
 -->
