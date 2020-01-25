@@ -8,15 +8,15 @@ If you have old version of python on yor OS do not upgrade (as OS may use system
 * Windows (via pyenv-win fork)
 
 ### Installation
-* install pyenv:
+* install pyenv (requires `curl` and `git` to be already installed):
 ```bash
 $ curl https://pyenv.run | bash
 ```
 * install libraries allowing building python from source. On ubuntu:
 ```bash
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
-libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
-xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
+libreadline-dev libsqlite3-dev wget llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev libffi-dev liblzma-dev python-openssl
 ``` 
 * add to `~/.zshrc` or `~/.bashrc`
 ```bash
@@ -78,6 +78,7 @@ pyenv local project_x
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NjMyNjYyNSwxMDU2MjI1NDcwLC0xNT
-M2NTM4NzA5LC0xNDIyODA4OTQ0LC0xNDM0MTQ1NTgwXX0=
+eyJoaXN0b3J5IjpbLTM3NjEzMjcwMywtMjg2MzI2NjI1LDEwNT
+YyMjU0NzAsLTE1MzY1Mzg3MDksLTE0MjI4MDg5NDQsLTE0MzQx
+NDU1ODBdfQ==
 -->
