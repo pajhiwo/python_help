@@ -18,6 +18,12 @@ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
 xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
 ``` 
+* add to `~/.zshrc` or `~/.bashrc`
+```bash
+export PATH="/home/kcz/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+```
 * restart shell
 ```bash
 exec $SHELL
@@ -72,6 +78,6 @@ pyenv local project_x
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjgzNjAwNSwxMDU2MjI1NDcwLC0xNT
+eyJoaXN0b3J5IjpbLTI4NjMyNjYyNSwxMDU2MjI1NDcwLC0xNT
 M2NTM4NzA5LC0xNDIyODA4OTQ0LC0xNDM0MTQ1NTgwXX0=
 -->
