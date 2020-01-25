@@ -37,9 +37,12 @@ export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
-* 
+* list available python version
+* install python version
+* set version as global
+* set version as 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDY5NDI0NiwtMTUzNjUzODcwOSwtMT
+eyJoaXN0b3J5IjpbMTM4Nzk4NTY0MywtMTUzNjUzODcwOSwtMT
 QyMjgwODk0NCwtMTQzNDE0NTU4MF19
 -->
