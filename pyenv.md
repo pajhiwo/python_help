@@ -38,22 +38,40 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
 * list available python version
+```bash
 pyenv install --list
+```
 * list installed python version
+```bash
 pyenv versions
+```
 * install python version (i.e. 3.8)
+```bash
 pyenv install 3.8
+```
 * set version as global (i.e. 3.8)
+```bash
 pyenv global 3.8
+```
 * set version as local (i.e. 3.8)
+```bash
 pyenv local 3.8
-
+```
 ### Virtualenv
-* create virtualenv **project_x** using **3.8** python version (if pyenv-vrutalenv plugin isntalled - installer installs it)
+pyenv allows to create and auto activate virtualenvs using pyenv-virtualenv plugin that is installed by installer.
+
+* create virtualenv **project_x** using **3.8** python version. Name virtualenvs like projects
+```bash
 pyenv virtualenv 3.8 project_x
+```
+* Activate virtualenv
+```bash
+pyenv local project_x
+```
+### ZSH
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjIyNTQ3MCwtMTUzNjUzODcwOSwtMT
-QyMjgwODk0NCwtMTQzNDE0NTU4MF19
+eyJoaXN0b3J5IjpbLTUwNjgzNjAwNSwxMDU2MjI1NDcwLC0xNT
+M2NTM4NzA5LC0xNDIyODA4OTQ0LC0xNDM0MTQ1NTgwXX0=
 -->
