@@ -41,11 +41,13 @@ eval "$(pyenv virtualenv-init -)"
 pyenv install --list
 * list installed python version
 pyenv versions
-* install python version
+* install python version (i.e. 3.8)
+pyenv install 3.8
 * set version as global
+
 * set version as 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTc2MDAyMjcsLTE1MzY1Mzg3MDksLT
-E0MjI4MDg5NDQsLTE0MzQxNDU1ODBdfQ==
+eyJoaXN0b3J5IjpbMTcyMDI2Nzc3MSwtMTUzNjUzODcwOSwtMT
+QyMjgwODk0NCwtMTQzNDE0NTU4MF19
 -->
