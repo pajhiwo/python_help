@@ -50,9 +50,8 @@ Mutable array
 
 ## Ordered dictionary
 collections.OrderedDict
-sdsdsdsd
-since Python3.7 builtin dict keeps insertion order
 
+*since Python3.7 builtin dict keeps insertion order*
 <br/>
 
 # List methods
@@ -204,5 +203,5 @@ for key,value in dictionary.items():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODk1MTYzOF19
+eyJoaXN0b3J5IjpbNjAyMjkxNjQwXX0=
 -->
