@@ -1,5 +1,6 @@
 ## Pyenv
 Allows to install and use additional version of python.
+If you have old version of python on yor OS do not u
 
 ### Supported OS
 * Linux
@@ -7,8 +8,17 @@ Allows to install and use additional version of python.
 
 ### Installation
 * install pyenv:
+```bash
+$ curl https://pyenv.run | bash
+```
 * install libraries allowing building python from source. On ubuntu:
-` 
+```bash
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
+``` 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDIwMDc3NCwtMTQzNDE0NTU4MF19
+eyJoaXN0b3J5IjpbMTQzNTI0NzkwNywtMTQzNDE0NTU4MF19
 -->
