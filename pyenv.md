@@ -43,11 +43,12 @@ pyenv install --list
 pyenv versions
 * install python version (i.e. 3.8)
 pyenv install 3.8
-* set version as global
-
-* set version as 
+* set version as global (i.e. 3.8)
+pyenv global 3.8
+* set version as local
+* Create virtualenv 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMDI2Nzc3MSwtMTUzNjUzODcwOSwtMT
+eyJoaXN0b3J5IjpbLTIxNjIyNTgwMCwtMTUzNjUzODcwOSwtMT
 QyMjgwODk0NCwtMTQzNDE0NTU4MF19
 -->
