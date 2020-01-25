@@ -24,10 +24,22 @@ exec $SHELL
 ```
 ### Usage
 * update
+```bash
+pyenv update
+```
 * remove
+```bash
+rm -rf ~/.pyenv
+```
+remove entries from ~/.bashrc
+```bash
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+```
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzY2MDI4LC0xNTM2NTM4NzA5LC0xND
-IyODA4OTQ0LC0xNDM0MTQ1NTgwXX0=
+eyJoaXN0b3J5IjpbLTc0NDY5NDI0NiwtMTUzNjUzODcwOSwtMT
+QyMjgwODk0NCwtMTQzNDE0NTU4MF19
 -->
