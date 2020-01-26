@@ -10,14 +10,33 @@
 * always call pip by as module (allows to update pip on Win)
 * specify python version - be sure where package is installed e.g.
 ```bash
-python3.8 -m pip install -U requests
+python3.8 -m pip install -U r
+```
+* install from local src in order to check currently developed project
+```bash
+pip install -e <path>
 ```
 * install package from other index (i.e. not pypi)
+```bash
+pip install --index-url http://my.package.repo/simple/ SomeProject
+```
 * install package to given dir
+```bash
+pip install --install-option="--prefix=$PREFIX_PATH" package_name
+```
+* install package from local HD
+```bash
+pip install <path>
+```
 * install from requirements file
-* install from 
+```bash
+pip install -r requirements.txt
+```
 * remove package
-* remove package and all its dependencies
+```bash
+pip uninstall package_name
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQ3OTUwNzZdfQ==
+eyJoaXN0b3J5IjpbLTI0MzU4NDQxOV19
 -->
