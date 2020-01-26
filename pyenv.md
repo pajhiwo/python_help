@@ -74,11 +74,14 @@ pyenv virtualenv 3.8 project_x
 ```bash
 pyenv local project_x
 ```
-### ZSH
+* list of virtualenvs
+```bash
+pyenv virtualenvs
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjEzMjcwMywtMjg2MzI2NjI1LDEwNT
-YyMjU0NzAsLTE1MzY1Mzg3MDksLTE0MjI4MDg5NDQsLTE0MzQx
-NDU1ODBdfQ==
+eyJoaXN0b3J5IjpbLTE3NjY3NjEyMTYsLTM3NjEzMjcwMywtMj
+g2MzI2NjI1LDEwNTYyMjU0NzAsLTE1MzY1Mzg3MDksLTE0MjI4
+MDg5NDQsLTE0MzQxNDU1ODBdfQ==
 -->
