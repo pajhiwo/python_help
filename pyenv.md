@@ -78,10 +78,14 @@ pyenv local project_x
 ```bash
 pyenv virtualenvs
 ```
+* delete virtualenv called project_x
+```bash
+pyenv virtualenv-delete project_x
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjY3NjEyMTYsLTM3NjEzMjcwMywtMj
-g2MzI2NjI1LDEwNTYyMjU0NzAsLTE1MzY1Mzg3MDksLTE0MjI4
-MDg5NDQsLTE0MzQxNDU1ODBdfQ==
+eyJoaXN0b3J5IjpbLTk0Njc4ODIsLTM3NjEzMjcwMywtMjg2Mz
+I2NjI1LDEwNTYyMjU0NzAsLTE1MzY1Mzg3MDksLTE0MjI4MDg5
+NDQsLTE0MzQxNDU1ODBdfQ==
 -->
