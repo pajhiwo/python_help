@@ -10,7 +10,7 @@
 * always call pip by as module (allows to update pip on Win)
 * specify python version - be sure where package is installed e.g.
 ```bash
-python3.8 -m pip install -U r
+python3.8 -m pip install -U package_name
 ```
 * install from local src in order to check currently developed project
 ```bash
@@ -32,11 +32,15 @@ pip install <path>
 ```bash
 pip install -r requirements.txt
 ```
+* save currently used packages to requiremets
+```bash
+pip freeze > requirements.txt
+```
 * remove package
 ```bash
 pip uninstall package_name
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzU4NDQxOV19
+eyJoaXN0b3J5IjpbNzk2MjMxNTA1XX0=
 -->
