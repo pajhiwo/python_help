@@ -28,7 +28,7 @@ pip install --install-option="--prefix=$PREFIX_PATH" package_name
 ```bash
 pip install <path>
 ```
-* install from requirements file
+* install from requirements file (dependencies will not be removed)
 ```bash
 pip install -r requirements.txt
 ```
@@ -42,5 +42,5 @@ pip uninstall package_name
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2MjMxNTA1XX0=
+eyJoaXN0b3J5IjpbMzgwNTQwOTNdfQ==
 -->
