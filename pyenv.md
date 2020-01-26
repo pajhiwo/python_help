@@ -70,7 +70,7 @@ pyenv allows to create and auto activate virtualenvs using pyenv-virtualenv plug
 ```bash
 pyenv virtualenv 3.8 project_x
 ```
-* Activate virtualenv
+* and then  activate virtualenv
 ```bash
 pyenv local project_x
 ```
@@ -85,7 +85,7 @@ pyenv virtualenv-delete project_x
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Njc4ODIsLTM3NjEzMjcwMywtMjg2Mz
-I2NjI1LDEwNTYyMjU0NzAsLTE1MzY1Mzg3MDksLTE0MjI4MDg5
-NDQsLTE0MzQxNDU1ODBdfQ==
+eyJoaXN0b3J5IjpbMTUxNDI2MDk4OCwtMzc2MTMyNzAzLC0yOD
+YzMjY2MjUsMTA1NjIyNTQ3MCwtMTUzNjUzODcwOSwtMTQyMjgw
+ODk0NCwtMTQzNDE0NTU4MF19
 -->
