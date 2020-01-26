@@ -81,11 +81,13 @@ pyenv virtualenvs
 * delete virtualenv called project_x
 ```bash
 pyenv virtualenv-delete project_x
+cd <virtualenv_dir>
+rm .python-version
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDI2MDk4OCwtMzc2MTMyNzAzLC0yOD
+eyJoaXN0b3J5IjpbLTg4NTk4ODQ5MSwtMzc2MTMyNzAzLC0yOD
 YzMjY2MjUsMTA1NjIyNTQ3MCwtMTUzNjUzODcwOSwtMTQyMjgw
 ODk0NCwtMTQzNDE0NTU4MF19
 -->
