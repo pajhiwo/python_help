@@ -268,9 +268,18 @@ b.method()
 >>> I'm a method in A
 ```
   
-## Save memory on class intances
+## Save memory on class instance
+What happens here is that when we define `__slots__` attribute, Python uses small fixed-size array for the attributes instead of dictionary, which greatly reduces memory needed for each instance. There are also some downsides to using `__slots__` - we can't declare any new attributes and we are restricted to using ones on `__slots__`. Also classes with `__slots__` can't use multiple inheritance.
+```python
+class Person:
+ __slots__ = ["first_name", "last_name", "phone"]
+ def __init__(self, first_name, last_name, phone):
+  self.first_name = first_name
+  self.last_name = last_name
+  self.phone = phone
+```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlsxMDEzMDMyMjddfQ==
+c3RvcnkiOlszNjY4ODM1MTBdfQ==
 -->
