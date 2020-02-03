@@ -55,10 +55,14 @@ There are three types of shallow copy:
 # make a shallow copy by using the slice operator
 >>> m3 = nums[:]       
 ```
-`copy.copy()` or `copy.deepcopy()`
+
+### Deep copy
+Deep copy constructs a new compound object and then, recursively, inserts copies into it of the objects found in the original.
+
+
   
 ## Rich comparison
 `object.__lt__(self, other), object.__le__(self, other), object.__eq__(self, other), object.__ne__(self, other), object.__gt__(self, other), object.__ge__(self, other)`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA5MDEzNTVdfQ==
+eyJoaXN0b3J5IjpbLTE5NjExMjg2NDZdfQ==
 -->
