@@ -55,6 +55,23 @@ There are three types of shallow copy:
 # make a shallow copy by using the slice operator
 >>> m3 = nums[:]       
 ```
+Example:
+```python
+>>> import copy
+
+>>> a = [[1, 2], [3, 4]]            
+>>> b = copy.copy(a)
+
+>>> id(a) == id(b)
+False
+
+>>> b[0].append(5)
+>>>
+>>> b
+[[1, 2, 5], [3, 4]]
+>>> a
+[[1, 2, 5], [3, 4]]
+```
 
 ### Deep copy
 Deep copy constructs a new compound object and then, recursively, inserts copies into it of the objects found in the original.
@@ -68,11 +85,20 @@ False
 
 >>> id(a[0]) == id(b[0])      # memory address is different      
 False
+
+>>> a[0].append(8)            # modify the list                                                                                                                                            
+
+
+>>> a
+[[1, 2, 3, 8], [4, 5, 6]]
+>>> b
+[[1, 2, 3], [4, 5, 6]] 
 ```
 
   
 ## Rich comparison
 `object.__lt__(self, other), object.__le__(self, other), object.__eq__(self, other), object.__ne__(self, other), object.__gt__(self, other), object.__ge__(self, other)`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzkxNzA4MywtMTk2MTEyODY0Nl19
+eyJoaXN0b3J5IjpbLTEwNDY0NjQ3NzAsLTE5NjExMjg2NDZdfQ
+==
 -->
