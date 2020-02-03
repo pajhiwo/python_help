@@ -65,7 +65,29 @@ def test_my_function(some_function):
 ```
 
 We can replace method of `SomeClass` and make it return `None`
+```python
+from unittest import mock
+
+def test_my_function():
+    with mock.patch.object(SomeClass, 'method_of_class', return_value=None) as mock_method:
+        instance = SomeClass()
+        instance.method_of_class('arg')
+
+        mock_method.assert_called_with('arg')  # True
+```
+
+We can avoid being dependent on remote API/resource by replacing `requests.get` by mock and making it return object that we supply with suitable data.
+```python
+from unittest import mock
+
+def test_my_function():
+    r = Mock()
+    r.content = b'{"success": true}'
+    with mock.patch('requests.get', return_value=r) as get:  # Avoid doing actual GET request
+        some_function()  # Function that calls requests.get
+        get.assert_called_once()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5MzczOTc5LDExNTkwNzc0NzYsLTE2MT
-g3ODc3NTJdfQ==
+eyJoaXN0b3J5IjpbLTE0OTgyODczNzYsMTE1OTA3NzQ3NiwtMT
+YxODc4Nzc1Ml19
 -->
