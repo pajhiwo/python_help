@@ -200,9 +200,14 @@ if key is not found, it will return None, instead of Error
 for key,value in dictionary.items():
 ```
   
-  # String 
-
+  # String Close Match
+ To find words similar to some input string using something like [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance), then Python and `difflib` have your back.
+```python
+import difflib
+difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
+# returns ['apple', 'ape']
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA0NDY4MjgsNjAyMjkxNjQwXX0=
+eyJoaXN0b3J5IjpbLTE3NzM4NjExMDgsNjAyMjkxNjQwXX0=
 -->
