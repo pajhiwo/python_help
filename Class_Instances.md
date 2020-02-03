@@ -43,10 +43,18 @@ by using the `del` keyword
   
 ## Copy object
 ### Shallow copy
+Shallow copy, makes copy only of outer object. There are three types of shallow copy:
+```python
+# make a shallow copy by using copy module
+>>> m1 = copy.copy(nums)       
+
+>>> m2 = list(nums)    
+>>> m3 = nums[:]       # make a shallow copy by using the slice operator
+```
 `copy.copy()` or `copy.deepcopy()`
   
 ## Rich comparison
 `object.__lt__(self, other), object.__le__(self, other), object.__eq__(self, other), object.__ne__(self, other), object.__gt__(self, other), object.__ge__(self, other)`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjYwNDA3OF19
+eyJoaXN0b3J5IjpbMTA4MjUzMjM1OF19
 -->
