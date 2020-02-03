@@ -200,8 +200,9 @@ if key is not found, it will return None, instead of Error
 for key,value in dictionary.items():
 ```
   
+  # String 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyMjkxNjQwXX0=
+eyJoaXN0b3J5IjpbLTIwMDA0NDY4MjgsNjAyMjkxNjQwXX0=
 -->
