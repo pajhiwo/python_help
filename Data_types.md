@@ -167,6 +167,7 @@ to individual arguments use *:
 Usually goes with (**args*) in definition
 
 ## Most frequently occurring element
+`Counter` class in `collections` module. Under the hood, `Counter` is just a dictionary that maps items to number of occurrences,
 ```python
 from collections import Counter
 
@@ -222,5 +223,5 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTUyNDc1NSw2MDIyOTE2NDBdfQ==
+eyJoaXN0b3J5IjpbMTYxNzgwODg2OCw2MDIyOTE2NDBdfQ==
 -->
