@@ -109,7 +109,8 @@ def test_send_message(reset_sqlite_db):
     ...  # Perform tests that access prepared SQLite database
 ```
 This fixture receives path to the database as parameter. This path is passed to the fixture using the `request` object, which attribute `param` is an iterable of all arguments passed to the fixture, in this case just one - the path.
+We use `@pytest.mark.parametrize` with 3 arguments - first of them is name of the fixture, second is a list of argument values for the fixture which will become the `request.param` and finally keyword argument `indirect=True`, which causes the argument values to appear in `request.param`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjg4NTE4MDcsMTE1OTA3NzQ3NiwtMT
-YxODc4Nzc1Ml19
+eyJoaXN0b3J5IjpbLTgyMTEzNzE1MywxMTU5MDc3NDc2LC0xNj
+E4Nzg3NzUyXX0=
 -->
