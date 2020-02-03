@@ -110,7 +110,20 @@ def test_send_message(reset_sqlite_db):
 ```
 This fixture receives path to the database as parameter. This path is passed to the fixture using the `request` object, which attribute `param` is an iterable of all arguments passed to the fixture, in this case just one - the path.
 We use `@pytest.mark.parametrize` with 3 arguments - first of them is name of the fixture, second is a list of argument values for the fixture which will become the `request.param` and finally keyword argument `indirect=True`, which causes the argument values to appear in `request.param`.
+
+## Skipping Tests
+Example of how you can skip a valid test based on some condition
+```python
+import pytest, os
+
+@pytest.mark.skipif(os.system("service postgresql status") > 0,
+                    reason="PostgreSQL service is not running")
+def test_connect_to_database():
+    ... # Run function that tries to connect to PostgreSQL database
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTEzNzE1MywxMTU5MDc3NDc2LC0xNj
+eyJoaXN0b3J5IjpbMTE4OTUzMDYwMiwxMTU5MDc3NDc2LC0xNj
 E4Nzg3NzUyXX0=
 -->
