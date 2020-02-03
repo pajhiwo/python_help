@@ -166,6 +166,8 @@ to individual arguments use *:
 *function_name*(**variable*) - this is not definition, it is execution
 Usually goes with (**args*) in definition
 
+## Most frequently occurring element
+
 <br/>
 
 # Dict methods
@@ -209,5 +211,5 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzM4NjExMDgsNjAyMjkxNjQwXX0=
+eyJoaXN0b3J5IjpbMTEyNjE4Mjc0NCw2MDIyOTE2NDBdfQ==
 -->
