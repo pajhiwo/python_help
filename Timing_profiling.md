@@ -5,7 +5,7 @@ Before we start optimizing anything, we first need to find out which parts of ou
 
 _Note: This is the program I will be using for demonstration purposes, it computes `e` to power of `X` (taken from Python docs):_
 
-```
+```python
 # slow_program.py
 from decimal import *
 
@@ -30,7 +30,7 @@ exp(Decimal(3000))
 
 First off, the simplest and honestly very lazy solution - Unix `time` command:
 
-```
+```bash
 ~ $ time python3.8 slow_program.py
 
 real 0m11,058s
@@ -44,7 +44,7 @@ This could work, if you just want to time your whole program, which is usually n
 
 On the other end of spectrum is `cProfile`, which will give you _too much_ information:
 
-```
+```bash
 ~ $ python3.8 -m cProfile -s time slow_program.py
          1297 function calls (1272 primitive calls) in 11.081 seconds
 
@@ -76,7 +76,7 @@ Here, we ran the testing script with `cProfile` module and `time` argument, so t
 
 Now that we know where to direct our attention, we might want to time the slow function, without measuring rest of the code. For that we can use simple decorator:
 
-```
+```python
 def timeit_wrapper(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
@@ -90,7 +90,7 @@ def timeit_wrapper(func):
 
 This decorator can be then applied to function under test like so:
 
-```
+```python
 @timeit_wrapper
 def exp(x):
     ...
@@ -103,7 +103,7 @@ exp(Decimal(3000))
 
 This gives us output like this:
 
-```
+```bash
 ~ $ python3.8 slow_program.py
 module     function   time
 __main__  .exp      : 0.003267502994276583
@@ -125,7 +125,7 @@ This one is pretty obvious. Built-in data types are very fast, especially in com
 
 I already shown this one in previous blog post [here](https://martinheinz.dev/blog/4), but I think it's worth repeating it with simple example:
 
-```
+```python
 import functools
 import time
 
@@ -149,7 +149,7 @@ This has to do with speed of lookup of variables in each scope. I'm writing _eac
 
 You can improve performance, by using seemingly unnecessary (straight-up useless) assignments like this:
 
-```
+```python
 #  Example #1
 class FastClass:
 
@@ -171,7 +171,7 @@ def fast_function():
 
 This might seem counter intuitive, as calling function will put more stuff onto stack and create overhead from function returns, but it relates to previous point. If you just put your whole code into one file without putting it into function, it will be much slower because of global variables. Therefore you can speed up your code just by wrapping whole code in `main` function and calling it once, like so:
 
-```
+```python
 def main():
     ...  # All your previously global code
 
@@ -182,7 +182,7 @@ main()
 
 Another thing that might slow down your programs is _dot operator_ (`.`) which is used when accessing object attributes. This operator triggers dictionary lookup using `__getattribute__`, which creates extra overhead in your code. So, how can we actually avoid (limit) using it?
 
-```
+```python
 #  Slow:
 import re
 
@@ -217,5 +217,5 @@ Generators are not inherently faster as they were made to allow for lazy computa
 
 When it comes to performance, it's very import that CPU can save all the data it's working on, as close as possible, which is in the cache. You can watch [Raymond Hettingers talk](https://www.youtube.com/watch?v=OSGv2VnC0go&t=8m17s), where he mentions this issues.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM5MDc4OTBdfQ==
+eyJoaXN0b3J5IjpbLTEzMDA2NDcwMTQsMjM5MDc4OTBdfQ==
 -->
