@@ -128,4 +128,7 @@ updateStudentDetail(**details)
 >>> Student phone  :  3343
 >>> Student address  :  3343
 ```
-
+## Function with keyword arguments
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1MjM2NTYwXX0=
+-->
