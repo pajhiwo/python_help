@@ -167,6 +167,17 @@ to individual arguments use *:
 Usually goes with (**args*) in definition
 
 ## Most frequently occurring element
+```python
+from collections import Counter
+
+cheese = ["gouda", "brie", "feta", "cream cheese", "feta", "cheddar",
+          "parmesan", "parmesan", "cheddar", "mozzarella", "cheddar", "gouda",
+          "parmesan", "camembert", "emmental", "camembert", "parmesan"]
+
+cheese_count = Counter(cheese)
+print(cheese_count.most_common(3))
+# Prints: [('parmesan', 4), ('cheddar', 3), ('gouda', 2)]
+```
 
 <br/>
 
@@ -211,5 +222,5 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjE4Mjc0NCw2MDIyOTE2NDBdfQ==
+eyJoaXN0b3J5IjpbMTU4OTUyNDc1NSw2MDIyOTE2NDBdfQ==
 -->
