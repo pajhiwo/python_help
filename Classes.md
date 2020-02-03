@@ -268,5 +268,9 @@ b.method()
 >>> I'm a method in A
 ```
   
-## Instance of Class
-a = myClass # a and myClass identical at this point. The interpretter won't care which you use. a_instance = a() # instance of myClass
+## Save memory on class intances
+<!--stackedit_data:
+eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
+Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
+c3RvcnkiOlsxMDEzMDMyMjddfQ==
+-->
