@@ -94,7 +94,22 @@ Possible scopes for fixture are: `function`, `class`, `module`, `package` and `s
 
 ## Parametrizing Fixtures
 
+```python
+import pytest, os
+
+@pytest.fixture(scope='function')
+def reset_sqlite_db(request):
+    path = request.param  # Path to database file
+    with open(path, 'w'): pass
+    yield None
+    os.remove(path)
+
+@pytest.mark.parametrize('reset_sqlite_db', ['/tmp/test_db.sql'], indirect=True)
+def test_send_message(reset_sqlite_db):
+    ...  # Perform tests that access prepared SQLite database
+```
+This fixture receives path to the database as parameter. This path is passed to the fixture using the `request` object, which attribute `param` is an iterable of all arguments passed to the fixture, in this case just one - the path.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDE2Mjg4OCwxMTU5MDc3NDc2LC0xNj
-E4Nzg3NzUyXX0=
+eyJoaXN0b3J5IjpbLTIwNjg4NTE4MDcsMTE1OTA3NzQ3NiwtMT
+YxODc4Nzc1Ml19
 -->
