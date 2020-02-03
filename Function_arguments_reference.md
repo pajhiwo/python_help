@@ -129,7 +129,7 @@ updateStudentDetail(**details)
 >>> Student address  :  3343
 ```
 ## Function with ONLY keyword arguments
-To create function that only takes (force) keyword arguments:
+To create function that only takes (force) keyword arguments by placing single `*` argument before keyword arguments.
 ```python
 def test(*, a, b):
  pass
@@ -139,6 +139,6 @@ test(a="value", b="value 2")  # Works...
 ```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiY2F0ZWdvcmllczogJ2tleXdvcmQsIH
-JlZmVyZW5jZSwgYXJndW1lbnRzJ1xuIiwiaGlzdG9yeSI6Wy0x
-ODkwODcwNzc2XX0=
+JlZmVyZW5jZSwgYXJndW1lbnRzLCBhcmdzLCBsYW1iZGEnXG4i
+LCJoaXN0b3J5IjpbMTQxNzQ4ODAxMl19
 -->
