@@ -98,5 +98,7 @@ False
 ## Rich comparison
 `object.__lt__(self, other), object.__le__(self, other), object.__eq__(self, other), object.__ne__(self, other), object.__gt__(self, other), object.__ge__(self, other)`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTA4MzA2MCwtMTk2MTEyODY0Nl19
+eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NvcHksIG9iamVjdCwgcm
+VzdXJyZWN0J1xuIiwiaGlzdG9yeSI6WzgxMTEzMDQ1NiwxNTEx
+MDgzMDYwLC0xOTYxMTI4NjQ2XX0=
 -->
