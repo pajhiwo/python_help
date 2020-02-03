@@ -138,5 +138,7 @@ test("value for a", "value for b")  # TypeError: test() takes 0 positional argum
 test(a="value", b="value 2")  # Works...
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODI4ODgzMF19
+eyJwcm9wZXJ0aWVzIjoiY2F0ZWdvcmllczogJ2tleXdvcmQsIH
+JlZmVyZW5jZSwgYXJndW1lbnRzJ1xuIiwiaGlzdG9yeSI6Wy0x
+ODkwODcwNzc2XX0=
 -->
