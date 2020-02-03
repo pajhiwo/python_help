@@ -87,7 +87,11 @@ def test_my_function():
         some_function()  # Function that calls requests.get
         get.assert_called_once()
 ```
+
+## Conftest
+`conftest.py` is a file which resides at base of your test directory tree. In this file you can store all test fixtures and these are then automatically discovered by _Pytest_, so you don't even need to import them.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTgyODczNzYsMTE1OTA3NzQ3NiwtMT
+eyJoaXN0b3J5IjpbLTIxMzQ0NzY5MDIsMTE1OTA3NzQ3NiwtMT
 YxODc4Nzc1Ml19
 -->
