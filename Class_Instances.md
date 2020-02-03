@@ -42,7 +42,11 @@ Postpone destruction of the instance by creating a new reference to it in `__del
 by using the `del` keyword
   
 ## Copy object
+### Shallow copy
 `copy.copy()` or `copy.deepcopy()`
   
 ## Rich comparison
 `object.__lt__(self, other), object.__le__(self, other), object.__eq__(self, other), object.__ne__(self, other), object.__gt__(self, other), object.__ge__(self, other)`
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTI2MjYwNDA3OF19
+-->
