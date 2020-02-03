@@ -128,7 +128,15 @@ updateStudentDetail(**details)
 >>> Student phone  :  3343
 >>> Student address  :  3343
 ```
-## Function with keyword arguments
+## Function with ONLY keyword arguments
+To create function that only takes (force) keyword arguments:
+```python
+def test(*, a, b):
+ pass
+
+test("value for a", "value for b")  # TypeError: test() takes 0 positional arguments...
+test(a="value", b="value 2")  # Works...
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM2NTYwXX0=
+eyJoaXN0b3J5IjpbMTY1ODI4ODgzMF19
 -->
