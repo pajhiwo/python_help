@@ -42,7 +42,8 @@ Postpone destruction of the instance by creating a new reference to it in `__del
 by using the `del` keyword
   
 ## Copy object
-### Assigment operator (=)
+### Assignment operator (=)
+Assignment operator does not make a copy of the Python objects instead it copying a memory address
 
 ### Shallow copy and [:] operator
 Shallow copy, makes copy only of outer object - if you have nested objects (list of lists), only outer list will be copied (new object), nested objects will be referenced.
@@ -97,6 +98,5 @@ False
 ## Rich comparison
 `object.__lt__(self, other), object.__le__(self, other), object.__eq__(self, other), object.__ne__(self, other), object.__gt__(self, other), object.__ge__(self, other)`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDI0MzQwMTcsLTE5NjExMjg2NDZdfQ
-==
+eyJoaXN0b3J5IjpbMTUxMTA4MzA2MCwtMTk2MTEyODY0Nl19
 -->
