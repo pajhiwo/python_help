@@ -47,8 +47,25 @@ def test_my_function(capsys):
 ```
 
 ## Mock
-t's possible to patch functions and then check how many times and with what arguments they were called
+It's possible to patch functions and then check how many times and with what arguments they were called - in form of decorator and context manager
+```python
+from unittest import mock
+
+def test_my_function():
+    with mock.patch('module.some_function') as some_function:  # Used as context manager
+        my_function()  # function that calls `some_function`
+
+        some_function.assert_called_once()
+        some_function.assert_called_with(2, 'x')
+
+@mock.patch('module.func')  # Used as decorator
+def test_my_function(some_function):
+    module.func(10)  # Calls patched function
+    some_function.assert_called_with(10)  # True
+```
+
+We can replace method of `SomeClass` and make it return `None`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTAzMTY0MjksMTE1OTA3NzQ3NiwtMT
-YxODc4Nzc1Ml19
+eyJoaXN0b3J5IjpbNDg5MzczOTc5LDExNTkwNzc0NzYsLTE2MT
+g3ODc3NTJdfQ==
 -->
