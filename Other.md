@@ -69,6 +69,33 @@ def bar():
 
 __all__ = ["bar"]
 ```
+
+## IP Address
+```python
+import ipaddress
+net = ipaddress.ip_network('74.125.227.0/29')  # Works for IPv6 too
+# IPv4Network('74.125.227.0/29')
+
+for addr in net:
+    print(addr)
+
+# 74.125.227.0
+# 74.125.227.1
+# 74.125.227.2
+# 74.125.227.3
+# ...
+```
+
+```python
+ip = ipaddress.ip_address("74.125.227.3")
+
+ip in net
+# True
+
+ip = ipaddress.ip_address("74.125.227.12")
+ip in net
+# False
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzMDEzOTY1XX0=
+eyJoaXN0b3J5IjpbLTQzNzUzNTUsNTAzMDEzOTY1XX0=
 -->
