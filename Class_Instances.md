@@ -66,7 +66,6 @@ Example:
 False
 
 >>> b[0].append(5)
->>>
 >>> b
 [[1, 2, 5], [3, 4]]
 >>> a
@@ -82,12 +81,9 @@ Deep copy constructs a new compound object and then, recursively, inserts copies
 
 >>> id(a) == id(b)
 False
-
 >>> id(a[0]) == id(b[0])      # memory address is different      
 False
-
 >>> a[0].append(8)            # modify the list                                                                                                                                            
-
 
 >>> a
 [[1, 2, 3, 8], [4, 5, 6]]
@@ -99,6 +95,6 @@ False
 ## Rich comparison
 `object.__lt__(self, other), object.__le__(self, other), object.__eq__(self, other), object.__ne__(self, other), object.__gt__(self, other), object.__ge__(self, other)`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY0NjQ3NzAsLTE5NjExMjg2NDZdfQ
+eyJoaXN0b3J5IjpbLTE0MTI1MTEyOTAsLTE5NjExMjg2NDZdfQ
 ==
 -->
