@@ -92,7 +92,9 @@ def test_my_function():
 `conftest.py` is a file which resides at base of your test directory tree. In this file you can store all test fixtures and these are then automatically discovered by _Pytest_, so you don't even need to import them. This is also helpful if you need to share data between multiple tests. 
 Possible scopes for fixture are: `function`, `class`, `module`, `package` and `session`.
 
+## Parametrizing Fixtures
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTI0NTAzNywxMTU5MDc3NDc2LC0xNj
+eyJoaXN0b3J5IjpbLTI0MDE2Mjg4OCwxMTU5MDc3NDc2LC0xNj
 E4Nzg3NzUyXX0=
 -->
