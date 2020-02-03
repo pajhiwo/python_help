@@ -33,6 +33,18 @@ def test_my_function():
 ```
 
 Here we show 2 approaches - in first one, we straight up ignore all warnings of specified category by inserting a filter at the front of a filter list. This will cause your program to ignore all warnings of this category until it terminates, that might not always be desirable. With second approach, we use context manager that restores all warnings after exiting its scope. We also specify `record=True`, so that we can inspect list of issued (ignored) warnings if needs be.
+
+## Testing Standard Output and Standard Error Messages
+
+Next, let's look at following scenario: You have a command line tool that has bunch of functions that print messages to standard output but don't return anything. So, how do we test that?
+
+```python
+def test_my_function(capsys):
+    my_function()  # function that prints stuff
+    captured = capsys.readouterr()  # Capture output
+    assert f"Received invalid message ..." in captured.out  # Test stdout
+    assert f"Fatal error ..." in captured.err  # Test stderr
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwMTY3MiwtMTYxODc4Nzc1Ml19
+eyJoaXN0b3J5IjpbMTE1OTA3NzQ3NiwtMTYxODc4Nzc1Ml19
 -->
