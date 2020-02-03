@@ -58,11 +58,21 @@ There are three types of shallow copy:
 
 ### Deep copy
 Deep copy constructs a new compound object and then, recursively, inserts copies into it of the objects found in the original.
+```python
+>>> import copy
+>>> a = [[1, 2, 3], [4, 5, 6]]  
+>>> b = copy.deepcopy(a)                     
 
+>>> id(a) == id(b)
+False
+
+>>> id(a[0]) == id(b[0])      # memory address is different      
+False
+```
 
   
 ## Rich comparison
 `object.__lt__(self, other), object.__le__(self, other), object.__eq__(self, other), object.__ne__(self, other), object.__gt__(self, other), object.__ge__(self, other)`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjExMjg2NDZdfQ==
+eyJoaXN0b3J5IjpbMTI0NzkxNzA4MywtMTk2MTEyODY0Nl19
 -->
