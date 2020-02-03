@@ -59,7 +59,7 @@ Single Python file.
 `foo = "hello"` is a statement that assigns foo to the value of the expression "hello"
 
 ## Limit import
-We can limit what can be imported when using `__all__`
+We can limit what can be imported when using `from some_module import *`. For this specific example, _wildcard import_ with only import `bar`
 ```python
 def foo():
  pass
@@ -70,5 +70,5 @@ def bar():
 __all__ = ["bar"]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDEzMDE2Ml19
+eyJoaXN0b3J5IjpbNTAzMDEzOTY1XX0=
 -->
