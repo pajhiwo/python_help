@@ -57,3 +57,18 @@ Single Python file.
   
 ## Expressions
 `foo = "hello"` is a statement that assigns foo to the value of the expression "hello"
+
+## Limit import
+We can limit what can be imported when using `__all__`
+```python
+def foo():
+ pass
+
+def bar():
+ pass
+
+__all__ = ["bar"]
+```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTg4MDEzMDE2Ml19
+-->
