@@ -45,6 +45,10 @@ def test_my_function(capsys):
     assert f"Received invalid message ..." in captured.out  # Test stdout
     assert f"Fatal error ..." in captured.err  # Test stderr
 ```
+
+## Mock
+t's possible to patch functions and then check how many times and with what arguments they were called
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTA3NzQ3NiwtMTYxODc4Nzc1Ml19
+eyJoaXN0b3J5IjpbLTEwMTAzMTY0MjksMTE1OTA3NzQ3NiwtMT
+YxODc4Nzc1Ml19
 -->
