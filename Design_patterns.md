@@ -30,15 +30,15 @@ class  __impl:
     """ Test method, return singleton id """  
         return  id(self)  
   
-# storage for the instance reference  
-__instance  =  None  
+    # storage for the instance reference  
+    __instance  =  None  
   
-def  __init__(self):  
-""" Create singleton instance """  
-# Check whether we already have an instance  
-if  Singleton.__instance  is  None:  
-# Create and remember instance  
-Singleton.__instance  =  Singleton.__impl()  
+    def  __init__(self):  
+    """ Create singleton instance """  
+        # Check whether we already have an instance  
+        if  Singleton.__instance  is  None:  
+            # Create and remember instance  
+            Singleton.__instance  =  Singleton.__impl()  
   
 # Store instance reference as the only member in the handle  
 self.__dict__['_Singleton__instance']  =  Singleton.__instance  
@@ -110,5 +110,5 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDY3Njg5NDhdfQ==
+eyJoaXN0b3J5IjpbMzgxNDM4MTU2XX0=
 -->
