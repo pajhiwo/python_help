@@ -2,7 +2,8 @@
 
 ## Singleton
 is a software design pattern that restricts the instantiation of a class to one object.
-Exam
+
+* by decorator
 ```python
 def singleton(class_):  
     instances = {}  
@@ -23,7 +24,32 @@ f1 = Fire()
 f2 = Fire()
 >>>>
 ```
+* by metaclass
+```python
+class Singleton(object):  
+    _instance = None  
+ def __new__(class_, *args, **kwargs):  
+        if not isinstance(class_._instance, class_):  
+            class_._instance = object.__new__(class_, *args, **kwargs)  
+        return class_._instance  
+    
+class Fire(Singleton):  
+    def __init__(self):  
+        print("Fire created")  
+    def get_output(self):  
+        print("This is output")  
   
+f1 = Fire()  
+print(id(f1))  
+f2 = Fire()  
+print(id(f2))
+
+>>> Fire created
+>>> 12901296
+>>> Fire created
+>>> 12901296
+```
+
 Example 2:
 ```python
 class Singleton(object):
@@ -39,8 +65,6 @@ class Fire(Singleton):
 f1 = Fire()
 f2 = Fire()
 
-f1 is f2              # True
-isinstance(f1, Fire)  # True
 ```
   
 
@@ -91,6 +115,6 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTE5MjY1NDMsLTEyNjc0NzY2ODcsLT
-ExOTY0NDAyNjFdfQ==
+eyJoaXN0b3J5IjpbMTgzOTUzNDQ4LC0xMjY3NDc2Njg3LC0xMT
+k2NDQwMjYxXX0=
 -->
