@@ -14,9 +14,9 @@ def singleton(class_):
 
 @singleton
 class MyClass(BaseClass):
-"""
-some class
-"""
+    """
+    some class
+    """
 ```
   
 Example 2:
@@ -25,7 +25,7 @@ class  Singleton:
 """ A python singleton """  
   
 class  __impl:  
-""" Implementation of the singleton interface """  
+    """ Implementation of the singleton interface """  
     def  spam(self):  
     """ Test method, return singleton id """  
         return  id(self)  
@@ -34,7 +34,7 @@ class  __impl:
     __instance  =  None  
   
     def  __init__(self):  
-    """ Create singleton instance """  
+        """ Create singleton instance """  
         # Check whether we already have an instance  
         if  Singleton.__instance  is  None:  
             # Create and remember instance  
@@ -110,5 +110,5 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxNDM4MTU2XX0=
+eyJoaXN0b3J5IjpbLTQwOTAwMDIwXX0=
 -->
