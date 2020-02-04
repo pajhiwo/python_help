@@ -14,9 +14,9 @@ def singleton(class_):
 
 @singleton
 class MyClass(BaseClass):
-    """
-    some class
-    """
+"""
+some class
+"""
 ```
   
 Example 2:
@@ -26,10 +26,9 @@ class  Singleton:
   
 class  __impl:  
 """ Implementation of the singleton interface """  
-  
-	def  spam(self):  
-		""" Test method, return singleton id """  
-	    return  id(self)  
+    def  spam(self):  
+    """ Test method, return singleton id """  
+        return  id(self)  
   
 # storage for the instance reference  
 __instance  =  None  
@@ -111,5 +110,5 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDg2OTMxMF19
+eyJoaXN0b3J5IjpbLTE4NDY3Njg5NDhdfQ==
 -->
