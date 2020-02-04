@@ -5,18 +5,18 @@ is a software design pattern that restricts the instantiation of a class to one 
 Example 1:
 ```python
 def singleton(class_):
-	instances = {}
-	def getinstance(*args, **kwargs):
-		if class_ not in instances:
-			instances[class_] = class_(*args, **kwargs)
-		return instances[class_]
-	return getinstance
+    instances = {}
+    def getinstance(*args, **kwargs):
+	if class_ not in instances:
+	    instances[class_] = class_(*args, **kwargs)
+	return instances[class_]
+    return getinstance
 
 @singleton
 class MyClass(BaseClass):
-	"""
-	some class
-	"""
+    """
+    some class
+    """
 ```
   
 Example 2:
@@ -29,7 +29,7 @@ class  __impl:
   
 	def  spam(self):  
 		""" Test method, return singleton id """  
-	return  id(self)  
+	    return  id(self)  
   
 # storage for the instance reference  
 __instance  =  None  
@@ -111,5 +111,5 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTM3MTA0Ml19
+eyJoaXN0b3J5IjpbMTA0NDg2OTMxMF19
 -->
