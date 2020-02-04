@@ -2,7 +2,7 @@
 
 ## Singleton
 is a software design pattern that restricts the instantiation of a class to one object.
-Example 1:
+Exam
 ```python
 def singleton(class_):  
     instances = {}  
@@ -91,6 +91,6 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc0NzY2ODcsLTExOTY0NDAyNjFdfQ
-==
+eyJoaXN0b3J5IjpbLTE3MTE5MjY1NDMsLTEyNjc0NzY2ODcsLT
+ExOTY0NDAyNjFdfQ==
 -->
