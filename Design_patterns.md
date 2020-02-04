@@ -30,18 +30,20 @@ print(id(f2))
 
 * **Metaclass**
 ```python
-class Singleton(object):  
-    _instance = None  
- def __new__(class_, *args, **kwargs):  
-        if not isinstance(class_._instance, class_):  
-            class_._instance = object.__new__(class_, *args, **kwargs)  
-        return class_._instance  
-    
-class Fire(Singleton):  
+class Singleton(type):  
+    _instances = {}  
+    def __call__(cls, *args, **kwargs):  
+        if cls not in cls._instances:  
+            cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)  
+        return cls._instances[cls]  
+  
+  
+class Fire(metaclass=Singleton):  
     def __init__(self):  
         print("Fire created")  
     def get_output(self):  
         print("This is output")  
+  
   
 f1 = Fire()  
 print(id(f1))  
@@ -49,12 +51,11 @@ f2 = Fire()
 print(id(f2))
 
 >>> Fire created
->>> 12901296
->>> Fire created
->>> 12901296
+>>> 20736240
+>>> 20736240
 ```
 
-Example 2:
+* Example 2:
 ```python
 class Singleton(object):
     _instance = None
@@ -119,6 +120,6 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MjMyNTYwNywtMTMxMTI3MzQ1NywtMT
-I2NzQ3NjY4NywtMTE5NjQ0MDI2MV19
+eyJoaXN0b3J5IjpbLTc4NDQxNDYzNSwtOTgyMzI1NjA3LC0xMz
+ExMjczNDU3LC0xMjY3NDc2Njg3LC0xMTk2NDQwMjYxXX0=
 -->
