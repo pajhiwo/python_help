@@ -81,7 +81,7 @@ class OnlyOne:
         else:  
             OnlyOne.instance.val = arg  
     def __getattr__(self, name):  
-    return getattr(self.instance, name)  
+        return getattr(self.instance, name)  
   
 x = OnlyOne('sausage')  
 print(x)  
@@ -112,5 +112,5 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxMzIzMTIyXX0=
+eyJoaXN0b3J5IjpbMTUwNjk5Mzc4XX0=
 -->
