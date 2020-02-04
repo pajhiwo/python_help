@@ -26,3 +26,9 @@ Detects bugs in python source code
 
 ## PyLint
 Check if module meets coding standards
+
+## urljoin
+To join URLs more pretty
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjQyNjI1ODMyXX0=
+-->
