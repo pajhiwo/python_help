@@ -19,10 +19,13 @@ class Fire():
         print("Fire created")  
     
 f1 = Fire()  
->>> Fire created
+print(id(f1))  
+f2 = Fire()  
+print(id(f2))
 
-f2 = Fire()
->>>>
+>>> Fire created
+>>> 45800368
+>>> 45800368
 ```
 * by metaclass
 ```python
@@ -115,6 +118,6 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTUzNDQ4LC0xMjY3NDc2Njg3LC0xMT
-k2NDQwMjYxXX0=
+eyJoaXN0b3J5IjpbLTEzMTEyNzM0NTcsLTEyNjc0NzY2ODcsLT
+ExOTY0NDAyNjFdfQ==
 -->
