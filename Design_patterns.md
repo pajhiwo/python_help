@@ -55,6 +55,8 @@ print(id(f2))
 >>> 20736240
 ```
 
+
+
 * Example 2:
 ```python
 class Singleton(object):
@@ -120,6 +122,6 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDQxNDYzNSwtOTgyMzI1NjA3LC0xMz
+eyJoaXN0b3J5IjpbMTIzNTY5NDUxMywtOTgyMzI1NjA3LC0xMz
 ExMjczNDU3LC0xMjY3NDc2Njg3LC0xMTk2NDQwMjYxXX0=
 -->
