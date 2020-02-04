@@ -66,13 +66,13 @@ print  id(s2),  s2.spam()
   
 
 Ex3:
-
+```python
 class OnlyOne:  
-class __OnlyOne:  
-def __init__(self, arg):  
-self.val = arg  
-def __str__(self):  
-return repr(self) + self.val  
+    class __OnlyOne:  
+        def __init__(self, arg):  
+            self.val = arg  
+        def __str__(self):  
+            return repr(self) + self.val  
 instance = None  
 def __init__(self, arg):  
 if not OnlyOne.instance:  
@@ -102,6 +102,7 @@ output = '''
 <__main__.OnlyOne instance at 0076C54C>  
 <__main__.OnlyOne instance at 0076DAAC>  
 <__main__.OnlyOne instance at 0076AA3C>
+```
 ## Policy-based design
 
 ## Page object pattern
@@ -110,5 +111,5 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MzUyOTUyNF19
+eyJoaXN0b3J5IjpbNTgzNjM5MjY0XX0=
 -->
