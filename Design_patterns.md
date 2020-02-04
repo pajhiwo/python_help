@@ -2,7 +2,7 @@
 
 ## Singleton
 is a software design pattern that restricts the instantiation of a class to one object.
-
+Example 1:
 ```python
 def singleton(class_):
 	instances = {}
@@ -12,8 +12,6 @@ def singleton(class_):
 		return instances[class_]
 	return getinstance
 
-  
-
 @singleton
 class MyClass(BaseClass):
 	"""
@@ -21,18 +19,17 @@ class MyClass(BaseClass):
 	"""
 ```
   
-
-Ex2:
-
+Example 2:
+```python
 class  Singleton:  
 """ A python singleton """  
   
 class  __impl:  
 """ Implementation of the singleton interface """  
   
-def  spam(self):  
-""" Test method, return singleton id """  
-return  id(self)  
+	def  spam(self):  
+		""" Test method, return singleton id """  
+	return  id(self)  
   
 # storage for the instance reference  
 __instance  =  None  
@@ -66,7 +63,7 @@ print  id(s2),  s2.spam()
 # Sample output, the second (inner) id is constant:  
 # 8172684 8176268  
 # 8168588 8176268
-
+```
   
 
 Ex3:
@@ -114,5 +111,5 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDg4ODAzNF19
+eyJoaXN0b3J5IjpbLTIyOTM3MTA0Ml19
 -->
