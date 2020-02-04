@@ -27,7 +27,7 @@ class  Singleton:
 class  __impl:  
     """ Implementation of the singleton interface """  
     def  spam(self):  
-    """ Test method, return singleton id """  
+        """ Test method, return singleton id """  
         return  id(self)  
   
     # storage for the instance reference  
@@ -110,5 +110,5 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTAwMDIwXX0=
+eyJoaXN0b3J5IjpbLTM4MzUyOTUyNF19
 -->
