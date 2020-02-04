@@ -4,21 +4,24 @@
 is a software design pattern that restricts the instantiation of a class to one object.
 Example 1:
 ```python
-def singleton(D):
-    class C(D):
-        _instance = None
-        def __new__(cls, *args, **kwargs):
-            if not cls._instance:
-                cls._instance = D.__new__(cls, *args, **kwargs)
-            return cls._instance
+def singleton(class_):  
+    instances = {}  
+    def getinstance(*args, **kwargs):  
+        if class_ not in instances:  
+            instances[class_] = class_(*args, **kwargs)  
+        return instances[class_]  
+    return getinstance  
+  
+@singleton  
+class Fire():  
+    def __init__(self):  
+        print("Fire created")  
+    
+f1 = Fire()  
+>>> Fire created
 
-    C.__name__ = D.__name__
-
-    return C
-
-@singleton
-class Fire(object):
-    pass
+f2 = Fire()
+>>>>
 ```
   
 Example 2:
@@ -88,5 +91,6 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTY0NDAyNjFdfQ==
+eyJoaXN0b3J5IjpbLTEyNjc0NzY2ODcsLTExOTY0NDAyNjFdfQ
+==
 -->
