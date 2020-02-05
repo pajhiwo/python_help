@@ -31,22 +31,27 @@ print(id(f2))
 * **Metaclass**
 
 ```python
-class Singleton(type):
-    _instances = {}
-    def __call__(cls, *args, **kwargs):
-        if cls not in cls._instances:
-            cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
-        return cls._instances[cls]
-
+class Singleton(type):  
+    _instances = {}  
+  
+    def __call__(cls, *args, **kwargs):  
+        if cls not in cls._instances:  
+            cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)  
+        return cls._instances[cls]  
+  
+  
 class Fire(metaclass=Singleton):  
     def __init__(self):  
         print("Fire created")  
+  
     def get_output(self):  
-        print("This is output") pass
+        print("This is output")  
+        pass  
+  
   
 f1 = Fire()  
 print(id(f1))  
-f2 =# True
+f2 = Fire()  
 print(id(f2))
 
 >>> Fire created
@@ -172,11 +177,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0NTYxMTIwLDg3MzMyNTg4MSwtMTE1ND
-g4OTE5NCwxNjQ2NTMxODQwLC0xODMzNjU3MDgxLC04Nzc2OTY3
-NzAsMTUzNzE5NDQ1Miw5ODM0NjI5NjYsLTE3Mjk1NjYyMjksLT
-EwODQ0MjQzOTAsLTQwODM4NjExMywtMTc2OTQxMTQxLDE0MzMw
-OTk1MjgsNjc4Mzk0NTE4LDE4MzQxNDExODIsLTEwMTU3Mjc4Nj
-IsLTk4MjMyNTYwNywtMTMxMTI3MzQ1NywtMTI2NzQ3NjY4Nywt
-MTE5NjQ0MDI2MV19
+eyJoaXN0b3J5IjpbLTkyNDk2ODczNCw4NzMzMjU4ODEsLTExNT
+Q4ODkxOTQsMTY0NjUzMTg0MCwtMTgzMzY1NzA4MSwtODc3Njk2
+NzcwLDE1MzcxOTQ0NTIsOTgzNDYyOTY2LC0xNzI5NTY2MjI5LC
+0xMDg0NDI0MzkwLC00MDgzODYxMTMsLTE3Njk0MTE0MSwxNDMz
+MDk5NTI4LDY3ODM5NDUxOCwxODM0MTQxMTgyLC0xMDE1NzI3OD
+YyLC05ODIzMjU2MDcsLTEzMTEyNzM0NTcsLTEyNjc0NzY2ODcs
+LTExOTY0NDAyNjFdfQ==
 -->
