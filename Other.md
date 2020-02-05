@@ -97,10 +97,11 @@ ip in net
 # False
 ```
 ## Variable annotation
-```python
 
+```python
+primes: List[int] = []
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDAxNjAxNCwtNDM3NTM1NSw1MDMwMT
-M5NjVdfQ==
+eyJoaXN0b3J5IjpbNjY5OTA3MjQ4LC00Mzc1MzU1LDUwMzAxMz
+k2NV19
 -->
