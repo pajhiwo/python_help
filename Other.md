@@ -98,11 +98,11 @@ ip in net
 ```
 ## Variable annotation
 Seeting type for variable
-[Link](https://www.python.org/dev/peps/pep-0526/)
+[Link](https://www.python.org/dev/peps/pep-0526/#id4)
 ```python
 primes: List[int] = []
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjkyNjA4MSwtNDM3NTM1NSw1MDMwMT
-M5NjVdfQ==
+eyJoaXN0b3J5IjpbLTE1ODIxNDg3NDUsLTQzNzUzNTUsNTAzMD
+EzOTY1XX0=
 -->
