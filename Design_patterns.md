@@ -88,8 +88,12 @@ print(id(f2))
 >>> 18745712
 ```
 * **Module**
+Modules are imported only once.
 ```python
+class Foo(object):
+     pass
 
+some_global_variable = Foo()
 ```
 
 * **Overwrite `__new__`** 
@@ -189,11 +193,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk1MjkxMzkzLDE1MjgyMDA5OTksLTY4OT
-EwMzg5MiwtMTQ2MzExMDEzNCwxMjQwNjg3MDgsLTU1NTU4OTc4
-LC05MjQ5Njg3MzQsODczMzI1ODgxLC0xMTU0ODg5MTk0LDE2ND
-Y1MzE4NDAsLTE4MzM2NTcwODEsLTg3NzY5Njc3MCwxNTM3MTk0
-NDUyLDk4MzQ2Mjk2NiwtMTcyOTU2NjIyOSwtMTA4NDQyNDM5MC
-wtNDA4Mzg2MTEzLC0xNzY5NDExNDEsMTQzMzA5OTUyOCw2Nzgz
-OTQ1MThdfQ==
+eyJoaXN0b3J5IjpbLTEwMDg3NTQ2ODcsMTUyODIwMDk5OSwtNj
+g5MTAzODkyLC0xNDYzMTEwMTM0LDEyNDA2ODcwOCwtNTU1NTg5
+NzgsLTkyNDk2ODczNCw4NzMzMjU4ODEsLTExNTQ4ODkxOTQsMT
+Y0NjUzMTg0MCwtMTgzMzY1NzA4MSwtODc3Njk2NzcwLDE1Mzcx
+OTQ0NTIsOTgzNDYyOTY2LC0xNzI5NTY2MjI5LC0xMDg0NDI0Mz
+kwLC00MDgzODYxMTMsLTE3Njk0MTE0MSwxNDMzMDk5NTI4LDY3
+ODM5NDUxOF19
 -->
