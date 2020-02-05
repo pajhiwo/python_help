@@ -179,35 +179,7 @@ def factory(type):
 circle = factory("Circle")  
 
 circle.draw()
->>> Circle.drawinstance = None  
-    def __init__(self, arg):  
-        if not OnlyOne.instance:  
-            OnlyOne.instance = OnlyOne.__OnlyOne(arg)
-        else:  
-            OnlyOne.instance.val = arg  
-    def __getattr__(self, name):  
-        return getattr(self.instance, name)  
-  
-x = OnlyOne('sausage')  
-print(x)  
-y = OnlyOne('eggs')  
-print(y)  
-z = OnlyOne('spam')  
-print(z)  
-print(x)  
-print(y)  
-print(`x`)  
-print(`y`)  
-print(`z`)  
-output = '''  
-<__main__.__OnlyOne instance at 0076B7AC>sausage  
-<__main__.__OnlyOne instance at 0076B7AC>eggs  
-<__main__.__OnlyOne instance at 0076B7AC>spam  
-<__main__.__OnlyOne instance at 0076B7AC>spam  
-<__main__.__OnlyOne instance at 0076B7AC>spam  
-<__main__.OnlyOne instance at 0076C54C>  
-<__main__.OnlyOne instance at 0076DAAC>  
-<__main__.OnlyOne instance at 0076AA3C>
+>>> Circle.draw
 ```
 
 ## Policy-based design
@@ -218,10 +190,10 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjUzMTg0MCwtMTgzMzY1NzA4MSwtOD
-c3Njk2NzcwLDE1MzcxOTQ0NTIsOTgzNDYyOTY2LC0xNzI5NTY2
-MjI5LC0xMDg0NDI0MzkwLC00MDgzODYxMTMsLTE3Njk0MTE0MS
-wxNDMzMDk5NTI4LDY3ODM5NDUxOCwxODM0MTQxMTgyLC0xMDE1
-NzI3ODYyLC05ODIzMjU2MDcsLTEzMTEyNzM0NTcsLTEyNjc0Nz
-Y2ODcsLTExOTY0NDAyNjFdfQ==
+eyJoaXN0b3J5IjpbLTExNTQ4ODkxOTQsMTY0NjUzMTg0MCwtMT
+gzMzY1NzA4MSwtODc3Njk2NzcwLDE1MzcxOTQ0NTIsOTgzNDYy
+OTY2LC0xNzI5NTY2MjI5LC0xMDg0NDI0MzkwLC00MDgzODYxMT
+MsLTE3Njk0MTE0MSwxNDMzMDk5NTI4LDY3ODM5NDUxOCwxODM0
+MTQxMTgyLC0xMDE1NzI3ODYyLC05ODIzMjU2MDcsLTEzMTEyNz
+M0NTcsLTEyNjc0NzY2ODcsLTExOTY0NDAyNjFdfQ==
 -->
