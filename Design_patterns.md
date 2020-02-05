@@ -87,7 +87,24 @@ print(id(f2))
 ## Factory pattern
 Is a creation methods, which create objects from concrete classes, but return them as objects of abstract type or interface (class to create different types of objects).
 Forces the creation of objects to occur through a common _factory_ class.
+```python
+class Shape(object):
+    # Create based on class name:
+    def factory(type):
+        #return eval(type + "()")
+        if type == "Circle": return Circle()
+        if type == "Square": return Square()
+        assert 0, "Bad shape creation: " + type
+    factory = staticmethod(factory)
 
+class Circle(Shape):
+    def draw(self): print("Circle.draw")
+    def erase(self): print("Circle.erase")
+
+class Square(Shape):
+    def draw(self): print("Square.draw")
+    def erase(self): print("Square.erase")
+```
 
 ## Policy-based design
 
@@ -97,7 +114,8 @@ Forces the creation of objects to occur through a common _factory_ class.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzA5OTUyOCw2NzgzOTQ1MTgsMTgzND
-E0MTE4MiwtMTAxNTcyNzg2MiwtOTgyMzI1NjA3LC0xMzExMjcz
-NDU3LC0xMjY3NDc2Njg3LC0xMTk2NDQwMjYxXX0=
+eyJoaXN0b3J5IjpbLTE3Njk0MTE0MSwxNDMzMDk5NTI4LDY3OD
+M5NDUxOCwxODM0MTQxMTgyLC0xMDE1NzI3ODYyLC05ODIzMjU2
+MDcsLTEzMTEyNzM0NTcsLTEyNjc0NzY2ODcsLTExOTY0NDAyNj
+FdfQ==
 -->
