@@ -85,8 +85,9 @@ print(id(f2))
 ```
   
 ## Factory pattern
-Is a creation methods, which create objects from concrete classes, but return them as objects of abstract type or interface (class to create different types of objects).
-Forces the creation of objects to occur through a common _factory_ class.
+Method or Class to create different types of objects: 
+Is a creation method, which create objects from concrete classes, but return them as objects of abstract type or interface (class to create different types of objects).
+Forces the creation of objects to occur through a common _factory_ class or met
 Factory Method should be used in every situation where an application (client) depends on an interface (product) to perform a task and there are multiple concrete implementations of that interfac
 
 Resources:
@@ -150,9 +151,9 @@ circle.draw()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjk1NjYyMjksLTEwODQ0MjQzOTAsLT
-QwODM4NjExMywtMTc2OTQxMTQxLDE0MzMwOTk1MjgsNjc4Mzk0
-NTE4LDE4MzQxNDExODIsLTEwMTU3Mjc4NjIsLTk4MjMyNTYwNy
-wtMTMxMTI3MzQ1NywtMTI2NzQ3NjY4NywtMTE5NjQ0MDI2MV19
-
+eyJoaXN0b3J5IjpbNDA0MTkwNDA3LC0xNzI5NTY2MjI5LC0xMD
+g0NDI0MzkwLC00MDgzODYxMTMsLTE3Njk0MTE0MSwxNDMzMDk5
+NTI4LDY3ODM5NDUxOCwxODM0MTQxMTgyLC0xMDE1NzI3ODYyLC
+05ODIzMjU2MDcsLTEzMTEyNzM0NTcsLTEyNjc0NzY2ODcsLTEx
+OTY0NDAyNjFdfQ==
 -->
