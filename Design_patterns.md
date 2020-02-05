@@ -88,7 +88,10 @@ print(id(f2))
 Is a creation methods, which create objects from concrete classes, but return them as objects of abstract type or interface (class to create different types of objects).
 Forces the creation of objects to occur through a common _factory_ class.
 Factory Method should be used in every situation where an application (client) depends on an interface (product) to perform a task and there are multiple concrete implementations of that interfac
+
 Resources:
+[Link](https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Factory.html)
+[Link](https://realpython.com/factory-method-python/)
 
 * **Basic example**
 ```python
@@ -147,9 +150,9 @@ circle.draw()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5NzQ3OTkyLC0xMDg0NDI0MzkwLC00MD
-gzODYxMTMsLTE3Njk0MTE0MSwxNDMzMDk5NTI4LDY3ODM5NDUx
-OCwxODM0MTQxMTgyLC0xMDE1NzI3ODYyLC05ODIzMjU2MDcsLT
-EzMTEyNzM0NTcsLTEyNjc0NzY2ODcsLTExOTY0NDAyNjFdfQ==
+eyJoaXN0b3J5IjpbLTE3Mjk1NjYyMjksLTEwODQ0MjQzOTAsLT
+QwODM4NjExMywtMTc2OTQxMTQxLDE0MzMwOTk1MjgsNjc4Mzk0
+NTE4LDE4MzQxNDExODIsLTEwMTU3Mjc4NjIsLTk4MjMyNTYwNy
+wtMTMxMTI3MzQ1NywtMTI2NzQ3NjY4NywtMTE5NjQ0MDI2MV19
 
 -->
