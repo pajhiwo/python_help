@@ -5,6 +5,7 @@ Is a software design pattern that restricts the instantiation of a class to one 
 
 Resources:
 [Link](https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python)
+[Link]([https://xiaoxing.us/2018/04/15/singleton-in-python/])
 * **Decorator**
 ```python
 def singleton(class_):  
@@ -196,11 +197,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjcyMDAzMTAsLTEwMDg3NTQ2ODcsMT
-UyODIwMDk5OSwtNjg5MTAzODkyLC0xNDYzMTEwMTM0LDEyNDA2
-ODcwOCwtNTU1NTg5NzgsLTkyNDk2ODczNCw4NzMzMjU4ODEsLT
-ExNTQ4ODkxOTQsMTY0NjUzMTg0MCwtMTgzMzY1NzA4MSwtODc3
-Njk2NzcwLDE1MzcxOTQ0NTIsOTgzNDYyOTY2LC0xNzI5NTY2Mj
-I5LC0xMDg0NDI0MzkwLC00MDgzODYxMTMsLTE3Njk0MTE0MSwx
-NDMzMDk5NTI4XX0=
+eyJoaXN0b3J5IjpbMjAxNjMxODA3NywtMTM2NzIwMDMxMCwtMT
+AwODc1NDY4NywxNTI4MjAwOTk5LC02ODkxMDM4OTIsLTE0NjMx
+MTAxMzQsMTI0MDY4NzA4LC01NTU1ODk3OCwtOTI0OTY4NzM0LD
+g3MzMyNTg4MSwtMTE1NDg4OTE5NCwxNjQ2NTMxODQwLC0xODMz
+NjU3MDgxLC04Nzc2OTY3NzAsMTUzNzE5NDQ1Miw5ODM0NjI5Nj
+YsLTE3Mjk1NjYyMjksLTEwODQ0MjQzOTAsLTQwODM4NjExMywt
+MTc2OTQxMTQxXX0=
 -->
