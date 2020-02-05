@@ -1,18 +1,22 @@
 # Design patterns
 
 ## Singleton
-Is a software design pattern that restricts the instantiation of a class to one object.
+Iis a software design pattern that restricts the instantiation of a class to one object.
 
-* **Decorator**
+* **Decorator**Example 1:
 ```python
 def singleton(class_):  
     instances = {}  
     def getinstance(*args, **kwargs):  
-        if class_ not in instances:  
-            instances[class_] = class_(*args, **kwargs)  
-        return instances[class_]  
+        
+	if class_ not in instances:  
+        
+	    instances[class_] = class_(*args, **kwargs)  
+        
+	return instances[class_]  
     return getinstance  
   
+
 @singleton  
 class Fire():  
     def __init__(self):  
@@ -28,26 +32,39 @@ print(id(f2))
 >>> 45800368
 ```
 
-* **Metaclass**
+* **Metaclass**MyClass(BaseClass):
+    """
+    some class
+    """
+```
+  
+Example 2:
 ```python
-class Singleton(type):  
-    _instances = {}  
-    def __call__(cls, *args, **kwargs):  
-        if cls not in cls._instances:  
-            cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)  
+class Singleton(type):  object):
+    _instances = {}  None
+    def __callnew__(cls, *args, **kwargs):  
+        if cls not in cls._instances:  :
+            cls._instances[cls] = super(Singleton, cls).__call__( = object.__new__(cls, *args, **kwargs)  
         return cls._instances[cls]  
   
   
+
 class Fire(metaclass=Singleton):  
     def __init__(self):  
         print("Fire created")  
     def get_output(self):  
-        print("This is output")  
+        print("This is output") pass
+
+f1 = Fire()
+f2 = Fire()
+
+f1 is f2          
   
   
 f1 = Fire()  
 print(id(f1))  
-f2 = Fire()  
+f2 =# True
+isinstance(f1, Fire()  
 print(id(f2))
 
 >>> Fire created
@@ -59,7 +76,15 @@ print(id(f2))
 ```python
 class Singleton(object):
     _instance = None
-    def __new__(cls, *args, **kwargs):
+    def __new__(cls, *args, **kw# True
+```
+  
+
+Ex3:
+```python
+class OnlyOne:  
+    class __OnlyOne:  
+        def __init__(self, args):  
         if not cls._instance:
             cls._instance = object.__new__(cls, *args, **kwargs)
         return cls._instance
@@ -68,8 +93,11 @@ class Fire(Singleton):
      pass
 
 class Fire(Singleton):  
-    def __init__(self):  
-        print("Fire created")  
+    def __init__(self):    self.val = arg  
+        def __str__(self):  
+            return repr(self) + self.val  
+    
+    print("Fire created")  
     def get_output(self):  
         print("This is output")  
   
@@ -141,7 +169,35 @@ def factory(type):
 circle = factory("Circle")  
 
 circle.draw()
->>> Circle.draw
+>>> Circle.drawinstance = None  
+    def __init__(self, arg):  
+        if not OnlyOne.instance:  
+            OnlyOne.instance = OnlyOne.__OnlyOne(arg)
+        else:  
+            OnlyOne.instance.val = arg  
+    def __getattr__(self, name):  
+        return getattr(self.instance, name)  
+  
+x = OnlyOne('sausage')  
+print(x)  
+y = OnlyOne('eggs')  
+print(y)  
+z = OnlyOne('spam')  
+print(z)  
+print(x)  
+print(y)  
+print(`x`)  
+print(`y`)  
+print(`z`)  
+output = '''  
+<__main__.__OnlyOne instance at 0076B7AC>sausage  
+<__main__.__OnlyOne instance at 0076B7AC>eggs  
+<__main__.__OnlyOne instance at 0076B7AC>spam  
+<__main__.__OnlyOne instance at 0076B7AC>spam  
+<__main__.__OnlyOne instance at 0076B7AC>spam  
+<__main__.OnlyOne instance at 0076C54C>  
+<__main__.OnlyOne instance at 0076DAAC>  
+<__main__.OnlyOne instance at 0076AA3C>
 ```
 
 ## Policy-based design
@@ -150,11 +206,12 @@ circle.draw()
 
 ## Abstract pattern
 
-
+## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzY5Njc3MCwxNTM3MTk0NDUyLDk4Mz
-Q2Mjk2NiwtMTcyOTU2NjIyOSwtMTA4NDQyNDM5MCwtNDA4Mzg2
-MTEzLC0xNzY5NDExNDEsMTQzMzA5OTUyOCw2NzgzOTQ1MTgsMT
-gzNDE0MTE4MiwtMTAxNTcyNzg2MiwtOTgyMzI1NjA3LC0xMzEx
-MjczNDU3LC0xMjY3NDc2Njg3LC0xMTk2NDQwMjYxXX0=
+eyJoaXN0b3J5IjpbLTE4MzM2NTcwODEsLTg3NzY5Njc3MCwxNT
+M3MTk0NDUyLDk4MzQ2Mjk2NiwtMTcyOTU2NjIyOSwtMTA4NDQy
+NDM5MCwtNDA4Mzg2MTEzLC0xNzY5NDExNDEsMTQzMzA5OTUyOC
+w2NzgzOTQ1MTgsMTgzNDE0MTE4MiwtMTAxNTcyNzg2MiwtOTgy
+MzI1NjA3LC0xMzExMjczNDU3LC0xMjY3NDc2Njg3LC0xMTk2ND
+QwMjYxXX0=
 -->
