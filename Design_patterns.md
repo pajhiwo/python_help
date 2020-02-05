@@ -38,24 +38,15 @@ class Singleton(type):  object):
             cls._instances[cls] = super(Singleton, cls).__call__( = object.__new__(cls, *args, **kwargs)  
         return cls._instances[cls]  
   
-  
-
 class Fire(metaclass=Singleton):  
     def __init__(self):  
         print("Fire created")  
     def get_output(self):  
         print("This is output") pass
-
-f1 = Fire()
-f2 = Fire()
-
-f1 is f2          
-  
   
 f1 = Fire()  
 print(id(f1))  
 f2 =# True
-isinstance(f1, Fire()  
 print(id(f2))
 
 >>> Fire created
@@ -181,7 +172,7 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0MzA5NTAxLDg3MzMyNTg4MSwtMTE1ND
+eyJoaXN0b3J5IjpbNDczMjkyMDk0LDg3MzMyNTg4MSwtMTE1ND
 g4OTE5NCwxNjQ2NTMxODQwLC0xODMzNjU3MDgxLC04Nzc2OTY3
 NzAsMTUzNzE5NDQ1Miw5ODM0NjI5NjYsLTE3Mjk1NjYyMjksLT
 EwODQ0MjQzOTAsLTQwODM4NjExMywtMTc2OTQxMTQxLDE0MzMw
