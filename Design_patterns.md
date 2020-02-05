@@ -3,6 +3,8 @@
 ## Singleton
 Is a software design pattern that restricts the instantiation of a class to one object.
 
+Resources:
+[Link](https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python)
 * **Decorator**
 ```python
 def singleton(class_):  
@@ -164,11 +166,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDY4NzA4LC01NTU1ODk3OCwtOTI0OT
-Y4NzM0LDg3MzMyNTg4MSwtMTE1NDg4OTE5NCwxNjQ2NTMxODQw
-LC0xODMzNjU3MDgxLC04Nzc2OTY3NzAsMTUzNzE5NDQ1Miw5OD
-M0NjI5NjYsLTE3Mjk1NjYyMjksLTEwODQ0MjQzOTAsLTQwODM4
-NjExMywtMTc2OTQxMTQxLDE0MzMwOTk1MjgsNjc4Mzk0NTE4LD
-E4MzQxNDExODIsLTEwMTU3Mjc4NjIsLTk4MjMyNTYwNywtMTMx
-MTI3MzQ1N119
+eyJoaXN0b3J5IjpbLTE0NjMxMTAxMzQsMTI0MDY4NzA4LC01NT
+U1ODk3OCwtOTI0OTY4NzM0LDg3MzMyNTg4MSwtMTE1NDg4OTE5
+NCwxNjQ2NTMxODQwLC0xODMzNjU3MDgxLC04Nzc2OTY3NzAsMT
+UzNzE5NDQ1Miw5ODM0NjI5NjYsLTE3Mjk1NjYyMjksLTEwODQ0
+MjQzOTAsLTQwODM4NjExMywtMTc2OTQxMTQxLDE0MzMwOTk1Mj
+gsNjc4Mzk0NTE4LDE4MzQxNDExODIsLTEwMTU3Mjc4NjIsLTk4
+MjMyNTYwN119
 -->
