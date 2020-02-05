@@ -31,10 +31,11 @@ Check if module meets coding standards
 To join URLs more pretty
 
 ## pathlib
-Can replace `os.path`. Allows to defines paths for Windows, Unix and OS agnostic
+Can replacse `os.path`. Allows to defines paths for Windows, Unix and OS agnostic
 
 ## Black
 Code formatter
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjk4NDUwNSw2NDI2MjU4MzJdfQ==
+eyJoaXN0b3J5IjpbLTEzNzM1Nzg2OTYsMjEyNjk4NDUwNSw2ND
+I2MjU4MzJdfQ==
 -->
