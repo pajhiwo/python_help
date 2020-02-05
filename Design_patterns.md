@@ -157,7 +157,11 @@ circle.draw()
 * **Preventing direct creation**
 ```python
 class Shape():
-    pass
+    def get_width(self):
+      print("width")
+  
+    def get_height(self):
+      print("width")
 
 def factory(type):
     class Circle(Shape):
@@ -214,7 +218,7 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjQwNDEyOCwtMTgzMzY1NzA4MSwtOD
+eyJoaXN0b3J5IjpbMTY0NjUzMTg0MCwtMTgzMzY1NzA4MSwtOD
 c3Njk2NzcwLDE1MzcxOTQ0NTIsOTgzNDYyOTY2LC0xNzI5NTY2
 MjI5LC0xMDg0NDI0MzkwLC00MDgzODYxMTMsLTE3Njk0MTE0MS
 wxNDMzMDk5NTI4LDY3ODM5NDUxOCwxODM0MTQxMTgyLC0xMDE1
