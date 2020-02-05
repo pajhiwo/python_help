@@ -89,26 +89,27 @@ Is a creation methods, which create objects from concrete classes, but return th
 Forces the creation of objects to occur through a common _factory_ class.
 * **Basic example**
 ```python
-class Shape(object):
-    # Create based on class name:
-    @staticmethod
-    def factory(type):
-        #return eval(type + "()")
-        if type == "Circle": return Circle()
-        if type == "Square": return Square()
-        assert 0, "Bad shape creation: " + type
-    factory = staticmethod(factory)
+class Shape():  
+    # Create based on class name:  
+  @staticmethod  
+  def factory(type):  
+        if type == "Circle": return Circle()  
+        if type == "Square": return Square()  
+        assert 0, "Bad shape creation: " + type  
+    
+class Circle(Shape):  
+    def draw(self): print("Circle.draw")  
+    def erase(self): print("Circle.erase")  
+  
+class Square(Shape):  
+    def draw(self): print("Square.draw")  
+    def erase(self): print("Square.erase")  
+  
+# object creation  
+circle = Shape.factory("Circle")  
 
-class Circle(Shape):
-    def draw(self): print("Circle.draw")
-    def erase(self): print("Circle.erase")
-
-class Square(Shape):
-    def draw(self): print("Square.draw")
-    def erase(self): print("Square.erase")
-
-# object creation
-circle = Shape.factory("Circle")
+circle.draw()
+>>> Circle.draw
 ```
 
 ## Policy-based design
@@ -119,8 +120,8 @@ circle = Shape.factory("Circle")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1OTg1NTQ2LC0xNzY5NDExNDEsMTQzMz
-A5OTUyOCw2NzgzOTQ1MTgsMTgzNDE0MTE4MiwtMTAxNTcyNzg2
-MiwtOTgyMzI1NjA3LC0xMzExMjczNDU3LC0xMjY3NDc2Njg3LC
-0xMTk2NDQwMjYxXX0=
+eyJoaXN0b3J5IjpbLTQwODM4NjExMywtMTc2OTQxMTQxLDE0Mz
+MwOTk1MjgsNjc4Mzk0NTE4LDE4MzQxNDExODIsLTEwMTU3Mjc4
+NjIsLTk4MjMyNTYwNywtMTMxMTI3MzQ1NywtMTI2NzQ3NjY4Ny
+wtMTE5NjQ0MDI2MV19
 -->
