@@ -96,6 +96,11 @@ ip = ipaddress.ip_address("74.125.227.12")
 ip in net
 # False
 ```
+## Variable annotation
+```python
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzUzNTUsNTAzMDEzOTY1XX0=
+eyJoaXN0b3J5IjpbMTYzNDAxNjAxNCwtNDM3NTM1NSw1MDMwMT
+M5NjVdfQ==
 -->
