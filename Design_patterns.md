@@ -59,23 +59,12 @@ print(id(f2))
 
 * **Inheritance** 
 ```python
-class Singleton(object):
-    _instance = None
-    def __new__(cls, *args, **kw# True
-```
-  
-
-Ex3:
-```python
-class OnlyOne:  
-    class __OnlyOne:  
-        def __init__(self, args):  
-        if not cls._instance:
-            cls._instance = object.__new__(cls, *args, **kwargs)
-        return cls._instance
-
-class Fire(Singleton):
-     pass
+class Singleton():  
+    _instance = None  
+ def __new__(class_, *args, **kwargs):  
+        if not isinstance(class_._instance, class_):  
+            class_._instance = object.__new__(class_, *args, **kwargs)  
+        return class_._instance
 
 class Fire(Singleton):  
     def __init__(self):    self.val = arg  
@@ -175,11 +164,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzQ5OTU3NiwtNTU1NTg5NzgsLTkyND
-k2ODczNCw4NzMzMjU4ODEsLTExNTQ4ODkxOTQsMTY0NjUzMTg0
-MCwtMTgzMzY1NzA4MSwtODc3Njk2NzcwLDE1MzcxOTQ0NTIsOT
-gzNDYyOTY2LC0xNzI5NTY2MjI5LC0xMDg0NDI0MzkwLC00MDgz
-ODYxMTMsLTE3Njk0MTE0MSwxNDMzMDk5NTI4LDY3ODM5NDUxOC
-wxODM0MTQxMTgyLC0xMDE1NzI3ODYyLC05ODIzMjU2MDcsLTEz
-MTEyNzM0NTddfQ==
+eyJoaXN0b3J5IjpbMTI0MDY4NzA4LC01NTU1ODk3OCwtOTI0OT
+Y4NzM0LDg3MzMyNTg4MSwtMTE1NDg4OTE5NCwxNjQ2NTMxODQw
+LC0xODMzNjU3MDgxLC04Nzc2OTY3NzAsMTUzNzE5NDQ1Miw5OD
+M0NjI5NjYsLTE3Mjk1NjYyMjksLTEwODQ0MjQzOTAsLTQwODM4
+NjExMywtMTc2OTQxMTQxLDE0MzMwOTk1MjgsNjc4Mzk0NTE4LD
+E4MzQxNDExODIsLTEwMTU3Mjc4NjIsLTk4MjMyNTYwNywtMTMx
+MTI3MzQ1N119
 -->
