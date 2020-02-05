@@ -39,7 +39,6 @@ class Singleton(type):
             cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)  
         return cls._instances[cls]  
   
-  
 class Fire(metaclass=Singleton):  
     def __init__(self):  
         print("Fire created")  
@@ -47,7 +46,6 @@ class Fire(metaclass=Singleton):
     def get_output(self):  
         print("This is output")  
         pass  
-  
   
 f1 = Fire()  
 print(id(f1))  
@@ -177,11 +175,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDk2ODczNCw4NzMzMjU4ODEsLTExNT
-Q4ODkxOTQsMTY0NjUzMTg0MCwtMTgzMzY1NzA4MSwtODc3Njk2
-NzcwLDE1MzcxOTQ0NTIsOTgzNDYyOTY2LC0xNzI5NTY2MjI5LC
-0xMDg0NDI0MzkwLC00MDgzODYxMTMsLTE3Njk0MTE0MSwxNDMz
-MDk5NTI4LDY3ODM5NDUxOCwxODM0MTQxMTgyLC0xMDE1NzI3OD
-YyLC05ODIzMjU2MDcsLTEzMTEyNzM0NTcsLTEyNjc0NzY2ODcs
-LTExOTY0NDAyNjFdfQ==
+eyJoaXN0b3J5IjpbLTU1NTU4OTc4LC05MjQ5Njg3MzQsODczMz
+I1ODgxLC0xMTU0ODg5MTk0LDE2NDY1MzE4NDAsLTE4MzM2NTcw
+ODEsLTg3NzY5Njc3MCwxNTM3MTk0NDUyLDk4MzQ2Mjk2NiwtMT
+cyOTU2NjIyOSwtMTA4NDQyNDM5MCwtNDA4Mzg2MTEzLC0xNzY5
+NDExNDEsMTQzMzA5OTUyOCw2NzgzOTQ1MTgsMTgzNDE0MTE4Mi
+wtMTAxNTcyNzg2MiwtOTgyMzI1NjA3LC0xMzExMjczNDU3LC0x
+MjY3NDc2Njg3XX0=
 -->
