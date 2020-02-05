@@ -87,7 +87,28 @@ print(id(f2))
 >>> Fire created
 >>> 18745712
 ```
+
+* **Overwrite `__new__`** 
+```python
+class Singleton:
+    def __new__(self):
+        if  not  hasattr(self, 'instance'):
+            self.instance = super().__new__(self)
+        return  self.instance
+
   
+
+s = Singleton()
+
+print("Object created:", s)
+
+  
+
+s1 = Singleton()
+
+print("Object created:", s1)
+```  
+
 ## Factory pattern
 Forces the creation of objects to occur through a common _factory_ class or method.
  
@@ -166,11 +187,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTEwMzg5MiwtMTQ2MzExMDEzNCwxMj
-QwNjg3MDgsLTU1NTU4OTc4LC05MjQ5Njg3MzQsODczMzI1ODgx
-LC0xMTU0ODg5MTk0LDE2NDY1MzE4NDAsLTE4MzM2NTcwODEsLT
-g3NzY5Njc3MCwxNTM3MTk0NDUyLDk4MzQ2Mjk2NiwtMTcyOTU2
-NjIyOSwtMTA4NDQyNDM5MCwtNDA4Mzg2MTEzLC0xNzY5NDExND
-EsMTQzMzA5OTUyOCw2NzgzOTQ1MTgsMTgzNDE0MTE4MiwtMTAx
-NTcyNzg2Ml19
+eyJoaXN0b3J5IjpbLTIwOTkxNzI0NjMsLTY4OTEwMzg5MiwtMT
+Q2MzExMDEzNCwxMjQwNjg3MDgsLTU1NTU4OTc4LC05MjQ5Njg3
+MzQsODczMzI1ODgxLC0xMTU0ODg5MTk0LDE2NDY1MzE4NDAsLT
+E4MzM2NTcwODEsLTg3NzY5Njc3MCwxNTM3MTk0NDUyLDk4MzQ2
+Mjk2NiwtMTcyOTU2NjIyOSwtMTA4NDQyNDM5MCwtNDA4Mzg2MT
+EzLC0xNzY5NDExNDEsMTQzMzA5OTUyOCw2NzgzOTQ1MTgsMTgz
+NDE0MTE4Ml19
 -->
