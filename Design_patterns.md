@@ -31,13 +31,13 @@ print(id(f2))
 * **Metaclass**
 
 ```python
-class Singleton(type):  object):
-    _instances = {}  None
-    def __callnew__(cls, *args, **kwargs):  
-        if cls not in cls._instances:  :
-            cls._instances[cls] = super(Singleton, cls).__call__( = object.__new__(cls, *args, **kwargs)  
-        return cls._instances[cls]  
-  
+class Singleton(type):
+    _instances = {}
+    def __call__(cls, *args, **kwargs):
+        if cls not in cls._instances:
+            cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
+        return cls._instances[cls]
+
 class Fire(metaclass=Singleton):  
     def __init__(self):  
         print("Fire created")  
@@ -172,7 +172,7 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczMjkyMDk0LDg3MzMyNTg4MSwtMTE1ND
+eyJoaXN0b3J5IjpbNDQ0NTYxMTIwLDg3MzMyNTg4MSwtMTE1ND
 g4OTE5NCwxNjQ2NTMxODQwLC0xODMzNjU3MDgxLC04Nzc2OTY3
 NzAsMTUzNzE5NDQ1Miw5ODM0NjI5NjYsLTE3Mjk1NjYyMjksLT
 EwODQ0MjQzOTAsLTQwODM4NjExMywtMTc2OTQxMTQxLDE0MzMw
