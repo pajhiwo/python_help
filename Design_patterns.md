@@ -88,12 +88,15 @@ print(id(f2))
 >>> 18745712
 ```
 * **Module**
-Modules are imported only once.
+Modules are imported only once. If using `from singmodule import *` it will only allow to import whart 
 ```python
+# singmodule.py
 class Foo(object):
      pass
 
-some_global_variable = Foo()
+global_variable = Foo()  
+  
+__all__ = ["global_variable"]
 ```
 
 * **Overwrite `__new__`** 
@@ -193,11 +196,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg3NTQ2ODcsMTUyODIwMDk5OSwtNj
-g5MTAzODkyLC0xNDYzMTEwMTM0LDEyNDA2ODcwOCwtNTU1NTg5
-NzgsLTkyNDk2ODczNCw4NzMzMjU4ODEsLTExNTQ4ODkxOTQsMT
-Y0NjUzMTg0MCwtMTgzMzY1NzA4MSwtODc3Njk2NzcwLDE1Mzcx
-OTQ0NTIsOTgzNDYyOTY2LC0xNzI5NTY2MjI5LC0xMDg0NDI0Mz
-kwLC00MDgzODYxMTMsLTE3Njk0MTE0MSwxNDMzMDk5NTI4LDY3
-ODM5NDUxOF19
+eyJoaXN0b3J5IjpbLTE1OTQ1Njg1OTgsLTEwMDg3NTQ2ODcsMT
+UyODIwMDk5OSwtNjg5MTAzODkyLC0xNDYzMTEwMTM0LDEyNDA2
+ODcwOCwtNTU1NTg5NzgsLTkyNDk2ODczNCw4NzMzMjU4ODEsLT
+ExNTQ4ODkxOTQsMTY0NjUzMTg0MCwtMTgzMzY1NzA4MSwtODc3
+Njk2NzcwLDE1MzcxOTQ0NTIsOTgzNDYyOTY2LC0xNzI5NTY2Mj
+I5LC0xMDg0NDI0MzkwLC00MDgzODYxMTMsLTE3Njk0MTE0MSwx
+NDMzMDk5NTI4XX0=
 -->
