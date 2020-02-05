@@ -85,7 +85,7 @@ print(id(f2))
 ```
   
 ## Factory pattern
-Is a creation methods, which create objects from concrete classes, but return them as objects of abstract type or interface
+Is a creation methods, which create objects from concrete classes, but return them as objects of abstract type or interface (class to cre)
 
 ## Policy-based design
 
@@ -95,7 +95,7 @@ Is a creation methods, which create objects from concrete classes, but return th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4Mzk0NTE4LDE4MzQxNDExODIsLTEwMT
-U3Mjc4NjIsLTk4MjMyNTYwNywtMTMxMTI3MzQ1NywtMTI2NzQ3
-NjY4NywtMTE5NjQ0MDI2MV19
+eyJoaXN0b3J5IjpbOTUzMDU0MDQ2LDY3ODM5NDUxOCwxODM0MT
+QxMTgyLC0xMDE1NzI3ODYyLC05ODIzMjU2MDcsLTEzMTEyNzM0
+NTcsLTEyNjc0NzY2ODcsLTExOTY0NDAyNjFdfQ==
 -->
