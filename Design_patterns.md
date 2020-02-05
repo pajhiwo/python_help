@@ -99,14 +99,12 @@ class Singleton:
   
 
 s = Singleton()
-
-print("Object created:", s)
-
-  
-
+print("Object created:", s) 
 s1 = Singleton()
-
 print("Object created:", s1)
+
+>>> Object created: <__main__.Singleton object at 0x7f59442d58d0>
+>>> Object created: <__main__.Singleton object at 0x7f59442d58d0>
 ```  
 
 ## Factory pattern
@@ -187,11 +185,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTkxNzI0NjMsLTY4OTEwMzg5MiwtMT
-Q2MzExMDEzNCwxMjQwNjg3MDgsLTU1NTU4OTc4LC05MjQ5Njg3
-MzQsODczMzI1ODgxLC0xMTU0ODg5MTk0LDE2NDY1MzE4NDAsLT
-E4MzM2NTcwODEsLTg3NzY5Njc3MCwxNTM3MTk0NDUyLDk4MzQ2
-Mjk2NiwtMTcyOTU2NjIyOSwtMTA4NDQyNDM5MCwtNDA4Mzg2MT
-EzLC0xNzY5NDExNDEsMTQzMzA5OTUyOCw2NzgzOTQ1MTgsMTgz
-NDE0MTE4Ml19
+eyJoaXN0b3J5IjpbMTUyODIwMDk5OSwtNjg5MTAzODkyLC0xND
+YzMTEwMTM0LDEyNDA2ODcwOCwtNTU1NTg5NzgsLTkyNDk2ODcz
+NCw4NzMzMjU4ODEsLTExNTQ4ODkxOTQsMTY0NjUzMTg0MCwtMT
+gzMzY1NzA4MSwtODc3Njk2NzcwLDE1MzcxOTQ0NTIsOTgzNDYy
+OTY2LC0xNzI5NTY2MjI5LC0xMDg0NDI0MzkwLC00MDgzODYxMT
+MsLTE3Njk0MTE0MSwxNDMzMDk5NTI4LDY3ODM5NDUxOCwxODM0
+MTQxMTgyXX0=
 -->
