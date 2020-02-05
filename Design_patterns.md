@@ -92,7 +92,7 @@ print(id(f2))
 Forces the creation of objects to occur through a common _factory_ class or method.
  
 Is a creation method, which create objects from concrete classes, but return them as objects of abstract type or interface (class to create different types of objects).
-Fores thereation of oct to or thr a common facorcs
+
 Factory Method should be used in every situation where an application (client) depends on an interface (product) to perform a task and there are multiple concrete implementations of that interface
 
 Resources:
@@ -166,11 +166,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjMxMTAxMzQsMTI0MDY4NzA4LC01NT
-U1ODk3OCwtOTI0OTY4NzM0LDg3MzMyNTg4MSwtMTE1NDg4OTE5
-NCwxNjQ2NTMxODQwLC0xODMzNjU3MDgxLC04Nzc2OTY3NzAsMT
-UzNzE5NDQ1Miw5ODM0NjI5NjYsLTE3Mjk1NjYyMjksLTEwODQ0
-MjQzOTAsLTQwODM4NjExMywtMTc2OTQxMTQxLDE0MzMwOTk1Mj
-gsNjc4Mzk0NTE4LDE4MzQxNDExODIsLTEwMTU3Mjc4NjIsLTk4
-MjMyNTYwN119
+eyJoaXN0b3J5IjpbLTY4OTEwMzg5MiwtMTQ2MzExMDEzNCwxMj
+QwNjg3MDgsLTU1NTU4OTc4LC05MjQ5Njg3MzQsODczMzI1ODgx
+LC0xMTU0ODg5MTk0LDE2NDY1MzE4NDAsLTE4MzM2NTcwODEsLT
+g3NzY5Njc3MCwxNTM3MTk0NDUyLDk4MzQ2Mjk2NiwtMTcyOTU2
+NjIyOSwtMTA4NDQyNDM5MCwtNDA4Mzg2MTEzLC0xNzY5NDExND
+EsMTQzMzA5OTUyOCw2NzgzOTQ1MTgsMTgzNDE0MTE4MiwtMTAx
+NTcyNzg2Ml19
 -->
