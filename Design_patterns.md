@@ -112,7 +112,29 @@ circle.draw()
 >>> Circle.draw
 ```
 
-* Preventing direct creation
+* **Preventing direct creation**
+```python
+class Shape():
+    types = []
+
+def factory(type):
+    class Circle(Shape):
+        def draw(self): print("Circle.draw")
+        def erase(self): print("Circle.erase")
+
+    class Square(Shape):
+        def draw(self): print("Square.draw")
+        def erase(self): print("Square.erase")
+
+    if type == "Circle": return Circle()
+    if type == "Square": return Square()
+    assert 0, "Bad shape creation: " + type
+
+circle = factory("Circle")  
+
+circle.draw()
+>>> Circle.draw
+```
 
 ## Policy-based design
 
@@ -122,7 +144,7 @@ circle.draw()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1MTM3NDk3LC00MDgzODYxMTMsLTE3Nj
+eyJoaXN0b3J5IjpbNzM4OTQ4MTE3LC00MDgzODYxMTMsLTE3Nj
 k0MTE0MSwxNDMzMDk5NTI4LDY3ODM5NDUxOCwxODM0MTQxMTgy
 LC0xMDE1NzI3ODYyLC05ODIzMjU2MDcsLTEzMTEyNzM0NTcsLT
 EyNjc0NzY2ODcsLTExOTY0NDAyNjFdfQ==
