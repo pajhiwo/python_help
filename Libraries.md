@@ -29,6 +29,9 @@ Check if module meets coding standards
 
 ## urljoin
 To join URLs more pretty
+
+## pathlib
+Can replase os.path. Allows to defines paths for Windows, Unix and OS agnostic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyNjI1ODMyXX0=
+eyJoaXN0b3J5IjpbLTE1NDM3NTc1Nyw2NDI2MjU4MzJdfQ==
 -->
