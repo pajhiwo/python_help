@@ -117,7 +117,7 @@ Forces the creation of objects to occur through a common _factory_ class or meth
  
 Is a creation method, which create objects from concrete classes, but return them as objects of abstract type or interface (class to create different types of objects).
 Fores thereation of oct to or thr a common facorcs
-Factory Method should be used in every situation where an application (client) depends on an interface (product) to perform a task and there are multiple concrete implementations of that interfac
+Factory Method should be used in every situation where an application (client) depends on an interface (product) to perform a task and there are multiple concrete implementations of that interface
 
 Resources:
 [Link](https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Factory.html)
@@ -190,10 +190,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQ4ODkxOTQsMTY0NjUzMTg0MCwtMT
-gzMzY1NzA4MSwtODc3Njk2NzcwLDE1MzcxOTQ0NTIsOTgzNDYy
-OTY2LC0xNzI5NTY2MjI5LC0xMDg0NDI0MzkwLC00MDgzODYxMT
-MsLTE3Njk0MTE0MSwxNDMzMDk5NTI4LDY3ODM5NDUxOCwxODM0
-MTQxMTgyLC0xMDE1NzI3ODYyLC05ODIzMjU2MDcsLTEzMTEyNz
-M0NTcsLTEyNjc0NzY2ODcsLTExOTY0NDAyNjFdfQ==
+eyJoaXN0b3J5IjpbNzQzODA0MTgzLC0xMTU0ODg5MTk0LDE2ND
+Y1MzE4NDAsLTE4MzM2NTcwODEsLTg3NzY5Njc3MCwxNTM3MTk0
+NDUyLDk4MzQ2Mjk2NiwtMTcyOTU2NjIyOSwtMTA4NDQyNDM5MC
+wtNDA4Mzg2MTEzLC0xNzY5NDExNDEsMTQzMzA5OTUyOCw2Nzgz
+OTQ1MTgsMTgzNDE0MTE4MiwtMTAxNTcyNzg2MiwtOTgyMzI1Nj
+A3LC0xMzExMjczNDU3LC0xMjY3NDc2Njg3LC0xMTk2NDQwMjYx
+XX0=
 -->
