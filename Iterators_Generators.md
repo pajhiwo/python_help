@@ -1,3 +1,4 @@
+
 # Iterators and Generators
 
 ## Iterator
@@ -84,5 +85,5 @@ def open_file(path, mode):
     the_file.close()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA0NjQzODVdfQ==
+eyJoaXN0b3J5IjpbLTM5NTg5NTQwNywtMTUyMDQ2NDM4NV19
 -->
