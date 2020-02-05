@@ -84,7 +84,7 @@ print(id(f2))
 >>>18745712
 ```
   
-
+## Factory pattern
 
 
 ## Policy-based design
@@ -93,8 +93,9 @@ print(id(f2))
 
 ## Abstract pattern
 
-## Factory pattern
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTU3Mjc4NjIsLTk4MjMyNTYwNywtMT
-MxMTI3MzQ1NywtMTI2NzQ3NjY4NywtMTE5NjQ0MDI2MV19
+eyJoaXN0b3J5IjpbMTgzNDE0MTE4MiwtMTAxNTcyNzg2MiwtOT
+gyMzI1NjA3LC0xMzExMjczNDU3LC0xMjY3NDc2Njg3LC0xMTk2
+NDQwMjYxXX0=
 -->
