@@ -108,7 +108,6 @@ Knows class it was called on, belong to the class’s namespace.
 
 Can be used to create alternative constructors - factory methods - methods which return a class object.
 
-**Singleton? - TODO**
 ```python
 class A(object):
     def __init__(self):
@@ -282,5 +281,6 @@ a = myClass # a and myClass identical at this point. The interpretter won't care
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlstNDI4NzE1NzQyLDM2Njg4MzUxMF19
+c3RvcnkiOlstNjM4NDYwODgzLC00Mjg3MTU3NDIsMzY2ODgzNT
+EwXX0=
 -->
