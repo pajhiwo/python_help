@@ -112,6 +112,8 @@ circle.draw()
 >>> Circle.draw
 ```
 
+* Preventing direct creation
+
 ## Policy-based design
 
 ## Page object pattern
@@ -120,8 +122,8 @@ circle.draw()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODM4NjExMywtMTc2OTQxMTQxLDE0Mz
-MwOTk1MjgsNjc4Mzk0NTE4LDE4MzQxNDExODIsLTEwMTU3Mjc4
-NjIsLTk4MjMyNTYwNywtMTMxMTI3MzQ1NywtMTI2NzQ3NjY4Ny
-wtMTE5NjQ0MDI2MV19
+eyJoaXN0b3J5IjpbNjI1MTM3NDk3LC00MDgzODYxMTMsLTE3Nj
+k0MTE0MSwxNDMzMDk5NTI4LDY3ODM5NDUxOCwxODM0MTQxMTgy
+LC0xMDE1NzI3ODYyLC05ODIzMjU2MDcsLTEzMTEyNzM0NTcsLT
+EyNjc0NzY2ODcsLTExOTY0NDAyNjFdfQ==
 -->
