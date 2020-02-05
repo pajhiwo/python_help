@@ -29,13 +29,7 @@ print(id(f2))
 ```
 
 * **Metaclass**
-* MyClass(BaseClass):
-    """
-    some class
-    """
-```
-  
-Example 2:
+
 ```python
 class Singleton(type):  object):
     _instances = {}  None
@@ -187,11 +181,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczMzI1ODgxLC0xMTU0ODg5MTk0LDE2ND
-Y1MzE4NDAsLTE4MzM2NTcwODEsLTg3NzY5Njc3MCwxNTM3MTk0
-NDUyLDk4MzQ2Mjk2NiwtMTcyOTU2NjIyOSwtMTA4NDQyNDM5MC
-wtNDA4Mzg2MTEzLC0xNzY5NDExNDEsMTQzMzA5OTUyOCw2Nzgz
-OTQ1MTgsMTgzNDE0MTE4MiwtMTAxNTcyNzg2MiwtOTgyMzI1Nj
-A3LC0xMzExMjczNDU3LC0xMjY3NDc2Njg3LC0xMTk2NDQwMjYx
-XX0=
+eyJoaXN0b3J5IjpbNDQ0MzA5NTAxLDg3MzMyNTg4MSwtMTE1ND
+g4OTE5NCwxNjQ2NTMxODQwLC0xODMzNjU3MDgxLC04Nzc2OTY3
+NzAsMTUzNzE5NDQ1Miw5ODM0NjI5NjYsLTE3Mjk1NjYyMjksLT
+EwODQ0MjQzOTAsLTQwODM4NjExMywtMTc2OTQxMTQxLDE0MzMw
+OTk1MjgsNjc4Mzk0NTE4LDE4MzQxNDExODIsLTEwMTU3Mjc4Nj
+IsLTk4MjMyNTYwNywtMTMxMTI3MzQ1NywtMTI2NzQ3NjY4Nywt
+MTE5NjQ0MDI2MV19
 -->
