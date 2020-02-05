@@ -91,6 +91,7 @@ Forces the creation of objects to occur through a common _factory_ class.
 ```python
 class Shape(object):
     # Create based on class name:
+    @staticmethod
     def factory(type):
         #return eval(type + "()")
         if type == "Circle": return Circle()
@@ -118,8 +119,8 @@ circle = Shape.factory("Circle")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI0MTYwMTksLTE3Njk0MTE0MSwxND
-MzMDk5NTI4LDY3ODM5NDUxOCwxODM0MTQxMTgyLC0xMDE1NzI3
-ODYyLC05ODIzMjU2MDcsLTEzMTEyNzM0NTcsLTEyNjc0NzY2OD
-csLTExOTY0NDAyNjFdfQ==
+eyJoaXN0b3J5IjpbOTg1OTg1NTQ2LC0xNzY5NDExNDEsMTQzMz
+A5OTUyOCw2NzgzOTQ1MTgsMTgzNDE0MTE4MiwtMTAxNTcyNzg2
+MiwtOTgyMzI1NjA3LC0xMzExMjczNDU3LC0xMjY3NDc2Njg3LC
+0xMTk2NDQwMjYxXX0=
 -->
