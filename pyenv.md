@@ -1,4 +1,4 @@
-## Pyenv
+# Pyenv
 Allows to install and use additional version of python.
 If you have old version of python on yor OS do not upgrade (as OS may use system wide version for many apps), just install pyenv. 
 
@@ -87,7 +87,7 @@ rm .python-version
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTk4ODQ5MSwtMzc2MTMyNzAzLC0yOD
-YzMjY2MjUsMTA1NjIyNTQ3MCwtMTUzNjUzODcwOSwtMTQyMjgw
-ODk0NCwtMTQzNDE0NTU4MF19
+eyJoaXN0b3J5IjpbMTg4OTk5MzM0MCwtODg1OTg4NDkxLC0zNz
+YxMzI3MDMsLTI4NjMyNjYyNSwxMDU2MjI1NDcwLC0xNTM2NTM4
+NzA5LC0xNDIyODA4OTQ0LC0xNDM0MTQ1NTgwXX0=
 -->
