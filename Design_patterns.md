@@ -8,15 +8,11 @@ Is a software design pattern that restricts the instantiation of a class to one 
 def singleton(class_):  
     instances = {}  
     def getinstance(*args, **kwargs):  
-        
 	if class_ not in instances:  
-        
 	    instances[class_] = class_(*args, **kwargs)  
-        
 	return instances[class_]  
     return getinstance  
   
-
 @singleton  
 class Fire():  
     def __init__(self):  
@@ -191,11 +187,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjIzNDc4MSwtMTE1NDg4OTE5NCwxNj
-Q2NTMxODQwLC0xODMzNjU3MDgxLC04Nzc2OTY3NzAsMTUzNzE5
-NDQ1Miw5ODM0NjI5NjYsLTE3Mjk1NjYyMjksLTEwODQ0MjQzOT
-AsLTQwODM4NjExMywtMTc2OTQxMTQxLDE0MzMwOTk1MjgsNjc4
-Mzk0NTE4LDE4MzQxNDExODIsLTEwMTU3Mjc4NjIsLTk4MjMyNT
-YwNywtMTMxMTI3MzQ1NywtMTI2NzQ3NjY4NywtMTE5NjQ0MDI2
-MV19
+eyJoaXN0b3J5IjpbODczMzI1ODgxLC0xMTU0ODg5MTk0LDE2ND
+Y1MzE4NDAsLTE4MzM2NTcwODEsLTg3NzY5Njc3MCwxNTM3MTk0
+NDUyLDk4MzQ2Mjk2NiwtMTcyOTU2NjIyOSwtMTA4NDQyNDM5MC
+wtNDA4Mzg2MTEzLC0xNzY5NDExNDEsMTQzMzA5OTUyOCw2Nzgz
+OTQ1MTgsMTgzNDE0MTE4MiwtMTAxNTcyNzg2MiwtOTgyMzI1Nj
+A3LC0xMzExMjczNDU3LC0xMjY3NDc2Njg3LC0xMTk2NDQwMjYx
+XX0=
 -->
