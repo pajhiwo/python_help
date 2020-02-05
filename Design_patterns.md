@@ -129,6 +129,10 @@ class Shape():
     # Create based on class name  
   def get_width(self):
       print("width")
+  
+  def get_height(self):
+      print("width")
+  
   @staticmethod  
   def factory(type):  
         if type == "Circle": return Circle()  
@@ -210,10 +214,10 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk0NDkwNzYsLTE4MzM2NTcwODEsLT
-g3NzY5Njc3MCwxNTM3MTk0NDUyLDk4MzQ2Mjk2NiwtMTcyOTU2
-NjIyOSwtMTA4NDQyNDM5MCwtNDA4Mzg2MTEzLC0xNzY5NDExND
-EsMTQzMzA5OTUyOCw2NzgzOTQ1MTgsMTgzNDE0MTE4MiwtMTAx
-NTcyNzg2MiwtOTgyMzI1NjA3LC0xMzExMjczNDU3LC0xMjY3ND
-c2Njg3LC0xMTk2NDQwMjYxXX0=
+eyJoaXN0b3J5IjpbMTAxNjQwNDEyOCwtMTgzMzY1NzA4MSwtOD
+c3Njk2NzcwLDE1MzcxOTQ0NTIsOTgzNDYyOTY2LC0xNzI5NTY2
+MjI5LC0xMDg0NDI0MzkwLC00MDgzODYxMTMsLTE3Njk0MTE0MS
+wxNDMzMDk5NTI4LDY3ODM5NDUxOCwxODM0MTQxMTgyLC0xMDE1
+NzI3ODYyLC05ODIzMjU2MDcsLTEzMTEyNzM0NTcsLTEyNjc0Nz
+Y2ODcsLTExOTY0NDAyNjFdfQ==
 -->
