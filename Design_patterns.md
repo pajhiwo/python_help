@@ -127,6 +127,8 @@ Resources:
 ```python
 class Shape():  
     # Create based on class name  
+  def get_width(self):
+      print("width")
   @staticmethod  
   def factory(type):  
         if type == "Circle": return Circle()  
@@ -208,10 +210,10 @@ output = '''
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzM2NTcwODEsLTg3NzY5Njc3MCwxNT
-M3MTk0NDUyLDk4MzQ2Mjk2NiwtMTcyOTU2NjIyOSwtMTA4NDQy
-NDM5MCwtNDA4Mzg2MTEzLC0xNzY5NDExNDEsMTQzMzA5OTUyOC
-w2NzgzOTQ1MTgsMTgzNDE0MTE4MiwtMTAxNTcyNzg2MiwtOTgy
-MzI1NjA3LC0xMzExMjczNDU3LC0xMjY3NDc2Njg3LC0xMTk2ND
-QwMjYxXX0=
+eyJoaXN0b3J5IjpbLTE3ODk0NDkwNzYsLTE4MzM2NTcwODEsLT
+g3NzY5Njc3MCwxNTM3MTk0NDUyLDk4MzQ2Mjk2NiwtMTcyOTU2
+NjIyOSwtMTA4NDQyNDM5MCwtNDA4Mzg2MTEzLC0xNzY5NDExND
+EsMTQzMzA5OTUyOCw2NzgzOTQ1MTgsMTgzNDE0MTE4MiwtMTAx
+NTcyNzg2MiwtOTgyMzI1NjA3LC0xMzExMjczNDU3LC0xMjY3ND
+c2Njg3LC0xMTk2NDQwMjYxXX0=
 -->
