@@ -1,4 +1,5 @@
 # Design patterns
+[Link](https://www.tutorialspoint.com/python_design_patterns/python_design_patterns_adapter.htm)
 
 ## Singleton
 Is a software design pattern that restricts the instantiation of a class to one object.
@@ -197,11 +198,11 @@ circle.draw()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4MDMyMjYzLDExNzI4MzA4NzUsLTEwNz
-c5OTU1NTEsMjAxNjMxODA3NywtMTM2NzIwMDMxMCwtMTAwODc1
-NDY4NywxNTI4MjAwOTk5LC02ODkxMDM4OTIsLTE0NjMxMTAxMz
-QsMTI0MDY4NzA4LC01NTU1ODk3OCwtOTI0OTY4NzM0LDg3MzMy
-NTg4MSwtMTE1NDg4OTE5NCwxNjQ2NTMxODQwLC0xODMzNjU3MD
-gxLC04Nzc2OTY3NzAsMTUzNzE5NDQ1Miw5ODM0NjI5NjYsLTE3
-Mjk1NjYyMjldfQ==
+eyJoaXN0b3J5IjpbMTE5MDc2Nzk0Nyw3NzgwMzIyNjMsMTE3Mj
+gzMDg3NSwtMTA3Nzk5NTU1MSwyMDE2MzE4MDc3LC0xMzY3MjAw
+MzEwLC0xMDA4NzU0Njg3LDE1MjgyMDA5OTksLTY4OTEwMzg5Mi
+wtMTQ2MzExMDEzNCwxMjQwNjg3MDgsLTU1NTU4OTc4LC05MjQ5
+Njg3MzQsODczMzI1ODgxLC0xMTU0ODg5MTk0LDE2NDY1MzE4ND
+AsLTE4MzM2NTcwODEsLTg3NzY5Njc3MCwxNTM3MTk0NDUyLDk4
+MzQ2Mjk2Nl19
 -->
