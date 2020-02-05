@@ -1,7 +1,7 @@
 # Design patterns
 
 ## Singleton
-is a software design pattern that restricts the instantiation of a class to one object.
+Is a software design pattern that restricts the instantiation of a class to one object.
 
 * **Decorator**
 ```python
@@ -95,7 +95,7 @@ print(id(f2))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDE0MTE4MiwtMTAxNTcyNzg2MiwtOT
-gyMzI1NjA3LC0xMzExMjczNDU3LC0xMjY3NDc2Njg3LC0xMTk2
-NDQwMjYxXX0=
+eyJoaXN0b3J5IjpbMTk5NzYwOTUwMiwxODM0MTQxMTgyLC0xMD
+E1NzI3ODYyLC05ODIzMjU2MDcsLTEzMTEyNzM0NTcsLTEyNjc0
+NzY2ODcsLTExOTY0NDAyNjFdfQ==
 -->
