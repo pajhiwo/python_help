@@ -88,7 +88,7 @@ print(id(f2))
 >>> 18745712
 ```
 * **Module**
-Modules are imported only once. If using `from singmodule import *` it will only allow to import whart 
+Modules are imported only once. If using `from singmodule import *` it will only allow to import what is specified in `__all__`
 ```python
 # singmodule.py
 class Foo(object):
@@ -196,7 +196,7 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ1Njg1OTgsLTEwMDg3NTQ2ODcsMT
+eyJoaXN0b3J5IjpbLTEzNjcyMDAzMTAsLTEwMDg3NTQ2ODcsMT
 UyODIwMDk5OSwtNjg5MTAzODkyLC0xNDYzMTEwMTM0LDEyNDA2
 ODcwOCwtNTU1NTg5NzgsLTkyNDk2ODczNCw4NzMzMjU4ODEsLT
 ExNTQ4ODkxOTQsMTY0NjUzMTg0MCwtMTgzMzY1NzA4MSwtODc3
