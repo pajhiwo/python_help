@@ -87,6 +87,9 @@ print(id(f2))
 ## Factory pattern
 Is a creation methods, which create objects from concrete classes, but return them as objects of abstract type or interface (class to create different types of objects).
 Forces the creation of objects to occur through a common _factory_ class.
+Factory Method should be used in every situation where an application (client) depends on an interface (product) to perform a task and there are multiple concrete implementations of that interfac
+Resources:
+
 * **Basic example**
 ```python
 class Shape():  
@@ -144,8 +147,9 @@ circle.draw()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQ0MjQzOTAsLTQwODM4NjExMywtMT
-c2OTQxMTQxLDE0MzMwOTk1MjgsNjc4Mzk0NTE4LDE4MzQxNDEx
-ODIsLTEwMTU3Mjc4NjIsLTk4MjMyNTYwNywtMTMxMTI3MzQ1Ny
-wtMTI2NzQ3NjY4NywtMTE5NjQ0MDI2MV19
+eyJoaXN0b3J5IjpbNzM5NzQ3OTkyLC0xMDg0NDI0MzkwLC00MD
+gzODYxMTMsLTE3Njk0MTE0MSwxNDMzMDk5NTI4LDY3ODM5NDUx
+OCwxODM0MTQxMTgyLC0xMDE1NzI3ODYyLC05ODIzMjU2MDcsLT
+EzMTEyNzM0NTcsLTEyNjc0NzY2ODcsLTExOTY0NDAyNjFdfQ==
+
 -->
