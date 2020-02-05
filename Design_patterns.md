@@ -98,7 +98,7 @@ Resources:
 * **Basic example**
 ```python
 class Shape():  
-    # Create based on class name:  
+    # Create based on class name  
   @staticmethod  
   def factory(type):  
         if type == "Circle": return Circle()  
@@ -152,9 +152,9 @@ circle.draw()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzE5NDQ1Miw5ODM0NjI5NjYsLTE3Mj
-k1NjYyMjksLTEwODQ0MjQzOTAsLTQwODM4NjExMywtMTc2OTQx
-MTQxLDE0MzMwOTk1MjgsNjc4Mzk0NTE4LDE4MzQxNDExODIsLT
-EwMTU3Mjc4NjIsLTk4MjMyNTYwNywtMTMxMTI3MzQ1NywtMTI2
-NzQ3NjY4NywtMTE5NjQ0MDI2MV19
+eyJoaXN0b3J5IjpbLTg3NzY5Njc3MCwxNTM3MTk0NDUyLDk4Mz
+Q2Mjk2NiwtMTcyOTU2NjIyOSwtMTA4NDQyNDM5MCwtNDA4Mzg2
+MTEzLC0xNzY5NDExNDEsMTQzMzA5OTUyOCw2NzgzOTQ1MTgsMT
+gzNDE0MTE4MiwtMTAxNTcyNzg2MiwtOTgyMzI1NjA3LC0xMzEx
+MjczNDU3LC0xMjY3NDc2Njg3LC0xMTk2NDQwMjYxXX0=
 -->
