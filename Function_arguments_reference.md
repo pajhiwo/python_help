@@ -124,9 +124,9 @@ def updateStudentDetail(name, phone, address):
 details  =  {'name': 'Sam', 'phone': '112', 'address': 'London'}
 
 updateStudentDetail(**details)
->>> Student Name  :  Riti
->>> Student phone  :  3343
->>> Student address  :  3343
+>>> Student Name  :  Sam
+>>> Student phone  :  112
+>>> Student address  :  London
 ```
 ## Function with ONLY keyword arguments
 To create function that only takes (force) keyword arguments by placing single `*` argument before keyword arguments.
@@ -140,5 +140,5 @@ test(a="value", b="value 2")  # Works...
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiY2F0ZWdvcmllczogJ2tleXdvcmQsIH
 JlZmVyZW5jZSwgYXJndW1lbnRzLCBhcmdzLCBsYW1iZGEnXG4i
-LCJoaXN0b3J5IjpbMTQxNzQ4ODAxMl19
+LCJoaXN0b3J5IjpbMTE4MDQ2NTk1LDE0MTc0ODgwMTJdfQ==
 -->
