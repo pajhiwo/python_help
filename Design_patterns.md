@@ -1,7 +1,7 @@
 # Design patterns
 
 ## Singleton
-Iis a software design pattern that restricts the instantiation of a class to one object.
+Is a software design pattern that restricts the instantiation of a class to one object.
 
 * **Decorator**
 ```python
@@ -32,7 +32,8 @@ print(id(f2))
 >>> 45800368
 ```
 
-* **Metaclass**MyClass(BaseClass):
+* **Metaclass**
+* MyClass(BaseClass):
     """
     some class
     """
@@ -190,7 +191,7 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxOTIwODIzMiwtMTE1NDg4OTE5NCwxNj
+eyJoaXN0b3J5IjpbMTkxNjIzNDc4MSwtMTE1NDg4OTE5NCwxNj
 Q2NTMxODQwLC0xODMzNjU3MDgxLC04Nzc2OTY3NzAsMTUzNzE5
 NDQ1Miw5ODM0NjI5NjYsLTE3Mjk1NjYyMjksLTEwODQ0MjQzOT
 AsLTQwODM4NjExMywtMTc2OTQxMTQxLDE0MzMwOTk1MjgsNjc4
