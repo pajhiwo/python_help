@@ -90,7 +90,6 @@ print(id(f2))
 ```
 * **Module**
 Modules are imported only once. If using `from singmodule import *` it will only allow to import what is specified in `__all__`. 
-Alternatively you can 
 ```python
 # singmodule.py
 class Foo(object):
@@ -100,6 +99,7 @@ global_variable = Foo()
   
 __all__ = ["global_variable"]
 ```
+Alternatively you can have only methods and variables (without class) on "module.py" and then import such module.
 
 * **Overwrite `__new__`** 
 ```python
@@ -196,11 +196,11 @@ circle.draw()
 
 ## Factory pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc3NDE5NDYsLTEwNzc5OTU1NTEsMj
-AxNjMxODA3NywtMTM2NzIwMDMxMCwtMTAwODc1NDY4NywxNTI4
-MjAwOTk5LC02ODkxMDM4OTIsLTE0NjMxMTAxMzQsMTI0MDY4Nz
-A4LC01NTU1ODk3OCwtOTI0OTY4NzM0LDg3MzMyNTg4MSwtMTE1
-NDg4OTE5NCwxNjQ2NTMxODQwLC0xODMzNjU3MDgxLC04Nzc2OT
-Y3NzAsMTUzNzE5NDQ1Miw5ODM0NjI5NjYsLTE3Mjk1NjYyMjks
-LTEwODQ0MjQzOTBdfQ==
+eyJoaXN0b3J5IjpbMTE3MjgzMDg3NSwtMTA3Nzk5NTU1MSwyMD
+E2MzE4MDc3LC0xMzY3MjAwMzEwLC0xMDA4NzU0Njg3LDE1Mjgy
+MDA5OTksLTY4OTEwMzg5MiwtMTQ2MzExMDEzNCwxMjQwNjg3MD
+gsLTU1NTU4OTc4LC05MjQ5Njg3MzQsODczMzI1ODgxLC0xMTU0
+ODg5MTk0LDE2NDY1MzE4NDAsLTE4MzM2NTcwODEsLTg3NzY5Nj
+c3MCwxNTM3MTk0NDUyLDk4MzQ2Mjk2NiwtMTcyOTU2NjIyOSwt
+MTA4NDQyNDM5MF19
 -->
