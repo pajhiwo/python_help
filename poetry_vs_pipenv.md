@@ -18,19 +18,30 @@ Windows (powershell)
 5. 
 
 install new module (like pip install), also as dev dependency
+```bash
 poetry add [--dev] <package>
+```
 setup.py == pyproject.toml
-install developed package into venv (i.e. pip install -e)
+install developed package into venv (i.e. pip install -e) and all requirements from `poetry.lock`
+ ```bash
  poetry install
+ ```
  Show installed packages and location of virtualenv
+ ```bash
  poetry show -v
+ ```
  remove installed package (also from dev)
+ ```bash
  poetry remove [--dev] package
+
+Spawn new shell with venv (if no venv creates one)
+ poetry shell
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODI0MzIyMiwtMjA4ODI0MDcxNCwyMT
-I3MDM4OTcxLDMwNTY3NTIyNiwtMTkwNDU5NDQzMF19
+eyJoaXN0b3J5IjpbNDgyODA5NzAsLTkwODI0MzIyMiwtMjA4OD
+I0MDcxNCwyMTI3MDM4OTcxLDMwNTY3NTIyNiwtMTkwNDU5NDQz
+MF19
 -->
