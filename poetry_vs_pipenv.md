@@ -24,11 +24,13 @@ poetry add --dev <package>
 setup.py == pyproject.toml
 install developed package into venv (i.e. pip install -e)
  poetry install
+ Show installed packages and location of virtualenv
+ poetry show -v
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODgyNDA3MTQsMjEyNzAzODk3MSwzMD
-U2NzUyMjYsLTE5MDQ1OTQ0MzBdfQ==
+eyJoaXN0b3J5IjpbNzgzMDc0OTYsLTIwODgyNDA3MTQsMjEyNz
+AzODk3MSwzMDU2NzUyMjYsLTE5MDQ1OTQ0MzBdfQ==
 -->
