@@ -189,6 +189,9 @@ circle.draw()
 >>> Circle.draw
 ```
 
+## Adapter pattern
+Converts interface of a class in to another one
+
 ## Abstract pattern
 
 ## Policy-based design
@@ -198,11 +201,11 @@ circle.draw()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDc2Nzk0Nyw3NzgwMzIyNjMsMTE3Mj
-gzMDg3NSwtMTA3Nzk5NTU1MSwyMDE2MzE4MDc3LC0xMzY3MjAw
-MzEwLC0xMDA4NzU0Njg3LDE1MjgyMDA5OTksLTY4OTEwMzg5Mi
-wtMTQ2MzExMDEzNCwxMjQwNjg3MDgsLTU1NTU4OTc4LC05MjQ5
-Njg3MzQsODczMzI1ODgxLC0xMTU0ODg5MTk0LDE2NDY1MzE4ND
-AsLTE4MzM2NTcwODEsLTg3NzY5Njc3MCwxNTM3MTk0NDUyLDk4
-MzQ2Mjk2Nl19
+eyJoaXN0b3J5IjpbMTQyMTQzMDQ3MCwxMTkwNzY3OTQ3LDc3OD
+AzMjI2MywxMTcyODMwODc1LC0xMDc3OTk1NTUxLDIwMTYzMTgw
+NzcsLTEzNjcyMDAzMTAsLTEwMDg3NTQ2ODcsMTUyODIwMDk5OS
+wtNjg5MTAzODkyLC0xNDYzMTEwMTM0LDEyNDA2ODcwOCwtNTU1
+NTg5NzgsLTkyNDk2ODczNCw4NzMzMjU4ODEsLTExNTQ4ODkxOT
+QsMTY0NjUzMTg0MCwtMTgzMzY1NzA4MSwtODc3Njk2NzcwLDE1
+MzcxOTQ0NTJdfQ==
 -->
