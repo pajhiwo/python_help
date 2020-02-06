@@ -190,7 +190,60 @@ circle.draw()
 ```
 
 ## Adapter pattern
-Converts interface of a class in to another one
+Converts interface of a class in to another one so it can be used by client 
+
+```python
+class Target():
+    """
+ The Target defines the domain-specific interface used by the client code.
+ """
+
+    def request(self) -> str:
+        return "Target: The default target's behavior."
+
+class Adaptee:
+    """
+ The Adaptee contains some useful behavior, but its interface is incompatible
+ with the existing client code. The Adaptee needs some adaptation before the
+ client code can use it.
+ """
+
+    def specific_request(self) -> str:
+        return ".eetpadA eht fo roivaheb laicepS"
+
+class Adapter(Target):
+    """
+ The Adapter makes the Adaptee's interface compatible with the Target's
+ interface.
+ """
+
+    def __init__(self, adaptee: Adaptee) -> None:
+        self.adaptee = adaptee
+
+    def request(self) -> str:
+        return f"Adapter: (TRANSLATED) {self.adaptee.specific_request()[::-1]}"
+
+def client_code(target: Target) -> None:
+    """
+ The client code supports all classes that follow the Target interface.
+ """
+
+    print(target.request(), end="")
+
+if __name__ == "__main__":
+    print("Client: I can work just fine with the Target objects:")
+    target = Target()
+    client_code(target)
+    print("\n")
+
+    adaptee = Adaptee()
+    print("Client: The Adaptee class has a weird interface. See, I don't understand it:")
+    print(f"Adaptee: {adaptee.specific_request()}", end="\n\n")
+
+    print("Client: But I can work with it via the Adapter:")
+    adapter = Adapter(adaptee)
+    client_code(adapter)
+```
 
 ## Abstract pattern
 
@@ -201,11 +254,11 @@ Converts interface of a class in to another one
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTQzMDQ3MCwxMTkwNzY3OTQ3LDc3OD
-AzMjI2MywxMTcyODMwODc1LC0xMDc3OTk1NTUxLDIwMTYzMTgw
-NzcsLTEzNjcyMDAzMTAsLTEwMDg3NTQ2ODcsMTUyODIwMDk5OS
-wtNjg5MTAzODkyLC0xNDYzMTEwMTM0LDEyNDA2ODcwOCwtNTU1
-NTg5NzgsLTkyNDk2ODczNCw4NzMzMjU4ODEsLTExNTQ4ODkxOT
-QsMTY0NjUzMTg0MCwtMTgzMzY1NzA4MSwtODc3Njk2NzcwLDE1
-MzcxOTQ0NTJdfQ==
+eyJoaXN0b3J5IjpbLTEyNDQzODk5NTYsMTQyMTQzMDQ3MCwxMT
+kwNzY3OTQ3LDc3ODAzMjI2MywxMTcyODMwODc1LC0xMDc3OTk1
+NTUxLDIwMTYzMTgwNzcsLTEzNjcyMDAzMTAsLTEwMDg3NTQ2OD
+csMTUyODIwMDk5OSwtNjg5MTAzODkyLC0xNDYzMTEwMTM0LDEy
+NDA2ODcwOCwtNTU1NTg5NzgsLTkyNDk2ODczNCw4NzMzMjU4OD
+EsLTExNTQ4ODkxOTQsMTY0NjUzMTg0MCwtMTgzMzY1NzA4MSwt
+ODc3Njk2NzcwXX0=
 -->
