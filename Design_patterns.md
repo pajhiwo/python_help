@@ -190,7 +190,7 @@ circle.draw()
 ```
 
 ## Adapter pattern
-Converts interface of a class in to another one so it can be used by client 
+Converts interface of a class in to another. 
 
 ```python
 class Target():
@@ -254,11 +254,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQzODk5NTYsMTQyMTQzMDQ3MCwxMT
-kwNzY3OTQ3LDc3ODAzMjI2MywxMTcyODMwODc1LC0xMDc3OTk1
-NTUxLDIwMTYzMTgwNzcsLTEzNjcyMDAzMTAsLTEwMDg3NTQ2OD
-csMTUyODIwMDk5OSwtNjg5MTAzODkyLC0xNDYzMTEwMTM0LDEy
-NDA2ODcwOCwtNTU1NTg5NzgsLTkyNDk2ODczNCw4NzMzMjU4OD
-EsLTExNTQ4ODkxOTQsMTY0NjUzMTg0MCwtMTgzMzY1NzA4MSwt
-ODc3Njk2NzcwXX0=
+eyJoaXN0b3J5IjpbMTkzNjMwNDcsMTQyMTQzMDQ3MCwxMTkwNz
+Y3OTQ3LDc3ODAzMjI2MywxMTcyODMwODc1LC0xMDc3OTk1NTUx
+LDIwMTYzMTgwNzcsLTEzNjcyMDAzMTAsLTEwMDg3NTQ2ODcsMT
+UyODIwMDk5OSwtNjg5MTAzODkyLC0xNDYzMTEwMTM0LDEyNDA2
+ODcwOCwtNTU1NTg5NzgsLTkyNDk2ODczNCw4NzMzMjU4ODEsLT
+ExNTQ4ODkxOTQsMTY0NjUzMTg0MCwtMTgzMzY1NzA4MSwtODc3
+Njk2NzcwXX0=
 -->
