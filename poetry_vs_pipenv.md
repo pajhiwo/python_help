@@ -17,20 +17,20 @@ Windows (powershell)
 4. pyenv local myproject
 5. 
 
-install new module (like pip install)
-poetry add <package>
-install new module to development dependencies (i.e. linters)
-poetry add --dev <package>
+install new module (like pip install), also as dev dependency
+poetry add [--dev] <package>
 setup.py == pyproject.toml
 install developed package into venv (i.e. pip install -e)
  poetry install
  Show installed packages and location of virtualenv
  poetry show -v
+ remove installed package (also from dev)
+ poetry remove [--dev] package
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzMDc0OTYsLTIwODgyNDA3MTQsMjEyNz
-AzODk3MSwzMDU2NzUyMjYsLTE5MDQ1OTQ0MzBdfQ==
+eyJoaXN0b3J5IjpbLTkwODI0MzIyMiwtMjA4ODI0MDcxNCwyMT
+I3MDM4OTcxLDMwNTY3NTIyNiwtMTkwNDU5NDQzMF19
 -->
