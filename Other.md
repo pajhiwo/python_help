@@ -100,9 +100,10 @@ ip in net
 Seeting type for variable
 [Link](https://www.python.org/dev/peps/pep-0526/#id4)
 ```python
+from typing import List
 primes: List[int] = []
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODIxNDg3NDUsLTQzNzUzNTUsNTAzMD
-EzOTY1XX0=
+eyJoaXN0b3J5IjpbMTYzMzUyODAwMSwtMTU4MjE0ODc0NSwtND
+M3NTM1NSw1MDMwMTM5NjVdfQ==
 -->
