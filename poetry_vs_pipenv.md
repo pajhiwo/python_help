@@ -22,26 +22,29 @@ install new module (like pip install), also as dev dependency
 poetry add [--dev] <package>
 ```
 setup.py == pyproject.toml
-install developed package into venv (i.e. pip install -e) and all requirements from `poetry.lock`
- ```bash
+install package dependencies into venv from `poetry.lock`
+```bash
  poetry install
  ```
  Show installed packages and location of virtualenv
- ```bash
- poetry show -v
+```bash
+poetry show -v
  ```
  remove installed package (also from dev)
- ```bash
- poetry remove [--dev] package
-
+```bash
+poetry remove [--dev] package
+```
 Spawn new shell with venv (if no venv creates one)
- poetry shell
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
+```bash
+poetry shell
+```
+install app into venv (i.e. pip install -e)
+```bash
+poetry build
+poetry install
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyODA5NzAsLTkwODI0MzIyMiwtMjA4OD
-I0MDcxNCwyMTI3MDM4OTcxLDMwNTY3NTIyNiwtMTkwNDU5NDQz
-MF19
+eyJoaXN0b3J5IjpbLTE2NTk4MTEyMTMsLTkwODI0MzIyMiwtMj
+A4ODI0MDcxNCwyMTI3MDM4OTcxLDMwNTY3NTIyNiwtMTkwNDU5
+NDQzMF19
 -->
