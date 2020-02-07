@@ -43,6 +43,18 @@ install app into venv (i.e. pip install -e)
 poetry build
 poetry install
 ```
+Change python version in venv
+* option 1:
+```bash
+#1. Make sure you are not in venv
+#2. Change in pyproject.toml 
+```
+* option2:
+
+Port poetry requirements to pip's requirements.txt
+```bash
+poetry export -f requirements.txt > requirements.txt
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk4MTEyMTNdfQ==
+eyJoaXN0b3J5IjpbLTYzODU4MjY1MSwtMTY1OTgxMTIxM119
 -->
