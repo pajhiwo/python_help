@@ -17,44 +17,47 @@ Windows (powershell)
 4. pyenv local myproject
 5. 
 
-install new module (like pip install), also as dev dependency
-```bash
-poetry add [--dev] <package>
-```
 setup.py == pyproject.toml
-install package dependencies into venv from `poetry.lock`
+
+### Install package dependencies into venv from `poetry.lock`
 ```bash
  poetry install
  ```
- Show installed packages and location of virtualenv
+### Show installed packages and location of virtualenv
 ```bash
 poetry show -v
  ```
- remove installed package (also from dev)
+ ### Remove installed package (also from dev)
 ```bash
 poetry remove [--dev] package
 ```
-Spawn new shell with venv (if no venv creates one)
+### Spawn new shell with venv (if no venv creates one)
 ```bash
 poetry shell
 ```
-install app into venv (i.e. pip install -e)
+### install app into venv (i.e. pip install -e)
 ```bash
 poetry build
 poetry install
 ```
-Change python version in venv
+### Change python version in venv
 * option 1:
 ```bash
-#1. Make sure you are not in venv
-#2. Change in pyproject.toml 
+# Change in pyproject.toml version of py to desired: python = "^2.7"
+pyenv install 2.7.15
+pyenv local 2.7.15  # Activate Python 2.7 for the current project
+poetry install
+# Change env path in PyCharm
 ```
 * option2:
+```bash
+poetry env use /full/path/to/python
+```
 
-Port poetry requirements to pip's requirements.txt
+### Port poetry requirements to pip's requirements.txt
 ```bash
 poetry export -f requirements.txt > requirements.txt
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODU4MjY1MSwtMTY1OTgxMTIxM119
+eyJoaXN0b3J5IjpbLTQzNzAzOTUwMCwtMTY1OTgxMTIxM119
 -->
