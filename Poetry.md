@@ -1,5 +1,5 @@
 # Poetry
-Poetry is a tool for dependency management and packaging in Python.
+In general `poetry` tries to replace pip, setup.py and build tools used to build python and put them into index (i.e. pypi).
 
 ## Installation
 Unix
@@ -10,13 +10,19 @@ Windows (powershell)
 ```
 (Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python
 ```
+### Create project with `poetry` and `pyenv`
+
 
 1. poetry new myproject
 2. cd myproject
 3. pyenv virtualenv myproject
 4. pyenv local myproject
 5. 
-
+6. 
+### Virtualenvs location
+```bash
+ $HOME/.cache/pypoetry/virtualenvs
+```
 setup.py == pyproject.toml
 
 ### Install package dependencies into venv from `poetry.lock`
@@ -59,5 +65,6 @@ poetry env use /full/path/to/python
 poetry export -f requirements.txt > requirements.txt
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzAzOTUwMCwtMTY1OTgxMTIxM119
+eyJoaXN0b3J5IjpbMTIzMTI0MTQxNCwtNDM3MDM5NTAwLC0xNj
+U5ODExMjEzXX0=
 -->
