@@ -70,7 +70,7 @@ pyenv allows to create and auto activate virtualenvs using pyenv-virtualenv plug
 ```bash
 pyenv virtualenv 3.8 project_x
 ```
-* and then  activate virtualenv
+* and then  activate virtualenv (this will create file .python_version which is read by pyenv on entering dir and allows to automatically detect and activate venv)
 ```bash
 pyenv local project_x
 ```
@@ -87,5 +87,5 @@ rm .python-version
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4OTk5MzM0MF19
+eyJoaXN0b3J5IjpbNDYwODI0OTA5LDE4ODk5OTMzNDBdfQ==
 -->
