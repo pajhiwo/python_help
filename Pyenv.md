@@ -67,11 +67,11 @@ pyenv local 3.8
 pyenv allows to create and auto activate virtualenvs using `pyenv-virtualenv` plugin that is installed by installer.
 It uses `.python-version` file to store info about virtualenv associated with given directory
 
-* create virtualenv **project_x** using **3.8** python version. Name virtualenvs like projects
+* create virtualenv called: **project_x** using **3.8** python version (best practice: call virtualenvs like projects)
 ```bash
 pyenv virtualenv 3.8 project_x
 ```
-* and then  activate virtualenv (this will create file .python_version which is read by pyenv on entering dir and allows to automatically detect and activate venv)
+* and then  activate virtualenv (this will create file `.python_version` which is read by pyenv on entering dir and allows to automatically detect and activate venv)
 ```bash
 pyenv local project_x
 ```
@@ -88,6 +88,6 @@ rm .python-version
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MzcyODk2Niw0NjA4MjQ5MDksMTg4OT
+eyJoaXN0b3J5IjpbLTkzNDQ2Nzc4NCw0NjA4MjQ5MDksMTg4OT
 k5MzM0MF19
 -->
