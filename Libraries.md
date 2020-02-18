@@ -39,8 +39,9 @@ Code formatter: [https://github.com/psf/black](https://github.com/psf/black)
 ## ConfigObject
 Wrapper on top of ConfigParser with much easier api (but compatible with CP):  [https://pythonhosted.org/ConfigObject/#](https://pythonhosted.org/ConfigObject/#)
 
-## 
+## Changelog CLI
+Create and manage changlelog files from CLI: [https://pypi.org/project/changelog-cli/](https://pypi.org/project/changelog-cli/) in a format of Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Nzk2NzUxNSwtMTM3MzU3ODY5NiwyMT
+eyJoaXN0b3J5IjpbMTU3ODg4MTM0NiwtMTM3MzU3ODY5NiwyMT
 I2OTg0NTA1LDY0MjYyNTgzMl19
 -->
