@@ -1,5 +1,7 @@
 # Design patterns
+Resources:
 [Link](https://www.tutorialspoint.com/python_design_patterns/python_design_patterns_adapter.htm)
+[Link](https://refactoring.guru/design-patterns/python)
 
 ## Singleton
 Is a software design pattern that restricts the instantiation of a class to one object.
@@ -261,11 +263,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDgyOTI0OSwxOTM2MzA0NywxNDIxND
-MwNDcwLDExOTA3Njc5NDcsNzc4MDMyMjYzLDExNzI4MzA4NzUs
-LTEwNzc5OTU1NTEsMjAxNjMxODA3NywtMTM2NzIwMDMxMCwtMT
-AwODc1NDY4NywxNTI4MjAwOTk5LC02ODkxMDM4OTIsLTE0NjMx
-MTAxMzQsMTI0MDY4NzA4LC01NTU1ODk3OCwtOTI0OTY4NzM0LD
-g3MzMyNTg4MSwtMTE1NDg4OTE5NCwxNjQ2NTMxODQwLC0xODMz
-NjU3MDgxXX0=
+eyJoaXN0b3J5IjpbNjUxODQzOTEsMTA4NDgyOTI0OSwxOTM2Mz
+A0NywxNDIxNDMwNDcwLDExOTA3Njc5NDcsNzc4MDMyMjYzLDEx
+NzI4MzA4NzUsLTEwNzc5OTU1NTEsMjAxNjMxODA3NywtMTM2Nz
+IwMDMxMCwtMTAwODc1NDY4NywxNTI4MjAwOTk5LC02ODkxMDM4
+OTIsLTE0NjMxMTAxMzQsMTI0MDY4NzA4LC01NTU1ODk3OCwtOT
+I0OTY4NzM0LDg3MzMyNTg4MSwtMTE1NDg4OTE5NCwxNjQ2NTMx
+ODQwXX0=
 -->
