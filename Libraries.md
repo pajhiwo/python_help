@@ -1,7 +1,7 @@
 # Libraries
 
-## Glob2
-library for listing files, etc.
+
+
 
 ## Pandas
 data structures and data analysis tools:
@@ -15,11 +15,7 @@ data structures and data analysis tools:
 7.  .T to transpone
     
 
-## Pickle
-Accept python object and converts it into string and dumps it into a file
 
-## Unpickle
-Retrieve python object from string
 
 
 
@@ -40,7 +36,20 @@ Create and manage changlelog files from CLI: [https://pypi.org/project/changelog
 
 # Builtin
 
+## pathlib
+Can replace `os.path`. Allows to defines paths agnostic of underlying OS
+
+## Pickle
+Accept python object and converts it into string and dumps it into a file
+
+## Unpickle
+Retrieve python object from string
+
+## Glob2
+library for listing files, etc.
+
 # Linters and formatters
+
 ## PyChecker
 Detects bugs in python source code
 
@@ -50,6 +59,6 @@ Check if module meets coding standards
 ## Black
 Code formatter: [https://github.com/psf/black](https://github.com/psf/black)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjAxNzczNSwtMTM3MzU3ODY5NiwyMT
-I2OTg0NTA1LDY0MjYyNTgzMl19
+eyJoaXN0b3J5IjpbNTE2MDU5MDE1LC0xMzczNTc4Njk2LDIxMj
+Y5ODQ1MDUsNjQyNjI1ODMyXX0=
 -->
