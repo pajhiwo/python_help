@@ -34,11 +34,13 @@ To join URLs more pretty
 Can replacse `os.path`. Allows to defines paths for Windows, Unix and OS agnostic
 
 ## Black
-Code formatter
+Code formatter: [https://github.com/psf/black](https://github.com/psf/black)
 
 ## ConfigObject
-Wrapper on top of ConfigParser with much easier api:  [https://pythonhosted.org/ConfigObject/#](https://pythonhosted.org/ConfigObject/#)
+Wrapper on top of ConfigParser with much easier api (but compatible with CP):  [https://pythonhosted.org/ConfigObject/#](https://pythonhosted.org/ConfigObject/#)
+
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjE3MjYwNywtMTM3MzU3ODY5NiwyMT
+eyJoaXN0b3J5IjpbMTk2Nzk2NzUxNSwtMTM3MzU3ODY5NiwyMT
 I2OTg0NTA1LDY0MjYyNTgzMl19
 -->
