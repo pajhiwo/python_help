@@ -26,6 +26,7 @@ data structures and data analysis tools:
 
 
 
+# Changes & Config Management
 
 ## ConfigObject
 Wrapper on top of ConfigParser with much easier api (but compatible with CP):  [https://pythonhosted.org/ConfigObject/#](https://pythonhosted.org/ConfigObject/#)
@@ -61,6 +62,6 @@ Check if module meets coding standards
 ## Black
 Code formatter: [https://github.com/psf/black](https://github.com/psf/black)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI0MTU0OTcsNTE2MDU5MDE1LC0xMz
-czNTc4Njk2LDIxMjY5ODQ1MDUsNjQyNjI1ODMyXX0=
+eyJoaXN0b3J5IjpbLTc2NjUwNDEzMiw1MTYwNTkwMTUsLTEzNz
+M1Nzg2OTYsMjEyNjk4NDUwNSw2NDI2MjU4MzJdfQ==
 -->
