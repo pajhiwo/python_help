@@ -43,10 +43,8 @@ Manage urls (also join with `urllib.parse.join`)
 Can replace `os.path`. Allows to defines paths agnostic of underlying OS
 
 ## Pickle
-Accept python object and converts it into string and dumps it into a file
-
-## Unpickle
-Retrieve python object from string
+* `dumps`: Accept python object and converts it into string and dumps it into a f
+* `loads`: Retrieve python object from string
 
 ## Glob2
 library for listing files, etc.
@@ -62,6 +60,6 @@ Check if module meets coding standards
 ## Black
 Code formatter: [https://github.com/psf/black](https://github.com/psf/black)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NjUwNDEzMiw1MTYwNTkwMTUsLTEzNz
+eyJoaXN0b3J5IjpbLTUyMTE4MDE5Nyw1MTYwNTkwMTUsLTEzNz
 M1Nzg2OTYsMjEyNjk4NDUwNSw2NDI2MjU4MzJdfQ==
 -->
