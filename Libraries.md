@@ -35,7 +35,10 @@ Can replacse `os.path`. Allows to defines paths for Windows, Unix and OS agnosti
 
 ## Black
 Code formatter
+
+## ConfigObject
+Wrapper on top of ConfigParser with much easier api:  [https://pythonhosted.org/ConfigObject/#](https://pythonhosted.org/ConfigObject/#)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzM1Nzg2OTYsMjEyNjk4NDUwNSw2ND
-I2MjU4MzJdfQ==
+eyJoaXN0b3J5IjpbLTQxMjE3MjYwNywtMTM3MzU3ODY5NiwyMT
+I2OTg0NTA1LDY0MjYyNTgzMl19
 -->
