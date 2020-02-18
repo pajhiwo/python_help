@@ -1,31 +1,3 @@
-# Libraries
-
-
-
-
-## Pandas
-data structures and data analysis tools:
-
-1.  Pandas.read_csv, pandas.read_json
-2.  .loc["x1":"x2","y1":"y2"] - to get data, from range to range
-3.  .iloc with indexes
-4.  .ix(row index, column name)
-5.  If index must be change .set_index(<Column name>)
-6.  .drop(<name>,0 or 1) to delete data from date frame. 0 for rows, 1 for columns
-7.  .T to transpone
-    
-
-
-
-
-
-
-
-
-
-
-
-
 # Changes & Config Management
 
 ## ConfigObject
@@ -61,7 +33,21 @@ Check if module meets coding standards
 
 ## Black
 Code formatter: [https://github.com/psf/black](https://github.com/psf/black)
+
+# Statistics & Machine learning
+
+## Pandas
+data structures and data analysis tools:
+
+1.  Pandas.read_csv, pandas.read_json
+2.  .loc["x1":"x2","y1":"y2"] - to get data, from range to range
+3.  .iloc with indexes
+4.  .ix(row index, column name)
+5.  If index must be change .set_index(<Column name>)
+6.  .drop(<name>,0 or 1) to delete data from date frame. 0 for rows, 1 for columns
+7.  .T to transpone
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3MjI4MTcwLDUxNjA1OTAxNSwtMTM3Mz
-U3ODY5NiwyMTI2OTg0NTA1LDY0MjYyNTgzMl19
+eyJoaXN0b3J5IjpbLTE1NDMwNzgxNzUsMjc3MjI4MTcwLDUxNj
+A1OTAxNSwtMTM3MzU3ODY5NiwyMTI2OTg0NTA1LDY0MjYyNTgz
+Ml19
 -->
