@@ -34,7 +34,10 @@ Check if module meets coding standards
 ## Black
 Code formatter: [https://github.com/psf/black](https://github.com/psf/black)
 
-# Statistics & Machine learning
+# Statistics & Machine learningLibraries
+
+## Glob2
+library for listing files, etc.
 
 ## Pandas
 data structures and data analysis tools:
@@ -46,8 +49,21 @@ data structures and data analysis tools:
 5.  If index must be change .set_index(<Column name>)
 6.  .drop(<name>,0 or 1) to delete data from date frame. 0 for rows, 1 for columns
 7.  .T to transpone
+    
+
+## Pickle
+Accept python object and converts it into string and dumps it into a file
+
+## Unpickle
+Retrieve python object from string
+
+## PyChecker
+Detects bugs in python source code
+
+## PyLint
+Check if module meets coding standards
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDMwNzgxNzUsMjc3MjI4MTcwLDUxNj
-A1OTAxNSwtMTM3MzU3ODY5NiwyMTI2OTg0NTA1LDY0MjYyNTgz
-Ml19
+eyJoaXN0b3J5IjpbLTMxNDAxNzEzMywtMTU0MzA3ODE3NSwyNz
+cyMjgxNzAsNTE2MDU5MDE1LC0xMzczNTc4Njk2LDIxMjY5ODQ1
+MDUsNjQyNjI1ODMyXX0=
 -->
