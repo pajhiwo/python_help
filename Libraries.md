@@ -19,8 +19,7 @@ data structures and data analysis tools:
 
 
 
-## urljoin
-To join URLs more pretty
+
 
 
 
@@ -35,6 +34,9 @@ Wrapper on top of ConfigParser with much easier api (but compatible with CP):  [
 Create and manage changlelog files from CLI: [https://pypi.org/project/changelog-cli/](https://pypi.org/project/changelog-cli/) in a format of [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 # Builtin
+
+## urllib.parse
+Manage urls (also join with `urllib.parse.join`)
 
 ## pathlib
 Can replace `os.path`. Allows to defines paths agnostic of underlying OS
@@ -59,6 +61,6 @@ Check if module meets coding standards
 ## Black
 Code formatter: [https://github.com/psf/black](https://github.com/psf/black)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2MDU5MDE1LC0xMzczNTc4Njk2LDIxMj
-Y5ODQ1MDUsNjQyNjI1ODMyXX0=
+eyJoaXN0b3J5IjpbLTE2NjI0MTU0OTcsNTE2MDU5MDE1LC0xMz
+czNTc4Njk2LDIxMjY5ODQ1MDUsNjQyNjI1ODMyXX0=
 -->
