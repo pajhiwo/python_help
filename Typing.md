@@ -30,7 +30,10 @@ In many cases your functions will expect some kind of sequence, and not really c
 Card = Tuple[str, str]
 Deck = List[Card]
 ```
+
+## Any type
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA2MTA2NTMsLTE4NTE0MTI1MDAsMT
+eyJoaXN0b3J5IjpbLTExNzI1Mzk1NjMsLTE4NTE0MTI1MDAsMT
 gxNTI5ODA5MywtODMyODY5MjIzLDczMDk5ODExNl19
 -->
