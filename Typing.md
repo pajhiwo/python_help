@@ -39,9 +39,20 @@ from typing import Any, Sequence
 
 def choose(items: Sequence[Any]) -> Any:
     return random.choice(items)
+
+or
+
+x: Any = mystery_function()
 ```
 `items` is a sequence that can contain items of any type
+
+
+## Union type
+Use Union when something could be one of a few types
+```python
+x: List[Union[int, str]] = [3, 5, "test", "fun"]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjU2NzkyOSwtMTg1MTQxMjUwMCwxOD
+eyJoaXN0b3J5IjpbMTI4MjM0Mjg0MSwtMTg1MTQxMjUwMCwxOD
 E1Mjk4MDkzLC04MzI4NjkyMjMsNzMwOTk4MTE2XX0=
 -->
