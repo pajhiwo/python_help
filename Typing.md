@@ -24,7 +24,13 @@ options: Dict[str, bool] = {"centered": False, "capitalize": True}
 other: List[Tuple[str,str]] = [("str1", "str2"), ("str3", "str4")]
 ```
 In many cases your functions will expect some kind of sequence, and not really care whether it is a list or a tuple. In these cases you should use `typing.Sequence`
+
+## Type aliases
+```python
+Card = Tuple[str, str]
+Deck = List[Card]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE0MTI1MDAsMTgxNTI5ODA5MywtOD
-MyODY5MjIzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEwMTA2MTA2NTMsLTE4NTE0MTI1MDAsMT
+gxNTI5ODA5MywtODMyODY5MjIzLDczMDk5ODExNl19
 -->
