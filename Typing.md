@@ -1,7 +1,8 @@
 
 
 # Type annotations
-
+Resopurces:
+[Link](https://realpython.com/python-type-checking/)
 ## Basic type annotation
 ```python
 nothing: str
@@ -19,8 +20,9 @@ from typing import Dict, List, Tuple
 names: List[str] = ["Guido", "Jukka", "Ivan"]
 version: Tuple[int, int, int] = (3, 7, 1)
 options: Dict[str, bool] = {"centered": False, "capitalize": True}
+other: List[Tuple[str,str]] = [("str1", "str2"), ("str3", "str4")]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTI5ODA5MywtODMyODY5MjIzLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTEzODM5MzcwNDQsMTgxNTI5ODA5MywtOD
+MyODY5MjIzLDczMDk5ODExNl19
 -->
