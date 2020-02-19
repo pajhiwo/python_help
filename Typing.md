@@ -2,7 +2,8 @@
 
 # Type annotations
 Resopurces:
-[Link](https://realpython.com/python-type-checking/)
+[https://realpython.com/python-type-checking/](https://realpython.com/python-type-checking/)
+[https://docs.python.org/3/library/typing.html](https://docs.python.org/3/library/typing.html)
 ## Basic type annotation
 ```python
 nothing: str
@@ -23,6 +24,6 @@ options: Dict[str, bool] = {"centered": False, "capitalize": True}
 other: List[Tuple[str,str]] = [("str1", "str2"), ("str3", "str4")]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODM5MzcwNDQsMTgxNTI5ODA5MywtOD
+eyJoaXN0b3J5IjpbLTIwMTI1NzQwMDksMTgxNTI5ODA5MywtOD
 MyODY5MjIzLDczMDk5ODExNl19
 -->
