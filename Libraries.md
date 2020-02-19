@@ -64,10 +64,10 @@ Detects bugs in python source code
 Check if module meets coding standards
 
 # Others
-## 
-Provides multiple kinds of spinners, loading bars using convenient context managers
+## Yaspin
+[yaspin](https://github.com/pavdmyt/yaspin) provides multiple kinds of spinners, loading bars using convenient context managers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEyMzk3OTc5LC0zMTQwMTcxMzMsLTE1ND
-MwNzgxNzUsMjc3MjI4MTcwLDUxNjA1OTAxNSwtMTM3MzU3ODY5
-NiwyMTI2OTg0NTA1LDY0MjYyNTgzMl19
+eyJoaXN0b3J5IjpbMjA1MzU2OTQxNCwzMTIzOTc5NzksLTMxND
+AxNzEzMywtMTU0MzA3ODE3NSwyNzcyMjgxNzAsNTE2MDU5MDE1
+LC0xMzczNTc4Njk2LDIxMjY5ODQ1MDUsNjQyNjI1ODMyXX0=
 -->
