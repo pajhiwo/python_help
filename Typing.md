@@ -10,6 +10,9 @@ pi: float = 3.142
 def circumference(radius: float) -> float:
     return 2 * pi * radius
 ```
+
+## typing module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjg2OTIyMyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTYzOTI0MzkzNiwtODMyODY5MjIzLDczMD
+k5ODExNl19
 -->
