@@ -4,6 +4,8 @@
 Resopurces:
 [https://realpython.com/python-type-checking/](https://realpython.com/python-type-checking/)
 [https://docs.python.org/3/library/typing.html](https://docs.python.org/3/library/typing.html)
+[https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
+
 ## Basic type annotation
 ```python
 nothing: str
@@ -32,8 +34,14 @@ Deck = List[Card]
 ```
 
 ## Any type
+```python
+from typing import Any, Sequence
 
+def choose(items: Sequence[Any]) -> Any:
+    return random.choice(items)
+```
+`items` is a sequence that can contain items of any type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI1Mzk1NjMsLTE4NTE0MTI1MDAsMT
-gxNTI5ODA5MywtODMyODY5MjIzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTM4NjU2NzkyOSwtMTg1MTQxMjUwMCwxOD
+E1Mjk4MDkzLC04MzI4NjkyMjMsNzMwOTk4MTE2XX0=
 -->
