@@ -5,7 +5,10 @@ builtin XML
 If the XML has a namespace like:
 ```
 ```
-each element is prefixed with namespace - you cannot find it just by tag(!) 
+each element is prefixed with namespace - you cannot find it just by tag(!). It is like tag name consists of {\<namespace>}<tag_name> i.e.
+```
+{http://example.com}h1
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDY3MzQwOCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1MTQ0MjMxOTMsNzMwOTk4MTE2XX0=
 -->
