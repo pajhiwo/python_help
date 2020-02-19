@@ -62,8 +62,12 @@ Detects bugs in python source code
 
 ## PyLint
 Check if module meets coding standards
+
+# Others
+## 
+Provides multiple kinds of spinners, loading bars using convenient context managers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNDAxNzEzMywtMTU0MzA3ODE3NSwyNz
-cyMjgxNzAsNTE2MDU5MDE1LC0xMzczNTc4Njk2LDIxMjY5ODQ1
-MDUsNjQyNjI1ODMyXX0=
+eyJoaXN0b3J5IjpbMzEyMzk3OTc5LC0zMTQwMTcxMzMsLTE1ND
+MwNzgxNzUsMjc3MjI4MTcwLDUxNjA1OTAxNSwtMTM3MzU3ODY5
+NiwyMTI2OTg0NTA1LDY0MjYyNTgzMl19
 -->
