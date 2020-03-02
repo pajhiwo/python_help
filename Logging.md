@@ -17,8 +17,16 @@ file_handler.setFormatter(file_formatter)
 pd_logger.addHandler(file_handler)
 pd_logger.addHandler(console_handler)
 ```
-Calling ths
+Calling this cause that following appears in console and log file:
+```
+```
+Console:
+```
+```
+Log file:
+```
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjI1MjA2NiwxMjQ4MzY1MTAyXX0=
+eyJoaXN0b3J5IjpbNjUxNjU5MjcyLDEyNDgzNjUxMDJdfQ==
 -->
