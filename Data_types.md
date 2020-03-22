@@ -19,6 +19,7 @@ list = [1, ‘rtg’, 3]
 
 ## Dictionary
 Mutable, not sequenced, slow, keys must be unique
+***since Python3.7 builtin dict keeps insertion order***
 ```python
 dict = {“key1”: “value”, “key2”: “value”}
 ```
@@ -51,7 +52,7 @@ Mutable array
 ## Ordered dictionary
 collections.OrderedDict
 
-*since Python3.7 builtin dict keeps insertion order*
+***since Python3.7 builtin dict keeps insertion order***
 <br/>
 
 # List methods
@@ -94,7 +95,7 @@ for i,v in enumerate([‘Python’,’Java’,’C++’]):
 ## Enumerate / Iterating over list index and value pairs:
 ```python
 a = ['Hello', 'world', '!']
-for i, x in enumerate(a): or for k, v in m.iteritems():
+for i, x in enumerate(a): --or-- for k, v in m.iteritems():
     print '{}: {}'.format(i, x)
 
 >>> 0: Hello
@@ -223,5 +224,6 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzgwODg2OCw2MDIyOTE2NDBdfQ==
+eyJoaXN0b3J5IjpbLTg2ODEzOTU2MiwxNjE3ODA4ODY4LDYwMj
+I5MTY0MF19
 -->
