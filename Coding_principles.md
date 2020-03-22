@@ -14,12 +14,13 @@ Software entities (classes, modules, functions, etc.) should be open for extensi
 If S is a subtype of T, then objects of type T may be replaced with objects of type S without altering any of the desirable properties of the program
 
 ## Interface Segregation Principle 
-No client should be forced to depend on methods it does not use
+No client should be forced to depend on methods it does not use - split interfaces to smaller specific ones.
 
 ## Dependency Inversion Principle
 [Link](https://medium.com/@mrfksiv/python-design-patterns-01-introduction-54e681aaf2d0)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI5MjA3ODUsLTE1MzE0MzYwNzgsLT
-E3NjY1MjQ0NDQsLTE3MjA2Njg5OTksLTExMjU0NDI4NCwtMTEw
-MzgyMzI4NiwtODg4NTAyODgxLC05OTY1ODE4NDVdfQ==
+eyJoaXN0b3J5IjpbMTAyOTgxMDgzNCwtMTQyMjkyMDc4NSwtMT
+UzMTQzNjA3OCwtMTc2NjUyNDQ0NCwtMTcyMDY2ODk5OSwtMTEy
+NTQ0Mjg0LC0xMTAzODIzMjg2LC04ODg1MDI4ODEsLTk5NjU4MT
+g0NV19
 -->
