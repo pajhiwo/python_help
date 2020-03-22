@@ -11,13 +11,14 @@ Resources:
 Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
 
 ## Liskov Substitution Principle
+If S is a subtype of T, then objects of type T may be replaced with objects of type S.
 
 ## Interface Segregation Principle 
 
 ## Dependency Inversion Principle
 [Link](https://medium.com/@mrfksiv/python-design-patterns-01-introduction-54e681aaf2d0)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjY1MjQ0NDQsLTE3MjA2Njg5OTksLT
-ExMjU0NDI4NCwtMTEwMzgyMzI4NiwtODg4NTAyODgxLC05OTY1
-ODE4NDVdfQ==
+eyJoaXN0b3J5IjpbMTA2Mzc3MzU2MCwtMTc2NjUyNDQ0NCwtMT
+cyMDY2ODk5OSwtMTEyNTQ0Mjg0LC0xMTAzODIzMjg2LC04ODg1
+MDI4ODEsLTk5NjU4MTg0NV19
 -->
