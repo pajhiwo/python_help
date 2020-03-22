@@ -40,6 +40,28 @@ manager.address = Address(
 print(manager.address.street)
 >>> 121 Admin Rd
 ```
+or
+```python
+
+class Rocket:
+    def __init__(self, name, distance):
+        self.name = name
+        self.distance = distance
+
+    def launch(self):
+        return "%s has reached %s" % (self.name, self.distance)
+
+
+class MarsRoverComp():
+    def __init__(self, name, distance, maker):
+        self.rocket = Rocket(name, distance) # instantiating the base
+
+        self.maker = maker
+
+    def get_maker(self):
+        return "%s Launched by %s" % (self.rocket.name, self.maker)
+
+```
   
 ## Liskov substitution principle
 in a computer program, if S is a subtype of T, then objects of type T may be replaced with objects of type S without altering any of the desired properties of the program. Liskov’s substitution principle is the most important guideline to determine if inheritance is the appropriate design solution.
@@ -55,5 +77,5 @@ Too big hierarchical structure of classes
 ## `__mro__`
 The MRO is also used by super() to determine which method or attribute to invoke. MRO shows the order in which Python is going to look for a matching attribute or method.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDc1NzI0NTVdfQ==
+eyJoaXN0b3J5IjpbLTU1Mjg0MDc5NiwtMTU0NzU3MjQ1NV19
 -->
