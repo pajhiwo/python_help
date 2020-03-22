@@ -16,6 +16,14 @@ Mutable, sequenced
 ```python
 list = [1, ‘rtg’, 3]
 ```
+Tuple unpacking
+```python
+mylist =  [(1,2),(3,4),(5,6),(7,8)]
+for a,b in mylist:
+	print  (a,b)
+	print a
+	print b
+```
 
 ## Dictionary
 Mutable, not sequenced, slow, keys must be unique
@@ -224,6 +232,6 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDQ2ODE2OCwtODY4MTM5NTYyLDE2MT
-c4MDg4NjgsNjAyMjkxNjQwXX0=
+eyJoaXN0b3J5IjpbLTQ5NDIwMjMyOCwxODMwNDY4MTY4LC04Nj
+gxMzk1NjIsMTYxNzgwODg2OCw2MDIyOTE2NDBdfQ==
 -->
