@@ -118,16 +118,18 @@ z = zip(a, b)
 
 ## Flattening lists:
 ```python    
-a = [[1, 2], [3, 4], [5, 6]]
+nested_list = [[1, 2], [3, 4], [5, 6]]
 
-list(itertools.chain.from_iterable(a))
+list(itertools.chain.from_iterable(nested_list))
 >>> [1, 2, 3, 4, 5, 6]
 
-sum(a, [])
+sum(nested_list, [])
 >>> [1, 2, 3, 4, 5, 6]
 
-[x for l in a for x in l]
+[x for l in nested_list for x in l]
 >>> [1, 2, 3, 4, 5, 6]
+
+flat_list = [item for sublist in nested_list for item in sublist]
 ```
   
 ## Print(”string”[3:5])
@@ -224,6 +226,6 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODEzOTU2MiwxNjE3ODA4ODY4LDYwMj
-I5MTY0MF19
+eyJoaXN0b3J5IjpbMTE4MTkzMjgxLC04NjgxMzk1NjIsMTYxNz
+gwODg2OCw2MDIyOTE2NDBdfQ==
 -->
