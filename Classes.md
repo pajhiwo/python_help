@@ -276,11 +276,10 @@ class Person:
   self.first_name = first_name
   self.last_name = last_name
   self.phone = phone
-```Instance of Class
-a = myClass # a and myClass identical at this point. The interpretter won't care which you use. a_instance = a() # instance of myClass
+```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlstMTQ1ODc3Njg3NiwtNjM4NDYwODgzLC00Mjg3MT
-U3NDIsMzY2ODgzNTEwXX0=
+c3RvcnkiOlstMTY2MjExNzE4MCwtMTQ1ODc3Njg3NiwtNjM4ND
+YwODgzLC00Mjg3MTU3NDIsMzY2ODgzNTEwXX0=
 -->
