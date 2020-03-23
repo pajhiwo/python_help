@@ -43,6 +43,9 @@ Returns a copy of the string in which all chars have been stripped from the end 
 This function returns the unique identity of an object
 `id(x)` is the memory address where x is stored
   
+## Module    
+Single Python file.
+
 ## Package
 Collection of Python modules
 
@@ -52,8 +55,6 @@ Any module that contains a `__path__` attribute is considered a package.
 
 Regular package is typically implemented as a directory containing an `__init__.py` file.
   
-## Module    
-Single Python file.
   
 ## Expressions
 `foo = "hello"` is a statement that assigns foo to the value of the expression "hello"
@@ -107,6 +108,7 @@ primes: List[int] = []
 ## Serialization
 **Pickle** module accepts any Python object and converts it into a string representation and dumps it into a file
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjAxNTI1ODQsMTYzMzUyODAwMSwtMT
-U4MjE0ODc0NSwtNDM3NTM1NSw1MDMwMTM5NjVdfQ==
+eyJoaXN0b3J5IjpbLTE3MjUxMDc5ODIsLTEyMjAxNTI1ODQsMT
+YzMzUyODAwMSwtMTU4MjE0ODc0NSwtNDM3NTM1NSw1MDMwMTM5
+NjVdfQ==
 -->
