@@ -11,12 +11,7 @@ Immutable, sequenced, cannot be changed after creation
 tup = (1, ‘rtg’, 3)
 ```
 
-## List
-Mutable, sequenced
-```python
-list = [1, ‘rtg’, 3]
-```
-Tuple unpacking
+### Tuple unpacking
 ```python
 mylist =  [(1,2),(3,4),(5,6),(7,8)]
 for a,b in mylist:
@@ -24,6 +19,16 @@ for a,b in mylist:
 	print a
 	print b
 ```
+
+## List
+Mutable, sequenced
+```python
+list = [1, ‘rtg’, 3]
+```
+
+
+
+### List Comprehensions
 
 ## Dictionary
 Mutable, not sequenced, slow, keys must be unique
@@ -232,6 +237,7 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDIwMjMyOCwxODMwNDY4MTY4LC04Nj
-gxMzk1NjIsMTYxNzgwODg2OCw2MDIyOTE2NDBdfQ==
+eyJoaXN0b3J5IjpbLTg3NzgwMjgyNSwtNDk0MjAyMzI4LDE4Mz
+A0NjgxNjgsLTg2ODEzOTU2MiwxNjE3ODA4ODY4LDYwMjI5MTY0
+MF19
 -->
