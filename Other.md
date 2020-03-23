@@ -43,6 +43,9 @@ Returns a copy of the string in which all chars have been stripped from the end 
 This function returns the unique identity of an object
 `id(x)` is the memory address where x is stored
   
+ ## dir()
+Return the list of names in the current local scope. With an argument, attempt to return a list of valid attributes for that object. 
+  
 ## Module    
 Single Python file.
 
@@ -102,7 +105,7 @@ ip in net
 **Pickle** module accepts any Python object and converts it into a string representation and dumps it into a file
 [https://docs.python.org/3/library/pickle.html](https://docs.python.org/3/library/pickle.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5OTIzMzExLC0xMTIzNDMzMjg2LC0xMj
-IwMTUyNTg0LDE2MzM1MjgwMDEsLTE1ODIxNDg3NDUsLTQzNzUz
-NTUsNTAzMDEzOTY1XX0=
+eyJoaXN0b3J5IjpbLTExNzIxMjcyODMsLTExMjM0MzMyODYsLT
+EyMjAxNTI1ODQsMTYzMzUyODAwMSwtMTU4MjE0ODc0NSwtNDM3
+NTM1NSw1MDMwMTM5NjVdfQ==
 -->
