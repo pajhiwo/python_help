@@ -100,8 +100,9 @@ ip in net
 
 ## Serialization
 **Pickle** module accepts any Python object and converts it into a string representation and dumps it into a file
+[https://docs.python.org/3/library/pickle.html](https://docs.python.org/3/library/pickle.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM0MzMyODYsLTEyMjAxNTI1ODQsMT
-YzMzUyODAwMSwtMTU4MjE0ODc0NSwtNDM3NTM1NSw1MDMwMTM5
-NjVdfQ==
+eyJoaXN0b3J5IjpbOTI5OTIzMzExLC0xMTIzNDMzMjg2LC0xMj
+IwMTUyNTg0LDE2MzM1MjgwMDEsLTE1ODIxNDg3NDUsLTQzNzUz
+NTUsNTAzMDEzOTY1XX0=
 -->
