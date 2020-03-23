@@ -105,8 +105,8 @@ primes: List[int] = []
 ```
 
 ## Serialization
-Pickle module accepts any Python object and converts it into a string representation and dumps it into a file
+**Pickle** module accepts any Python object and converts it into a string representation and dumps it into a file
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2NDExMjU2LDE2MzM1MjgwMDEsLTE1OD
-IxNDg3NDUsLTQzNzUzNTUsNTAzMDEzOTY1XX0=
+eyJoaXN0b3J5IjpbLTEyMjAxNTI1ODQsMTYzMzUyODAwMSwtMT
+U4MjE0ODc0NSwtNDM3NTM1NSw1MDMwMTM5NjVdfQ==
 -->
