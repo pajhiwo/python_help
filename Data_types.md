@@ -63,7 +63,11 @@ It is ordered set - organized by non negative indexes: String, List, Tuple, Dict
 Immutable type
 
 ## Array
-rrays can hold only a single data type elements whereas lists can hold any data type elements.
+Arrays can hold only a single data type elements whereas lists can hold any data type elements.
+```python
+import array as arr
+my_Array = arr.array( 'i',[1, 2, 3, 4])
+```
 
 ## ByteArray
 Mutable array
@@ -243,7 +247,7 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzIxMjE4NzIsLTQ5NDIwMjMyOCwxOD
+eyJoaXN0b3J5IjpbLTExNzY1MDY4MDEsLTQ5NDIwMjMyOCwxOD
 MwNDY4MTY4LC04NjgxMzk1NjIsMTYxNzgwODg2OCw2MDIyOTE2
 NDBdfQ==
 -->
