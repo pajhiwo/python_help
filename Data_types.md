@@ -27,8 +27,11 @@ list = [1, ‘rtg’, 3]
 ```
 
 
-
-### List Comprehensions
+#### List Comprehensions
+Creating new list in one line
+```python
+new_list =  [expression(i)  for i in old_list if filter(i)]
+```
 
 ## Dictionary
 Mutable, not sequenced, slow, keys must be unique
@@ -237,7 +240,7 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzgwMjgyNSwtNDk0MjAyMzI4LDE4Mz
-A0NjgxNjgsLTg2ODEzOTU2MiwxNjE3ODA4ODY4LDYwMjI5MTY0
-MF19
+eyJoaXN0b3J5IjpbLTIwMjg1MzgwNzQsLTQ5NDIwMjMyOCwxOD
+MwNDY4MTY4LC04NjgxMzk1NjIsMTYxNzgwODg2OCw2MDIyOTE2
+NDBdfQ==
 -->
