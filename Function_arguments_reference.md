@@ -138,10 +138,31 @@ test("value for a", "value for b")  # TypeError: test() takes 0 positional argum
 test(a="value", b="value 2")  # Works...
 ```
 
-##
+## Positional only arguments (Python 3.8)
+```python
+def func( a,b,/,c,d,*,e,f ):
+	print(a,b,c,d,e,f )
+```
+
+This will impose the way we can call this function:
+
+-   a and b arguments are positional only.
+-   c and d arguments can be positional as well as keyword.
+-   e and f arguments are keyword only.
+
+```python
+func(1,2, 3,4, e=5, f=6  )  #Valid - prints 1 2 3 4 5 6
+func(1,2, c=3,d=4, e=5, f=6  )  #Valid - prints 1 2 3 4 5 6
+```
+
+However, these calls will be invalid
+```python
+func(a=1,b=2, 3,4, e=5, f=6  )  #Invalid - Error : a and b arguments are positional only
+func(1,2, c=3,d=4, 5, 6  )  #Invalid - Error : e and f are keyword only arguments.
+```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiY2F0ZWdvcmllczogJ2tleXdvcmQsIH
 JlZmVyZW5jZSwgYXJndW1lbnRzLCBhcmdzLCBsYW1iZGEnXG4i
-LCJoaXN0b3J5IjpbLTYxMDM5Njg2NSwxMTgwNDY1OTUsMTQxNz
-Q4ODAxMl19
+LCJoaXN0b3J5IjpbODEyMjY5NDQ0LDExODA0NjU5NSwxNDE3ND
+g4MDEyXX0=
 -->
