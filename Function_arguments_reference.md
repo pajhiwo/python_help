@@ -161,9 +161,12 @@ However, these calls will be invalid
 func(a=1,b=2, 3,4, e=5, f=6  )  #Invalid - Error : a and b arguments are positional only
 func(1,2, c=3,d=4, 5, 6  )  #Invalid - Error : e and f are keyword only arguments.
 ```
+
+## map()
+The **map()** function in Python has two parameters, function and iterable. The map() function takes a function as an argument and then applies that function to all the elements of an iterable, passed to it as another argument. It returns an object list of results.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiY2F0ZWdvcmllczogJ2tleXdvcmQsIH
 JlZmVyZW5jZSwgYXJndW1lbnRzLCBhcmdzLCBsYW1iZGEnXG4i
-LCJoaXN0b3J5IjpbLTUyNjU5NTk4MywtMzg0MDk3OTg1LDExOD
-A0NjU5NSwxNDE3NDg4MDEyXX0=
+LCJoaXN0b3J5IjpbLTU3NTE4MTE2NSwtNTI2NTk1OTgzLC0zOD
+QwOTc5ODUsMTE4MDQ2NTk1LDE0MTc0ODgwMTJdfQ==
 -->
