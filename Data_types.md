@@ -61,6 +61,8 @@ It is ordered set - organized by non negative indexes: String, List, Tuple, Dict
   
 ## String
 Immutable type
+**Python 3.8**
+F-strings now support = for easy debbuging
 
 ## Array
 Arrays can hold only a single data type elements whereas lists can hold any data type elements.
@@ -247,7 +249,8 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDEyMDI5MSwxMjMyMTkxNTcsNjI4Mz
-c0Njg5LC0xMTc2NTA2ODAxLC00OTQyMDIzMjgsMTgzMDQ2ODE2
-OCwtODY4MTM5NTYyLDE2MTc4MDg4NjgsNjAyMjkxNjQwXX0=
+eyJoaXN0b3J5IjpbODUzNDk2MDM3LC0yMDQxMjAyOTEsMTIzMj
+E5MTU3LDYyODM3NDY4OSwtMTE3NjUwNjgwMSwtNDk0MjAyMzI4
+LDE4MzA0NjgxNjgsLTg2ODEzOTU2MiwxNjE3ODA4ODY4LDYwMj
+I5MTY0MF19
 -->
