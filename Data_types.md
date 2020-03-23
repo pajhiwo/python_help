@@ -27,7 +27,7 @@ list = [1, ‘rtg’, 3]
 ```
 
 
-#### List Comprehensions
+### List Comprehensions
 Creating new list in one line
 ```python
 new_list =  [expression(i)  for i in old_list if filter(i)]
@@ -240,7 +240,7 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjg1MzgwNzQsLTQ5NDIwMjMyOCwxOD
-MwNDY4MTY4LC04NjgxMzk1NjIsMTYxNzgwODg2OCw2MDIyOTE2
-NDBdfQ==
+eyJoaXN0b3J5IjpbNDIxODY5ODE5LC00OTQyMDIzMjgsMTgzMD
+Q2ODE2OCwtODY4MTM5NTYyLDE2MTc4MDg4NjgsNjAyMjkxNjQw
+XX0=
 -->
