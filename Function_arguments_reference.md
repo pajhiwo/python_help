@@ -79,6 +79,7 @@ def outer():
 ```
 
 ## *args
+*args when we aren’t sure how many arguments
 for passing multiple arguments to a function and stores them in tuple
 
   
@@ -164,6 +165,6 @@ func(1,2, c=3,d=4, 5, 6  )  #Invalid - Error : e and f are keyword only argument
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiY2F0ZWdvcmllczogJ2tleXdvcmQsIH
 JlZmVyZW5jZSwgYXJndW1lbnRzLCBhcmdzLCBsYW1iZGEnXG4i
-LCJoaXN0b3J5IjpbLTM4NDA5Nzk4NSwxMTgwNDY1OTUsMTQxNz
-Q4ODAxMl19
+LCJoaXN0b3J5IjpbMTI0ODI1NTUsLTM4NDA5Nzk4NSwxMTgwND
+Y1OTUsMTQxNzQ4ODAxMl19
 -->
