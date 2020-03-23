@@ -26,7 +26,6 @@ Mutable, sequenced
 list = [1, ‘rtg’, 3]
 ```
 
-
 ### List Comprehensions
 Creating new list in one line
 ```python
@@ -247,7 +246,7 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzY1MDY4MDEsLTQ5NDIwMjMyOCwxOD
-MwNDY4MTY4LC04NjgxMzk1NjIsMTYxNzgwODg2OCw2MDIyOTE2
-NDBdfQ==
+eyJoaXN0b3J5IjpbNjI4Mzc0Njg5LC0xMTc2NTA2ODAxLC00OT
+QyMDIzMjgsMTgzMDQ2ODE2OCwtODY4MTM5NTYyLDE2MTc4MDg4
+NjgsNjAyMjkxNjQwXX0=
 -->
