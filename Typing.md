@@ -6,6 +6,7 @@ Resopurces:
 [https://docs.python.org/3/library/typing.html](https://docs.python.org/3/library/typing.html)
 [https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
 [https://mypy.readthedocs.io/en/stable/kinds_of_types.html](https://mypy.readthedocs.io/en/stable/kinds_of_types.html)
+[Link](https://www.python.org/dev/peps/pep-0526/#id4)
 
 ## Basic type annotation
 ```python
@@ -54,7 +55,7 @@ Use Union when something could be one of a few types
 x: List[Union[int, str]] = [3, 5, "test", "fun"]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTc4MDM0LDEyODIzNDI4NDEsLTE4NT
-E0MTI1MDAsMTgxNTI5ODA5MywtODMyODY5MjIzLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTIwMjMyMDc1NzMsLTM0OTc4MDM0LDEyOD
+IzNDI4NDEsLTE4NTE0MTI1MDAsMTgxNTI5ODA5MywtODMyODY5
+MjIzLDczMDk5ODExNl19
 -->
