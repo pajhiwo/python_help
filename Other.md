@@ -97,18 +97,11 @@ ip = ipaddress.ip_address("74.125.227.12")
 ip in net
 # False
 ```
-## Variable annotation
-Seeting type for variable
-[Link](https://www.python.org/dev/peps/pep-0526/#id4)
-```python
-from typing import List
-primes: List[int] = []
-```
 
 ## Serialization
 **Pickle** module accepts any Python object and converts it into a string representation and dumps it into a file
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjUxMDc5ODIsLTEyMjAxNTI1ODQsMT
+eyJoaXN0b3J5IjpbLTExMjM0MzMyODYsLTEyMjAxNTI1ODQsMT
 YzMzUyODAwMSwtMTU4MjE0ODc0NSwtNDM3NTM1NSw1MDMwMTM5
 NjVdfQ==
 -->
