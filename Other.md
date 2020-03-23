@@ -103,7 +103,10 @@ Seeting type for variable
 from typing import List
 primes: List[int] = []
 ```
+
+## Serialization
+Pickle module accepts any Python object and converts it into a string representation and dumps it into a file
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzUyODAwMSwtMTU4MjE0ODc0NSwtND
-M3NTM1NSw1MDMwMTM5NjVdfQ==
+eyJoaXN0b3J5IjpbNDE2NDExMjU2LDE2MzM1MjgwMDEsLTE1OD
+IxNDg3NDUsLTQzNzUzNTUsNTAzMDEzOTY1XX0=
 -->
