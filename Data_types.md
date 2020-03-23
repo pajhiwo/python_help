@@ -38,7 +38,7 @@ Mutable, not sequenced, slow, keys must be unique
 ```python
 dict = {“key1”: “value”, “key2”: “value”}
 ```
-Python dictionaries are implemented as **hash tables**
+Python dictionaries are implemented as **hash tables**. Python hash table is just a contiguous block of memory. **Each slot in the table can store one and only one entry.**
 
 ## Set
 Mutable, unordered collection of items. Every element is unique (no duplicates) and must be immutable.
@@ -247,7 +247,7 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTM1NTkxNiw2MjgzNzQ2ODksLTExNz
-Y1MDY4MDEsLTQ5NDIwMjMyOCwxODMwNDY4MTY4LC04NjgxMzk1
-NjIsMTYxNzgwODg2OCw2MDIyOTE2NDBdfQ==
+eyJoaXN0b3J5IjpbMTIzMjE5MTU3LDYyODM3NDY4OSwtMTE3Nj
+UwNjgwMSwtNDk0MjAyMzI4LDE4MzA0NjgxNjgsLTg2ODEzOTU2
+MiwxNjE3ODA4ODY4LDYwMjI5MTY0MF19
 -->
