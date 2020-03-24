@@ -10,11 +10,11 @@
     
 -   Everything is an object. String “123” is an object. There are no primitives in python.
     
--   Python memory is managed by python private heap space
+-   Python **memory** is **managed by python private heap space**
     
--   Python has inbuilt garbage collector
+-   Python has **inbuilt garbage collector**
     
 -   PEP8 - coding convention
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxMjMyMjVdfQ==
+eyJoaXN0b3J5IjpbMTY3MDMwODUwNV19
 -->
