@@ -62,8 +62,7 @@ class MarsRoverComp():
         return "%s Launched by %s" % (self.rocket.name, self.maker)
 
 ```
-  
-
+ 
 
 ## Abstract class, @abstractmethod
 Abstract base classes exist to be inherited, but never instantiated. You can use leading underscores in your class name to communicate that objects of that class should not be created.
@@ -76,6 +75,6 @@ Too big hierarchical structure of classes
 ## `__mro__`
 The MRO is also used by super() to determine which method or attribute to invoke. MRO shows the order in which Python is going to look for a matching attribute or method.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTAyNTk3NCwtNTUyODQwNzk2LC0xNT
-Q3NTcyNDU1XX0=
+eyJoaXN0b3J5IjpbLTE4MjQ3MjMzNjQsLTU1Mjg0MDc5NiwtMT
+U0NzU3MjQ1NV19
 -->
