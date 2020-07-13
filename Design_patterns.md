@@ -120,6 +120,30 @@ print("Object created:", s1)
 >>> Object created: <__main__.Singleton object at 0x7f59442d58d0>
 >>> Object created: <__main__.Singleton object at 0x7f59442d58d0>
 ```  
+## Borg "singleton"
+Borg is also known as **monostate**. In the borg pattern, all of the instances are different, but they share the same
+
+```python
+class Borg:
+    __shared_state = {}
+    def __init__(self):
+        self.__dict__ = self.__shared_state
+    # and whatever else you want in your class -- that's all!
+
+if _ _name_ _ == '_ _main_ _':
+    class Example(Borg):
+        def _ _init_ _(self, name=None):
+            Borg._ _init_ _(self)
+            if name is not None: self.name = name
+        def _ _str_ _(self): return 'Example(%s)' % self.name
+    a = Example('Lara')
+    b = Example(  )
+    print a, b
+    c = Example('Boris')
+    print a, b, c
+    b.name = 'Marcel'
+    print a, b, c
+```
 
 ## Factory pattern
 Forces the creation of objects to occur through a common _factory_ class or method.
@@ -263,11 +287,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxODQzOTEsMTA4NDgyOTI0OSwxOTM2Mz
-A0NywxNDIxNDMwNDcwLDExOTA3Njc5NDcsNzc4MDMyMjYzLDEx
-NzI4MzA4NzUsLTEwNzc5OTU1NTEsMjAxNjMxODA3NywtMTM2Nz
-IwMDMxMCwtMTAwODc1NDY4NywxNTI4MjAwOTk5LC02ODkxMDM4
-OTIsLTE0NjMxMTAxMzQsMTI0MDY4NzA4LC01NTU1ODk3OCwtOT
-I0OTY4NzM0LDg3MzMyNTg4MSwtMTE1NDg4OTE5NCwxNjQ2NTMx
-ODQwXX0=
+eyJoaXN0b3J5IjpbNjUyODg2MTg2LDY1MTg0MzkxLDEwODQ4Mj
+kyNDksMTkzNjMwNDcsMTQyMTQzMDQ3MCwxMTkwNzY3OTQ3LDc3
+ODAzMjI2MywxMTcyODMwODc1LC0xMDc3OTk1NTUxLDIwMTYzMT
+gwNzcsLTEzNjcyMDAzMTAsLTEwMDg3NTQ2ODcsMTUyODIwMDk5
+OSwtNjg5MTAzODkyLC0xNDYzMTEwMTM0LDEyNDA2ODcwOCwtNT
+U1NTg5NzgsLTkyNDk2ODczNCw4NzMzMjU4ODEsLTExNTQ4ODkx
+OTRdfQ==
 -->
