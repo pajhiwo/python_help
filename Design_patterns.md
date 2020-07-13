@@ -143,6 +143,11 @@ if _ _name_ _ == '_ _main_ _':
     print a, b, c
     b.name = 'Marcel'
     print a, b, c
+
+>>>
+**Example(Lara) Example(Lara)**
+**Example(Boris) Example(Boris) Example(Boris)**
+**Example(Marcel) Example(Marcel) Example(Marcel)**
 ```
 
 ## Factory pattern
@@ -287,7 +292,7 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyODg2MTg2LDY1MTg0MzkxLDEwODQ4Mj
+eyJoaXN0b3J5IjpbODc4Mjg1NTYzLDY1MTg0MzkxLDEwODQ4Mj
 kyNDksMTkzNjMwNDcsMTQyMTQzMDQ3MCwxMTkwNzY3OTQ3LDc3
 ODAzMjI2MywxMTcyODMwODc1LC0xMDc3OTk1NTUxLDIwMTYzMT
 gwNzcsLTEzNjcyMDAzMTAsLTEwMDg3NTQ2ODcsMTUyODIwMDk5
