@@ -65,7 +65,7 @@ Immutable type
 F-strings now support = for easy debbuging
 
 ## Array
-Arrays can hold only a single data type elements whereas lists can hold any data type elements.
+Arrays can hold only a **single data type** elements whereas lists can hold any data type elements.
 ```python
 import array as arr
 my_Array = arr.array( 'i',[1, 2, 3, 4])
@@ -249,8 +249,8 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzNDk2MDM3LC0yMDQxMjAyOTEsMTIzMj
-E5MTU3LDYyODM3NDY4OSwtMTE3NjUwNjgwMSwtNDk0MjAyMzI4
-LDE4MzA0NjgxNjgsLTg2ODEzOTU2MiwxNjE3ODA4ODY4LDYwMj
-I5MTY0MF19
+eyJoaXN0b3J5IjpbMTI0NTg4MDU0OSw4NTM0OTYwMzcsLTIwND
+EyMDI5MSwxMjMyMTkxNTcsNjI4Mzc0Njg5LC0xMTc2NTA2ODAx
+LC00OTQyMDIzMjgsMTgzMDQ2ODE2OCwtODY4MTM5NTYyLDE2MT
+c4MDg4NjgsNjAyMjkxNjQwXX0=
 -->
