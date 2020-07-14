@@ -225,9 +225,9 @@ Bar.static_method(None)
 ```
   
 ##  `_` and `__` prefix 
-_ is private property, ignored in from module import *
+_ is **private** property, ignored in from module import *
 
-__ is protected property, avoid method to be overridden by a subclass.
+__ is **protected** property, avoid method to be overridden by a subclass.
 
 ```python
 class MyClass():
@@ -280,6 +280,7 @@ class Person:
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlstMTY2MjExNzE4MCwtMTQ1ODc3Njg3NiwtNjM4ND
-YwODgzLC00Mjg3MTU3NDIsMzY2ODgzNTEwXX0=
+c3RvcnkiOlstMTI0OTk3NTAzNiwtMTY2MjExNzE4MCwtMTQ1OD
+c3Njg3NiwtNjM4NDYwODgzLC00Mjg3MTU3NDIsMzY2ODgzNTEw
+XX0=
 -->
