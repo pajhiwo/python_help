@@ -5,7 +5,13 @@
 
 All the members of a class in Python are public by default. You don’t need to define an access specifier for members of the class. By adding ‘_’ as a prefix to the member of a class, by convention you are telling others please don’t use this object, if you are not a subclass the respective class.
 
-  
+  ## Class variable vs instance variable
+  ```pyhton
+ class Adventure:
+	 equipment = ['axe', 'potion']
+	 def __init__(self, name):
+		 self.name = nam
+  ```
 
 ## self
     
@@ -280,7 +286,7 @@ class Person:
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlstMTI0OTk3NTAzNiwtMTY2MjExNzE4MCwtMTQ1OD
-c3Njg3NiwtNjM4NDYwODgzLC00Mjg3MTU3NDIsMzY2ODgzNTEw
-XX0=
+c3RvcnkiOlstMzk4MjAyNDQxLC0xMjQ5OTc1MDM2LC0xNjYyMT
+E3MTgwLC0xNDU4Nzc2ODc2LC02Mzg0NjA4ODMsLTQyODcxNTc0
+MiwzNjY4ODM1MTBdfQ==
 -->
