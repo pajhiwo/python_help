@@ -8,7 +8,16 @@ def check_palidrome(txt):
 		return("not palindrome")
 ```
 
-## Palindrome test
+## Common letters in two strings
+```python
+print(set(text1)&set(text2))
+```
+
+## Count letters in string
+```python
+from collections import Counter
+co
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5ODI1MDYzXX0=
+eyJoaXN0b3J5IjpbMTQ4NjU0MjQ0XX0=
 -->
