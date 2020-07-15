@@ -235,6 +235,7 @@ mi
 ## Dictionary: d.get(<key>)
 if key is not found, it will return None, instead of Error
 
+
 ## Iter dictionary
 ```python
 for key,value in dictionary.items():
@@ -249,8 +250,8 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTg4MDU0OSw4NTM0OTYwMzcsLTIwND
-EyMDI5MSwxMjMyMTkxNTcsNjI4Mzc0Njg5LC0xMTc2NTA2ODAx
-LC00OTQyMDIzMjgsMTgzMDQ2ODE2OCwtODY4MTM5NTYyLDE2MT
-c4MDg4NjgsNjAyMjkxNjQwXX0=
+eyJoaXN0b3J5IjpbOTU3ODk5MjU1LDEyNDU4ODA1NDksODUzND
+k2MDM3LC0yMDQxMjAyOTEsMTIzMjE5MTU3LDYyODM3NDY4OSwt
+MTE3NjUwNjgwMSwtNDk0MjAyMzI4LDE4MzA0NjgxNjgsLTg2OD
+EzOTU2MiwxNjE3ODA4ODY4LDYwMjI5MTY0MF19
 -->
