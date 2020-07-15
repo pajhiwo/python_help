@@ -16,8 +16,8 @@ print(set(text1)&set(text2))
 ## Count letters in string
 ```python
 from collections import Counter
-co
+counter(Counter(text1))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjU0MjQ0XX0=
+eyJoaXN0b3J5IjpbNzAwNzY0MDQ0XX0=
 -->
