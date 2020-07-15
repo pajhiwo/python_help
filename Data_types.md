@@ -20,6 +20,15 @@ for a,b in mylist:
 	print b
 ```
 
+### Named tuple
+```python
+from collections import namedtuple  
+
+City = namedtuple("City", "population area country")  
+warsaw = City(1000000, 100, "Poland")  
+print(warsaw.population)
+```
+
 ## List
 Mutable, sequenced
 ```python
@@ -250,8 +259,8 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3ODk5MjU1LDEyNDU4ODA1NDksODUzND
-k2MDM3LC0yMDQxMjAyOTEsMTIzMjE5MTU3LDYyODM3NDY4OSwt
-MTE3NjUwNjgwMSwtNDk0MjAyMzI4LDE4MzA0NjgxNjgsLTg2OD
-EzOTU2MiwxNjE3ODA4ODY4LDYwMjI5MTY0MF19
+eyJoaXN0b3J5IjpbMTU2MjI5MjgzNSwxMjQ1ODgwNTQ5LDg1Mz
+Q5NjAzNywtMjA0MTIwMjkxLDEyMzIxOTE1Nyw2MjgzNzQ2ODks
+LTExNzY1MDY4MDEsLTQ5NDIwMjMyOCwxODMwNDY4MTY4LC04Nj
+gxMzk1NjIsMTYxNzgwODg2OCw2MDIyOTE2NDBdfQ==
 -->
