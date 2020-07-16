@@ -18,6 +18,15 @@ print(set(text1)&set(text2))
 from collections import Counter
 counter(Counter(text1))
 ```
+
+## Print diamond
+```python
+def print_diamond(n):  
+    iter_list = (list(range(1, n)))  
+    iter_list.extend((iter_list[2::-1]))  # starting from index 2, reverse  
+  for i in iter_list:  
+        print("*"*i)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwNzY0MDQ0XX0=
+eyJoaXN0b3J5IjpbNTg4OTEzNzcyXX0=
 -->
