@@ -34,6 +34,17 @@ def toJadenCase(string):
     return " ".join(w.capitalize() for w in string.split())
 ```
 
+## Group chars by similar char next to each other
+```python
+example = "AAAABBBCCDAABBB"
+def unique_in_order(iterable):  
+    output = []  
+    for key,group in itertools.groupby(iterable):  
+        output.append(key)  
+    return(output)
+>>>['A', 'B', 'C', 'D', 'A', 'B']
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjM0MDMzNSw1ODg5MTM3NzJdfQ==
+eyJoaXN0b3J5IjpbMjA1MTgxMDExMywtOTc2MzQwMzM1LDU4OD
+kxMzc3Ml19
 -->
