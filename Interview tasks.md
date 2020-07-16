@@ -27,6 +27,13 @@ def print_diamond(n):
   for i in iter_list:  
         print("*"*i)
 ```
+
+## Capitalize every word in sentence
+```python
+def toJadenCase(string):        
+    return " ".join(w.capitalize() for w in string.split())
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4OTEzNzcyXX0=
+eyJoaXN0b3J5IjpbLTk3NjM0MDMzNSw1ODg5MTM3NzJdfQ==
 -->
