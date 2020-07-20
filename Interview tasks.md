@@ -53,8 +53,14 @@ def create_phone_number(n):
     return "({}{}{}) {}{}{}-{}{}{}{}".format(*n)
 ```
 
+## Find different odd / even number from list of numbers
+```python
+def iq_test(numbers):
+    e = [int(i) % 2 == 0 for i in numbers.split()]  # --> e = [True, True, False, True, etc]
 
+    return e.index(True) + 1 if e.count(True) == 1 else e.index(False) + 1
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzM4MDUyNzEsLTkyOTAxMjI3NSwyMD
-UxODEwMTEzLC05NzYzNDAzMzUsNTg4OTEzNzcyXX0=
+eyJoaXN0b3J5IjpbMTUzMDIzMTQzLC05MjkwMTIyNzUsMjA1MT
+gxMDExMywtOTc2MzQwMzM1LDU4ODkxMzc3Ml19
 -->
