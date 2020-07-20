@@ -44,7 +44,15 @@ def unique_in_order(iterable):
     return(output)
 >>>['A', 'B', 'C', 'D', 'A', 'B']
 ```
+
+## Print phone number:
+```python
+number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]  
+  
+def create_phone_number(n):  
+    return "({}{}{}) {}{}{}-{}{}{}{}".format(*n)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTgxMDExMywtOTc2MzQwMzM1LDU4OD
-kxMzc3Ml19
+eyJoaXN0b3J5IjpbLTkyOTAxMjI3NSwyMDUxODEwMTEzLC05Nz
+YzNDAzMzUsNTg4OTEzNzcyXX0=
 -->
