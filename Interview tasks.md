@@ -52,7 +52,9 @@ number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 def create_phone_number(n):  
     return "({}{}{}) {}{}{}-{}{}{}{}".format(*n)
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTAxMjI3NSwyMDUxODEwMTEzLC05Nz
-YzNDAzMzUsNTg4OTEzNzcyXX0=
+eyJoaXN0b3J5IjpbLTE4NzM4MDUyNzEsLTkyOTAxMjI3NSwyMD
+UxODEwMTEzLC05NzYzNDAzMzUsNTg4OTEzNzcyXX0=
 -->
