@@ -168,6 +168,33 @@ print(f"{d.day}/{d.month}/{d.year}")
 >>> init
 >>> 15/1/2020
 ```
+## Classmethod vs staticmethod
+```python
+class Person:  
+    def __init__(self, name):  
+        self.name = name  
+  
+    @classmethod  
+  def class_met(cls, name):  
+        return cls(name)  
+  
+    @staticmethod  
+  def static_met(name):  
+        return Person(name)  
+  
+  
+class Man(Person):  
+    sex = 'Male'  
+  
+  
+man = Man.class_met('John')  
+print(type(man))  
+>>> <class '__main__.Man'>
+  
+man2 = Man.static_met('John')  
+print(type(man2))
+>>><class '__main__.Person'>
+```
 
 ## Factory method (@classmethod)
     
@@ -287,7 +314,7 @@ class Person:
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlsyMzAzMzQ4MDksLTEyNDk5NzUwMzYsLTE2NjIxMT
-cxODAsLTE0NTg3NzY4NzYsLTYzODQ2MDg4MywtNDI4NzE1NzQy
-LDM2Njg4MzUxMF19
+c3RvcnkiOlsxNzQxNjc0MzU1LDIzMDMzNDgwOSwtMTI0OTk3NT
+AzNiwtMTY2MjExNzE4MCwtMTQ1ODc3Njg3NiwtNjM4NDYwODgz
+LC00Mjg3MTU3NDIsMzY2ODgzNTEwXX0=
 -->
