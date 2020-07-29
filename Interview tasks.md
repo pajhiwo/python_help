@@ -57,10 +57,17 @@ def create_phone_number(n):
 ```python
 def iq_test(numbers):
     e = [int(i) % 2 == 0 for i in numbers.split()]  # --> e = [True, True, False, True, etc]
-
     return e.index(True) + 1 if e.count(True) == 1 else e.index(False) + 1
 ```
+
+## Move zeros to end of list
+```python
+def move_zeros(array):  
+    l = [i for i in array if isinstance(i, bool) or i!=0]  
+    return l + [0]*(len(array) - len(l))
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDIzMTQzLC05MjkwMTIyNzUsMjA1MT
-gxMDExMywtOTc2MzQwMzM1LDU4ODkxMzc3Ml19
+eyJoaXN0b3J5IjpbNjU1MzUyMjk4LDE1MzAyMzE0MywtOTI5MD
+EyMjc1LDIwNTE4MTAxMTMsLTk3NjM0MDMzNSw1ODg5MTM3NzJd
+fQ==
 -->
