@@ -85,6 +85,16 @@ def open_file(path, mode):
     yield the_file
     the_file.close()
 ```
+
+## Spread operator
+If you apply `*(...)` a.k.a. the _spread_ operator to the iterable, each item in the iterable is treated as an argument of the outer function call (`product`).
+```python
+print(range(5))
+>>> range(0, 5)
+
+print(*range(5))
+>>> 0 1 2 3 4
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY4NjYxNDFdfQ==
+eyJoaXN0b3J5IjpbNTMzNDU0MjcxLC0yMDE2ODY2MTQxXX0=
 -->
