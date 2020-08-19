@@ -83,8 +83,19 @@ def fibonacci(n):
         return result  
     return recurse(n)
 ```
+### Faster methong by using decorator
+```python
+from functools import lru_cache
+
+@lru_cache(maxsize = 1000)  
+def fibonacci(input_value):  
+    if input_value in [0, 1]:  
+        return input_value  
+    else:  
+        return fibonacci(input_value - 1) + fibonacci(input_value - 2)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDA0MTczNiw2NTUzNTIyOTgsMTUzMD
-IzMTQzLC05MjkwMTIyNzUsMjA1MTgxMDExMywtOTc2MzQwMzM1
-LDU4ODkxMzc3Ml19
+eyJoaXN0b3J5IjpbLTExNTMyNTcxMDYsNjU1MzUyMjk4LDE1Mz
+AyMzE0MywtOTI5MDEyMjc1LDIwNTE4MTAxMTMsLTk3NjM0MDMz
+NSw1ODg5MTM3NzJdfQ==
 -->
