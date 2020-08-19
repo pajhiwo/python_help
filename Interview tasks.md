@@ -66,8 +66,25 @@ def move_zeros(array):
     l = [i for i in array if isinstance(i, bool) or i!=0]  
     return l + [0]*(len(array) - len(l))
 ```
+
+## Optimize Fibonacci by Memoization
+```python
+def fibonacci(n):  
+    cache = {}  
+ 
+    def recurse(num):  
+        if num in cache:  
+            return cache[num]  
+        if num in [0, 1]:  
+            return num  
+            
+        result = recurse(num - 1) + recurse(num - 2)  
+        cache[num] = result  
+        return result  
+    return recurse(n)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1MzUyMjk4LDE1MzAyMzE0MywtOTI5MD
-EyMjc1LDIwNTE4MTAxMTMsLTk3NjM0MDMzNSw1ODg5MTM3NzJd
-fQ==
+eyJoaXN0b3J5IjpbMTMxMDA0MTczNiw2NTUzNTIyOTgsMTUzMD
+IzMTQzLC05MjkwMTIyNzUsMjA1MTgxMDExMywtOTc2MzQwMzM1
+LDU4ODkxMzc3Ml19
 -->
