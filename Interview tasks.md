@@ -68,6 +68,7 @@ def move_zeros(array):
 ```
 
 ## Optimize Fibonacci by Memoization
+[https://towardsdatascience.com/memoization-in-python-57c0a738179a](https://towardsdatascience.com/memoization-in-python-57c0a738179a)
 ```python
 def fibonacci(n):  
     cache = {}  
@@ -95,7 +96,7 @@ def fibonacci(input_value):
         return fibonacci(input_value - 1) + fibonacci(input_value - 2)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTMyNTcxMDYsNjU1MzUyMjk4LDE1Mz
-AyMzE0MywtOTI5MDEyMjc1LDIwNTE4MTAxMTMsLTk3NjM0MDMz
-NSw1ODg5MTM3NzJdfQ==
+eyJoaXN0b3J5IjpbLTMxMTQ1NzQ3OSwtMTE1MzI1NzEwNiw2NT
+UzNTIyOTgsMTUzMDIzMTQzLC05MjkwMTIyNzUsMjA1MTgxMDEx
+MywtOTc2MzQwMzM1LDU4ODkxMzc3Ml19
 -->
