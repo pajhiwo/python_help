@@ -95,8 +95,20 @@ def fibonacci(input_value):
     else:  
         return fibonacci(input_value - 1) + fibonacci(input_value - 2)
 ```
+
+## First non-repeating character
+```python
+def first_non_repeating_letter(string):
+    string_lower = string.lower()
+    for i, letter in enumerate(string_lower):
+        if string_lower.count(letter) == 1:
+            return string[i]
+            
+    return ""
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTQ1NzQ3OSwtMTE1MzI1NzEwNiw2NT
-UzNTIyOTgsMTUzMDIzMTQzLC05MjkwMTIyNzUsMjA1MTgxMDEx
-MywtOTc2MzQwMzM1LDU4ODkxMzc3Ml19
+eyJoaXN0b3J5IjpbMTQxNTM1MjQ3NiwtMzExNDU3NDc5LC0xMT
+UzMjU3MTA2LDY1NTM1MjI5OCwxNTMwMjMxNDMsLTkyOTAxMjI3
+NSwyMDUxODEwMTEzLC05NzYzNDAzMzUsNTg4OTEzNzcyXX0=
 -->
