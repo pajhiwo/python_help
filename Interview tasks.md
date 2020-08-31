@@ -107,8 +107,41 @@ def first_non_repeating_letter(string):
     return ""
 ```
 
+## Words to number
+```python
+def parse_int(string):  
+    units = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight",  
+  "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen",  
+  "sixteen", "seventeen", "eighteen", "nineteen",]  
+  
+    tens = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]  
+  
+    hundreds = ["hundred", "thousand", "million", "billion", "trillion"]  
+  
+    current = result = 0  
+  for word in string.replace(" and", "").replace("-", " ").split():  
+        if word in units:  
+            num = units.index(word)  
+        elif word in tens:  
+            num = tens.index(word) * 10  
+  elif word in hundreds:  
+            idx = hundreds.index(word)  
+            num = 10 ** (idx * 3 or 2)  
+  
+       
+        if num < 100:  
+            current += num  
+        elif num == 100:  
+            current = current * num  
+        elif num > 100:  
+            result += current * num  
+            current = 0  
+  return result + current
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTM1MjQ3NiwtMzExNDU3NDc5LC0xMT
-UzMjU3MTA2LDY1NTM1MjI5OCwxNTMwMjMxNDMsLTkyOTAxMjI3
-NSwyMDUxODEwMTEzLC05NzYzNDAzMzUsNTg4OTEzNzcyXX0=
+eyJoaXN0b3J5IjpbLTExODIwNzQ3OTUsMTQxNTM1MjQ3NiwtMz
+ExNDU3NDc5LC0xMTUzMjU3MTA2LDY1NTM1MjI5OCwxNTMwMjMx
+NDMsLTkyOTAxMjI3NSwyMDUxODEwMTEzLC05NzYzNDAzMzUsNT
+g4OTEzNzcyXX0=
 -->
