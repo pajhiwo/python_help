@@ -201,6 +201,21 @@ to individual arguments use *:
 *function_name*(**variable*) - this is not definition, it is execution
 Usually goes with (**args*) in definition
 
+```python
+first, *middle, last = [1, 2, 3, 4, 5]
+# first = 1, middle = [2, 3, 4], last = 5
+
+first, second, *rest = [1, 2, 3, 4, 5]
+# first = 1, middle = 2, rest = [3, 4, 5]
+
+name, address, *_, email = ["John", "Some Street", "Credit Card Number", "Phone Number", "john@gmail.com"]
+# name = "John", address = "Some Street", email = "john@gmail.com"
+
+header_row, *table_rows = open("filename").read().split("\n")
+# header_row -> first line
+# table_rows -> list of remaining lines
+```
+
 ## Most frequently occurring element
 `Counter` class in `collections` module. Under the hood, `Counter` is just a dictionary that maps items to number of occurrences,
 ```python
@@ -258,9 +273,11 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 # returns ['apple', 'ape']
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjI5MjgzNSwxMjQ1ODgwNTQ5LDg1Mz
-Q5NjAzNywtMjA0MTIwMjkxLDEyMzIxOTE1Nyw2MjgzNzQ2ODks
-LTExNzY1MDY4MDEsLTQ5NDIwMjMyOCwxODMwNDY4MTY4LC04Nj
-gxMzk1NjIsMTYxNzgwODg2OCw2MDIyOTE2NDBdfQ==
+eyJoaXN0b3J5IjpbNTQyOTU0NDE4LDE1NjIyOTI4MzUsMTI0NT
+g4MDU0OSw4NTM0OTYwMzcsLTIwNDEyMDI5MSwxMjMyMTkxNTcs
+NjI4Mzc0Njg5LC0xMTc2NTA2ODAxLC00OTQyMDIzMjgsMTgzMD
+Q2ODE2OCwtODY4MTM5NTYyLDE2MTc4MDg4NjgsNjAyMjkxNjQw
+XX0=
 -->
