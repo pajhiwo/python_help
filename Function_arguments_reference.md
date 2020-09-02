@@ -166,11 +166,21 @@ func(1,2, c=3,d=4, 5, 6  )  #Invalid - Error : e and f are keyword only argument
 The **map()** function in Python has two parameters, function and iterable. The map() function takes a function as an argument and then applies that function to all the elements of an iterable, passed to it as another argument. It returns an object list of results.
 
 
-## Checking if a
+## Checking if parameter was provided
+By doing this we avoid any possibly acceptable values, because we're actually not checking value at all - we are checking _identity_. In other words we are checking whether the `y` argument refers to same exact object as the one assigned to `_no_value`.
+
+```python
+_no_value = object()
+
+def myfunc(x, y=_no_value):
+	if y is _no_value:
+
+print("Optional parameter wasn't supplied...")
+```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiY2F0ZWdvcmllczogJ2tleXdvcmQsIH
 JlZmVyZW5jZSwgYXJndW1lbnRzLCBhcmdzLCBsYW1iZGEnXG4i
-LCJoaXN0b3J5IjpbMTIxMTQzNzA4MSwtNTc1MTgxMTY1LC01Mj
-Y1OTU5ODMsLTM4NDA5Nzk4NSwxMTgwNDY1OTUsMTQxNzQ4ODAx
-Ml19
+LCJoaXN0b3J5IjpbLTEyNTI0MTc3NjMsLTU3NTE4MTE2NSwtNT
+I2NTk1OTgzLC0zODQwOTc5ODUsMTE4MDQ2NTk1LDE0MTc0ODgw
+MTJdfQ==
 -->
