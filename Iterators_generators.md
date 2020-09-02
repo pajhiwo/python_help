@@ -44,6 +44,37 @@ print(next(generatorsobj))
 
 <br/>
 
+## Iterator class
+```python
+class Product:
+	def __init__(self, name, price):
+		self.name = name
+		self.price = price
+
+	def __str__(self):
+	return f"Product: {self.name}, ${self.price:.2f}"
+...
+... def __iter__(self):
+... self._free_samples = [Product(self.name, 0) for _ in range(3)]
+... print("Iterator of the product is created.")
+... return self
+...
+... def __next__(self):
+... if self._free_samples:
+... return self._free_samples.pop()
+... else:
+... raise StopIteration("All free samples have been dispensed.")
+...
+>>> product = Product("Perfume", 5.0)
+>>> for i, sample in enumerate(product, 1):
+... print(f"Dispense the next sample #{i}: {sample}")
+...
+Iterator of the product is created.
+Dispense the next sample #1: Product: Perfume, $0.00
+Dispense the next sample #2: Product: Perfume, $0.00
+Dispense the next sample #3: Product: Perfume, $0.00
+```
+
 # Context managers
 
 Way of dealing with opening resources like opening files. Using with, we can call anything that returns a context manager (like the built-in open() function). Variable only exists within the indented block below the with statement
@@ -96,5 +127,6 @@ print(*range(5))
 >>> 0 1 2 3 4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzNDU0MjcxLC0yMDE2ODY2MTQxXX0=
+eyJoaXN0b3J5IjpbLTE5NjE2ODE1ODgsNTMzNDU0MjcxLC0yMD
+E2ODY2MTQxXX0=
 -->
