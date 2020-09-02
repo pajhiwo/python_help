@@ -201,6 +201,8 @@ to individual arguments use *:
 *function_name*(**variable*) - this is not definition, it is execution
 Usually goes with (**args*) in definition
 
+Unpacking with _star expression_ always creates list even if the variable receives zero values from unpacking
+
 ```python
 first, *middle, last = [1, 2, 3, 4, 5]
 # first = 1, middle = [2, 3, 4], last = 5
@@ -275,7 +277,7 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyOTU0NDE4LDE1NjIyOTI4MzUsMTI0NT
+eyJoaXN0b3J5IjpbMTE3OTM3OTkwLDE1NjIyOTI4MzUsMTI0NT
 g4MDU0OSw4NTM0OTYwMzcsLTIwNDEyMDI5MSwxMjMyMTkxNTcs
 NjI4Mzc0Njg5LC0xMTc2NTA2ODAxLC00OTQyMDIzMjgsMTgzMD
 Q2ODE2OCwtODY4MTM5NTYyLDE2MTc4MDg4NjgsNjAyMjkxNjQw
