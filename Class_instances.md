@@ -28,12 +28,35 @@ Destroys the instance. It is not a destructor
 [https://docs.python.org/3/reference/datamodel.html?highlight=__new__#object.__del__](https://docs.python.org/3/reference/datamodel.html?highlight=__new__#object.__del__)
   
 ## `__repr__() and __str__()`
-`
+
 _The_ `___repr___` _method should return a string that shows how the instance object can be created._ Specifically, the string can be passed to `eval()` to re-construct the instance object.
 `__repr__` - unambiguous -> usually eval will convert it back to that object
 
-
 _The_ `___str___` _method can return something more descriptive about the instance object._
+
+```python
+class Product:
+	def __init__(self, name, price):
+		self.name = name
+		self.price = price
+
+	def __repr__(self):
+		return f"Product({self.name!r}, {self.price!r})"
+
+	def __str__(self):
+		return f"Product: {self.name}, ${self.price:.2f}"
+
+>>> product = Product("Vacuum", 150.0)
+>>> repr(product)
+"Product('Vacuum', 150.0)"
+>>> evaluated = eval(repr(product))
+>>> type(evaluated)
+<class '__main__.Product'>
+
+
+>>> print(product)  
+Product: Vacuum, $150.00
+```
 
 
 
@@ -104,6 +127,6 @@ False
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc2NjU4NjYsNTUwNjU0NzI3LC0xNz
+eyJoaXN0b3J5IjpbLTEzNzMyOTE3NTYsNTUwNjU0NzI3LC0xNz
 E4OTU0MDY5XX0=
 -->
