@@ -28,11 +28,14 @@ Destroys the instance. It is not a destructor
 [https://docs.python.org/3/reference/datamodel.html?highlight=__new__#object.__del__](https://docs.python.org/3/reference/datamodel.html?highlight=__new__#object.__del__)
   
 ## `__repr__() and __str__()`
-Returns string representation of an object
-
+`
+_The_ `___repr___` _method should return a string that shows how the instance object can be created._ Specifically, the string can be passed to `eval()` to re-construct the instance object.
 `__repr__` - unambiguous -> usually eval will convert it back to that object
 
-`__str__` - readable
+
+_The_ `___str___` _method can return something more descriptive about the instance object._
+
+
 
 [https://docs.python.org/3/reference/datamodel.html?highlight=__new__#object.__repr__](https://docs.python.org/3/reference/datamodel.html?highlight=__new__#object.__repr__)
   
@@ -101,5 +104,6 @@ False
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwNjU0NzI3LC0xNzE4OTU0MDY5XX0=
+eyJoaXN0b3J5IjpbLTIwNTc2NjU4NjYsNTUwNjU0NzI3LC0xNz
+E4OTU0MDY5XX0=
 -->
