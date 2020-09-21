@@ -121,9 +121,11 @@ import pytest, os
 def test_connect_to_database():
     ... # Run function that tries to connect to PostgreSQL database
 ```
+## Fixtures
+### Definition
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4OTUzMDYwMiwxMTU5MDc3NDc2LC0xNj
-E4Nzg3NzUyXX0=
+eyJoaXN0b3J5IjpbLTE3NDU3NDQ3NjAsMTE4OTUzMDYwMiwxMT
+U5MDc3NDc2LC0xNjE4Nzg3NzUyXX0=
 -->
