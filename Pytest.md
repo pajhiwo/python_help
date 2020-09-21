@@ -125,9 +125,18 @@ def test_connect_to_database():
 ### Definition
 ```python
 import pytest
+
+@pytest.fixture
+def some_setup_method()
+  # perform the actions
+```
+### Using in method arguments
+```python
+def test_something(self, some_setup_method):
+  ...
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3NDExMjAyLDExODk1MzA2MDIsMTE1OT
-A3NzQ3NiwtMTYxODc4Nzc1Ml19
+eyJoaXN0b3J5IjpbMTAzMDA3MzA1Miw3MDc0MTEyMDIsMTE4OT
+UzMDYwMiwxMTU5MDc3NDc2LC0xNjE4Nzg3NzUyXX0=
 -->
