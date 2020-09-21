@@ -123,9 +123,11 @@ def test_connect_to_database():
 ```
 ## Fixtures
 ### Definition
-
+```python
+import pytest
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU3NDQ3NjAsMTE4OTUzMDYwMiwxMT
-U5MDc3NDc2LC0xNjE4Nzg3NzUyXX0=
+eyJoaXN0b3J5IjpbNzA3NDExMjAyLDExODk1MzA2MDIsMTE1OT
+A3NzQ3NiwtMTYxODc4Nzc1Ml19
 -->
