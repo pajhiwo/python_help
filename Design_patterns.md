@@ -231,12 +231,7 @@ class Singleton(type)
             cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
         return cls._instances[cls]
 
-    @staticmethod
-    def _reset_instance():
-	    # erase existing instances
-        for instance in Singleton._instances:
-            del instance
-        Singleton._instances = {}
+
 ```
 
 ## Adapter pattern
@@ -311,11 +306,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxNDA2NTgyLDg3ODI4NTU2Myw2NTE4ND
-M5MSwxMDg0ODI5MjQ5LDE5MzYzMDQ3LDE0MjE0MzA0NzAsMTE5
-MDc2Nzk0Nyw3NzgwMzIyNjMsMTE3MjgzMDg3NSwtMTA3Nzk5NT
-U1MSwyMDE2MzE4MDc3LC0xMzY3MjAwMzEwLC0xMDA4NzU0Njg3
-LDE1MjgyMDA5OTksLTY4OTEwMzg5MiwtMTQ2MzExMDEzNCwxMj
-QwNjg3MDgsLTU1NTU4OTc4LC05MjQ5Njg3MzQsODczMzI1ODgx
-XX0=
+eyJoaXN0b3J5IjpbLTg5MDc0NjI2MywzNjE0MDY1ODIsODc4Mj
+g1NTYzLDY1MTg0MzkxLDEwODQ4MjkyNDksMTkzNjMwNDcsMTQy
+MTQzMDQ3MCwxMTkwNzY3OTQ3LDc3ODAzMjI2MywxMTcyODMwOD
+c1LC0xMDc3OTk1NTUxLDIwMTYzMTgwNzcsLTEzNjcyMDAzMTAs
+LTEwMDg3NTQ2ODcsMTUyODIwMDk5OSwtNjg5MTAzODkyLC0xND
+YzMTEwMTM0LDEyNDA2ODcwOCwtNTU1NTg5NzgsLTkyNDk2ODcz
+NF19
 -->
