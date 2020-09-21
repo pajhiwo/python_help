@@ -233,14 +233,14 @@ class Singleton(type)
 
     @staticmethod
     def _reset_instance():
-	    @
+	    # erase existing instances
         for instance in Singleton._instances:
             del instance
         Singleton._instances = {}
 ```
 
 ## Adapter pattern
-Converts interface of a class in to another. 
+Converts interface of a class into another. 
 
 ```python
 class Target():
@@ -311,7 +311,7 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3NTU0NDMyLDg3ODI4NTU2Myw2NTE4ND
+eyJoaXN0b3J5IjpbMzYxNDA2NTgyLDg3ODI4NTU2Myw2NTE4ND
 M5MSwxMDg0ODI5MjQ5LDE5MzYzMDQ3LDE0MjE0MzA0NzAsMTE5
 MDc2Nzk0Nyw3NzgwMzIyNjMsMTE3MjgzMDg3NSwtMTA3Nzk5NT
 U1MSwyMDE2MzE4MDc3LC0xMzY3MjAwMzEwLC0xMDA4NzU0Njg3
