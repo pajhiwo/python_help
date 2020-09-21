@@ -92,7 +92,9 @@ Mocker is pytest wrapper around Mock used as fixture. Can be used in the same wa
 ```python
 def test_something(mocker):
   sut = SUT()
-  sut.mocked_method() = mocker.Mock()
+  sut.mocked_method() = mocker.Mock(return_value=[1, 2]) # mocket_method will return 1 on 1st call and 2 on 2nd
+  sut.mocked_method = mocker.Mock(side_effect=Exception()) # will raise exception on a mocked_method call
+  
 ```
 
 
@@ -141,7 +143,7 @@ def test_something():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTIyNDY1NSwxMDQ2NTQ5ODIwLDEwMD
-Q4NjcwMzYsNzA3NDExMjAyLDExODk1MzA2MDIsMTE1OTA3NzQ3
-NiwtMTYxODc4Nzc1Ml19
+eyJoaXN0b3J5IjpbLTExMTE3ODcwNzAsMTA0NjU0OTgyMCwxMD
+A0ODY3MDM2LDcwNzQxMTIwMiwxMTg5NTMwNjAyLDExNTkwNzc0
+NzYsLTE2MTg3ODc3NTJdfQ==
 -->
