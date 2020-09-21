@@ -55,6 +55,15 @@ Use Union when something could be one of a few types
 x: List[Union[int, str]] = [3, 5, "test", "fun"]
 ```
 
+## Optional
+`Optional` type simply says that a variable either has the type specified or is `None`.
+```python
+
+def player_order(start=None):
+->
+def player_order(start: Optional[str] = None) -> Sequence[str]:
+```
+
 ## Type variable
 A type variable is a special variable that can take on any type, depending on the situation. 
 A type variable must be defined using `TypeVar` from the `typing` module. 
@@ -83,7 +92,8 @@ In the example, `name` is now a `str`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjkwODE3OSwtMjAyMzIwNzU3MywtMz
-Q5NzgwMzQsMTI4MjM0Mjg0MSwtMTg1MTQxMjUwMCwxODE1Mjk4
-MDkzLC04MzI4NjkyMjMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTI5NjE2NjUwMSwxODYyOTA4MTc5LC0yMD
+IzMjA3NTczLC0zNDk3ODAzNCwxMjgyMzQyODQxLC0xODUxNDEy
+NTAwLDE4MTUyOTgwOTMsLTgzMjg2OTIyMyw3MzA5OTgxMTZdfQ
+==
 -->
