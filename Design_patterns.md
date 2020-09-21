@@ -222,8 +222,21 @@ circle.draw()
 
 ## Singleton Pattern
 With ability to create real new instance of the object i.e. for unittesting
-```
+```python
+class Singleton(type)
+    _instances = {}
 
+    def __call__(cls, *args, **kwargs):
+        if cls not in cls._instances:
+            cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
+        return cls._instances[cls]
+
+    @staticmethod
+    def _reset_instance():
+	    @
+        for instance in Singleton._instances:
+            del instance
+        Singleton._instances = {}
 ```
 
 ## Adapter pattern
@@ -298,11 +311,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjM3ODA2MCw4NzgyODU1NjMsNjUxOD
-QzOTEsMTA4NDgyOTI0OSwxOTM2MzA0NywxNDIxNDMwNDcwLDEx
-OTA3Njc5NDcsNzc4MDMyMjYzLDExNzI4MzA4NzUsLTEwNzc5OT
-U1NTEsMjAxNjMxODA3NywtMTM2NzIwMDMxMCwtMTAwODc1NDY4
-NywxNTI4MjAwOTk5LC02ODkxMDM4OTIsLTE0NjMxMTAxMzQsMT
-I0MDY4NzA4LC01NTU1ODk3OCwtOTI0OTY4NzM0LDg3MzMyNTg4
-MV19
+eyJoaXN0b3J5IjpbMzM3NTU0NDMyLDg3ODI4NTU2Myw2NTE4ND
+M5MSwxMDg0ODI5MjQ5LDE5MzYzMDQ3LDE0MjE0MzA0NzAsMTE5
+MDc2Nzk0Nyw3NzgwMzIyNjMsMTE3MjgzMDg3NSwtMTA3Nzk5NT
+U1MSwyMDE2MzE4MDc3LC0xMzY3MjAwMzEwLC0xMDA4NzU0Njg3
+LDE1MjgyMDA5OTksLTY4OTEwMzg5MiwtMTQ2MzExMDEzNCwxMj
+QwNjg3MDgsLTU1NTU4OTc4LC05MjQ5Njg3MzQsODczMzI1ODgx
+XX0=
 -->
