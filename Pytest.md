@@ -121,26 +121,7 @@ import pytest, os
 def test_connect_to_database():
     ... # Run function that tries to connect to PostgreSQL database
 ```
-## Fixtures
-### Definition
-```python
-import pytest
 
-@pytest.fixture
-def some_setup_method():
-  # perform the actions
-```
-### Using in method arguments (per method)
-```python
-def test_something(self, some_setup_method):
-  ...
-```
-### Using in classes (for all methods)
-```python
-@pytest.mark.usefixtures("some_setup_method")
-class TestSomething:
-  ...
- ```
 
 ## Checking for Exceptions
 Check that the exception is raised by the SUT
@@ -152,7 +133,7 @@ def test_something():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NjU0OTgyMCwxMDA0ODY3MDM2LDcwNz
-QxMTIwMiwxMTg5NTMwNjAyLDExNTkwNzc0NzYsLTE2MTg3ODc3
-NTJdfQ==
+eyJoaXN0b3J5IjpbLTYzMTM3ODQ4NiwxMDQ2NTQ5ODIwLDEwMD
+Q4NjcwMzYsNzA3NDExMjAyLDExODk1MzA2MDIsMTE1OTA3NzQ3
+NiwtMTYxODc4Nzc1Ml19
 -->
