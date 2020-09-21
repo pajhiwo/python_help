@@ -142,7 +142,17 @@ class TestSomething:
   ...
  ```
 
+## Checking for Exceptions
+
+```python
+def test_something():
+  with pytest.raises(ExceptionType, )
+    call_SUT()
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDg2NzAzNiw3MDc0MTEyMDIsMTE4OT
-UzMDYwMiwxMTU5MDc3NDc2LC0xNjE4Nzg3NzUyXX0=
+eyJoaXN0b3J5IjpbLTkxNzI3NjU4NiwxMDA0ODY3MDM2LDcwNz
+QxMTIwMiwxMTg5NTMwNjAyLDExNTkwNzc0NzYsLTE2MTg3ODc3
+NTJdfQ==
 -->
