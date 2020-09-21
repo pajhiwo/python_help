@@ -90,11 +90,22 @@ In the example, `name` is now a `str`
 
 ## Callable
 Functions, as well as lambdas, methods and classes, are [represented by  `typing.Callable`](https://mypy.readthedocs.io/en/latest/kinds_of_types.html#callable-types-and-lambdas). The types of the arguments and the return value are usually also represented. For instance, `Callable[[A1, A2, A3], Rt]` represents a function with three arguments with types `A1`, `A2`, and `A3`, respectively. The return type of the function is `Rt`.
+```python
 
+def do_twice(func: Callable[[str], str], argument: str) -> None:
+ print(func(argument))
+ 7     print(func(argument))
+ 8 
+ 9 def create_greeting(name: str) -> str:
+10     return f"Hello {name}"
+11 
+12 do_twice(create_greeting, "Jekyll")
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Mjg4NTgxNSwtMjA0MjYxMTgzOCwxOD
-YyOTA4MTc5LC0yMDIzMjA3NTczLC0zNDk3ODAzNCwxMjgyMzQy
-ODQxLC0xODUxNDEyNTAwLDE4MTUyOTgwOTMsLTgzMjg2OTIyMy
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNDAwNDQzNjQzLC0zNzI4ODU4MTUsLTIwND
+I2MTE4MzgsMTg2MjkwODE3OSwtMjAyMzIwNzU3MywtMzQ5Nzgw
+MzQsMTI4MjM0Mjg0MSwtMTg1MTQxMjUwMCwxODE1Mjk4MDkzLC
+04MzI4NjkyMjMsNzMwOTk4MTE2XX0=
 -->
