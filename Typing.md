@@ -93,19 +93,19 @@ Functions, as well as lambdas, methods and classes, are [represented by  `typing
 ```python
 
 def do_twice(func: Callable[[str], str], argument: str) -> None:
- print(func(argument))
- 7     print(func(argument))
- 8 
- 9 def create_greeting(name: str) -> str:
-10     return f"Hello {name}"
-11 
-12 do_twice(create_greeting, "Jekyll")
+    print(func(argument))
+    print(func(argument))
+ 
+def create_greeting(name: str) -> str:
+    return f"Hello {name}"
+
+do_twice(create_greeting, "Jekyll")
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwNDQzNjQzLC0zNzI4ODU4MTUsLTIwND
-I2MTE4MzgsMTg2MjkwODE3OSwtMjAyMzIwNzU3MywtMzQ5Nzgw
-MzQsMTI4MjM0Mjg0MSwtMTg1MTQxMjUwMCwxODE1Mjk4MDkzLC
-04MzI4NjkyMjMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE1OTY5NTY4OTksLTM3Mjg4NTgxNSwtMj
+A0MjYxMTgzOCwxODYyOTA4MTc5LC0yMDIzMjA3NTczLC0zNDk3
+ODAzNCwxMjgyMzQyODQxLC0xODUxNDEyNTAwLDE4MTUyOTgwOT
+MsLTgzMjg2OTIyMyw3MzA5OTgxMTZdfQ==
 -->
