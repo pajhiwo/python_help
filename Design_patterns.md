@@ -220,6 +220,9 @@ circle.draw()
 >>> Circle.draw
 ```
 
+### Factory Pattern 2
+With ability to dest
+
 ## Adapter pattern
 Converts interface of a class in to another. 
 
@@ -292,11 +295,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4Mjg1NTYzLDY1MTg0MzkxLDEwODQ4Mj
-kyNDksMTkzNjMwNDcsMTQyMTQzMDQ3MCwxMTkwNzY3OTQ3LDc3
-ODAzMjI2MywxMTcyODMwODc1LC0xMDc3OTk1NTUxLDIwMTYzMT
-gwNzcsLTEzNjcyMDAzMTAsLTEwMDg3NTQ2ODcsMTUyODIwMDk5
-OSwtNjg5MTAzODkyLC0xNDYzMTEwMTM0LDEyNDA2ODcwOCwtNT
-U1NTg5NzgsLTkyNDk2ODczNCw4NzMzMjU4ODEsLTExNTQ4ODkx
-OTRdfQ==
+eyJoaXN0b3J5IjpbLTk5ODUwMDk5OSw4NzgyODU1NjMsNjUxOD
+QzOTEsMTA4NDgyOTI0OSwxOTM2MzA0NywxNDIxNDMwNDcwLDEx
+OTA3Njc5NDcsNzc4MDMyMjYzLDExNzI4MzA4NzUsLTEwNzc5OT
+U1NTEsMjAxNjMxODA3NywtMTM2NzIwMDMxMCwtMTAwODc1NDY4
+NywxNTI4MjAwOTk5LC02ODkxMDM4OTIsLTE0NjMxMTAxMzQsMT
+I0MDY4NzA4LC01NTU1ODk3OCwtOTI0OTY4NzM0LDg3MzMyNTg4
+MV19
 -->
