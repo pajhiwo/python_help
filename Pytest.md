@@ -143,16 +143,16 @@ class TestSomething:
  ```
 
 ## Checking for Exceptions
-
+Check that the exception is raised by the SUT
 ```python
 def test_something():
-  with pytest.raises(ExceptionType, )
+  with pytest.raises(ExceptionType, match="optional Exception re text to match")
     call_SUT()
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzI3NjU4NiwxMDA0ODY3MDM2LDcwNz
+eyJoaXN0b3J5IjpbMTA0NjU0OTgyMCwxMDA0ODY3MDM2LDcwNz
 QxMTIwMiwxMTg5NTMwNjAyLDExNTkwNzc0NzYsLTE2MTg3ODc3
 NTJdfQ==
 -->
