@@ -55,6 +55,16 @@ Use Union when something could be one of a few types
 x: List[Union[int, str]] = [3, 5, "test", "fun"]
 ```
 
+## Mapping
+Mapping describes a dict-like object
+
+## Iterable
+Iterable for generic iterables (anything usable in "for")
+
+## Sequence
+Sequence where a sequence (supporting "len" and "__getitem__")
+
+
 ## Optional
 `Optional` type simply says that a variable either has the type specified or is `None`.
 ```python
@@ -102,12 +112,10 @@ def create_greeting(name: str) -> str:
 do_twice(create_greeting, "Jekyll")
 
 ```
-## Mapping
-Mapping describes a dict-like object
 
-Iterable for generic iterables (anything usable in "for"),
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5Mzc1MDM1OSwtMTU5Njk1Njg5OSwtMz
+eyJoaXN0b3J5IjpbLTU0ODczOTMzMywtMTU5Njk1Njg5OSwtMz
 cyODg1ODE1LC0yMDQyNjExODM4LDE4NjI5MDgxNzksLTIwMjMy
 MDc1NzMsLTM0OTc4MDM0LDEyODIzNDI4NDEsLTE4NTE0MTI1MD
 AsMTgxNTI5ODA5MywtODMyODY5MjIzLDczMDk5ODExNl19
