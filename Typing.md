@@ -58,7 +58,8 @@ x: List[Union[int, str]] = [3, 5, "test", "fun"]
 ## Type variable
 A type variable is a special variable that can take on any type, depending on the situation. 
 A type variable must be defined using `TypeVar` from the `typing` module. 
-When used, a type variable ranges over all possible types and takes the most specific type possible
+When used, a type variable ranges over all possible types and takes the most specific type possible.
+TypeVar()' must be a string equal to the variable name to which it is assigned.
 ```python
 
 import random
@@ -82,7 +83,7 @@ In the example, `name` is now a `str`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzIxMDE2MjYsLTIwMjMyMDc1NzMsLT
-M0OTc4MDM0LDEyODIzNDI4NDEsLTE4NTE0MTI1MDAsMTgxNTI5
-ODA5MywtODMyODY5MjIzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTg2MjkwODE3OSwtMjAyMzIwNzU3MywtMz
+Q5NzgwMzQsMTI4MjM0Mjg0MSwtMTg1MTQxMjUwMCwxODE1Mjk4
+MDkzLC04MzI4NjkyMjMsNzMwOTk4MTE2XX0=
 -->
