@@ -220,7 +220,7 @@ circle.draw()
 >>> Circle.draw
 ```
 
-### Factory Pattern 2
+## Singleton Pattern
 With ability to create real new instance of the object i.e. for unittesting
 ```
 
@@ -298,7 +298,7 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTM1MDkzOCw4NzgyODU1NjMsNjUxOD
+eyJoaXN0b3J5IjpbMjAyMjM3ODA2MCw4NzgyODU1NjMsNjUxOD
 QzOTEsMTA4NDgyOTI0OSwxOTM2MzA0NywxNDIxNDMwNDcwLDEx
 OTA3Njc5NDcsNzc4MDMyMjYzLDExNzI4MzA4NzUsLTEwNzc5OT
 U1NTEsMjAxNjMxODA3NywtMTM2NzIwMDMxMCwtMTAwODc1NDY4
