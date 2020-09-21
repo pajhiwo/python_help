@@ -88,10 +88,12 @@ def test_my_function():
         get.assert_called_once()
 ```
 ## Mocker
-Mocker is pytest wrapper around Mock.
-1. Mock method of SUT
-2. Mock builtin
-3. 
+Mocker is pytest wrapper around Mock used as fixture. Can be used in the same way as Mock
+```python
+def test_something(mocker):
+  sut = SUT()
+  sut.mocked_method() = mocker.Mock()
+```
 
 
 ## Conftest
@@ -139,7 +141,7 @@ def test_something():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjExNDE0NCwxMDQ2NTQ5ODIwLDEwMD
+eyJoaXN0b3J5IjpbMTg4NTIyNDY1NSwxMDQ2NTQ5ODIwLDEwMD
 Q4NjcwMzYsNzA3NDExMjAyLDExODk1MzA2MDIsMTE1OTA3NzQ3
 NiwtMTYxODc4Nzc1Ml19
 -->
