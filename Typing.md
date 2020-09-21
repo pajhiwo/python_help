@@ -102,10 +102,13 @@ def create_greeting(name: str) -> str:
 do_twice(create_greeting, "Jekyll")
 
 ```
+## Mapping
+Mapping describes a dict-like object
 
+Iterable for generic iterables (anything usable in "for"),
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTY5NTY4OTksLTM3Mjg4NTgxNSwtMj
-A0MjYxMTgzOCwxODYyOTA4MTc5LC0yMDIzMjA3NTczLC0zNDk3
-ODAzNCwxMjgyMzQyODQxLC0xODUxNDEyNTAwLDE4MTUyOTgwOT
-MsLTgzMjg2OTIyMyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTM5Mzc1MDM1OSwtMTU5Njk1Njg5OSwtMz
+cyODg1ODE1LC0yMDQyNjExODM4LDE4NjI5MDgxNzksLTIwMjMy
+MDc1NzMsLTM0OTc4MDM0LDEyODIzNDI4NDEsLTE4NTE0MTI1MD
+AsMTgxNTI5ODA5MywtODMyODY5MjIzLDczMDk5ODExNl19
 -->
