@@ -35,7 +35,7 @@ print(id(f2))
 ```
 
 * **Metaclass**
-
+Possibility to reset instance/create new one via `_reset_instance`
 ```python
 class Singleton(type):  
     _instances = {}  
@@ -228,24 +228,6 @@ circle.draw()
 >>> Circle.draw
 ```
 
-## Singleton Pattern
-With ability to create real new instance of the object i.e. for unittesting
-```python
-class Singleton(type)
-    _instances = {}
-
-    def __call__(cls, *args, **kwargs):
-        if cls not in cls._instances:
-            cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
-        return cls._instances[cls]
-
-    @staticmethod
-    def _reset_instance():
-	    # erase existing instances
-        for instance in Singleton._instances:
-            del instance
-        Singleton._instances = {}
-```
 
 ## Adapter pattern
 Converts interface of a class into another. 
@@ -319,11 +301,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzMjE4ODcsMzYxNDA2NTgyLDg3ODI4NT
-U2Myw2NTE4NDM5MSwxMDg0ODI5MjQ5LDE5MzYzMDQ3LDE0MjE0
-MzA0NzAsMTE5MDc2Nzk0Nyw3NzgwMzIyNjMsMTE3MjgzMDg3NS
-wtMTA3Nzk5NTU1MSwyMDE2MzE4MDc3LC0xMzY3MjAwMzEwLC0x
-MDA4NzU0Njg3LDE1MjgyMDA5OTksLTY4OTEwMzg5MiwtMTQ2Mz
-ExMDEzNCwxMjQwNjg3MDgsLTU1NTU4OTc4LC05MjQ5Njg3MzRd
-fQ==
+eyJoaXN0b3J5IjpbNzMzNjUzNDk3LDM2MTQwNjU4Miw4NzgyOD
+U1NjMsNjUxODQzOTEsMTA4NDgyOTI0OSwxOTM2MzA0NywxNDIx
+NDMwNDcwLDExOTA3Njc5NDcsNzc4MDMyMjYzLDExNzI4MzA4Nz
+UsLTEwNzc5OTU1NTEsMjAxNjMxODA3NywtMTM2NzIwMDMxMCwt
+MTAwODc1NDY4NywxNTI4MjAwOTk5LC02ODkxMDM4OTIsLTE0Nj
+MxMTAxMzQsMTI0MDY4NzA4LC01NTU1ODk3OCwtOTI0OTY4NzM0
+XX0=
 -->
