@@ -3,6 +3,7 @@
 
 All parameters in the Python language are passed by reference.
 If you pass a mutable object into a method, the method gets a reference to that same object and you can mutate it to your heart's delight, but if you rebind the reference in the method, the outer scope will know nothing about it, and after you're done, the outer reference will still point at the original object.
+Functions are [first-class objects](https://dbader.org/blog/python-first-class-functions) in Python. This means that you can use functions as arguments to other functions.
 
 NOT POSSIBLE FOR INT: https://stackoverflow.com/questions/15148496/passing-an-integer-by-reference-in-python?lq=1
 
@@ -180,7 +181,7 @@ print("Optional parameter wasn't supplied...")
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiY2F0ZWdvcmllczogJ2tleXdvcmQsIH
 JlZmVyZW5jZSwgYXJndW1lbnRzLCBhcmdzLCBsYW1iZGEnXG4i
-LCJoaXN0b3J5IjpbLTEyNTI0MTc3NjMsLTU3NTE4MTE2NSwtNT
-I2NTk1OTgzLC0zODQwOTc5ODUsMTE4MDQ2NTk1LDE0MTc0ODgw
-MTJdfQ==
+LCJoaXN0b3J5IjpbMTUzOTY5OTE0MCwtMTI1MjQxNzc2MywtNT
+c1MTgxMTY1LC01MjY1OTU5ODMsLTM4NDA5Nzk4NSwxMTgwNDY1
+OTUsMTQxNzQ4ODAxMl19
 -->
