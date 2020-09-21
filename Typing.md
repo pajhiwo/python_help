@@ -54,8 +54,14 @@ Use Union when something could be one of a few types
 ```python
 x: List[Union[int, str]] = [3, 5, "test", "fun"]
 ```
+
+## Type variable
+A type variable is a special variable that can take on any type, depending on the situation
+```python
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjMyMDc1NzMsLTM0OTc4MDM0LDEyOD
-IzNDI4NDEsLTE4NTE0MTI1MDAsMTgxNTI5ODA5MywtODMyODY5
-MjIzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE3MTExMjYyNjMsLTIwMjMyMDc1NzMsLT
+M0OTc4MDM0LDEyODIzNDI4NDEsLTE4NTE0MTI1MDAsMTgxNTI5
+ODA5MywtODMyODY5MjIzLDczMDk5ODExNl19
 -->
