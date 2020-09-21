@@ -127,16 +127,22 @@ def test_connect_to_database():
 import pytest
 
 @pytest.fixture
-def some_setup_method()
+def some_setup_method():
   # perform the actions
 ```
-### Using in method arguments
+### Using in method arguments (per method)
 ```python
 def test_something(self, some_setup_method):
   ...
 ```
+### Using in classes (for all methods)
+```python
+@pytest.mark.usefixtures("some_setup_method")
+class TestSomething:
+  ...
+ ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDA3MzA1Miw3MDc0MTEyMDIsMTE4OT
+eyJoaXN0b3J5IjpbMTAwNDg2NzAzNiw3MDc0MTEyMDIsMTE4OT
 UzMDYwMiwxMTU5MDc3NDc2LC0xNjE4Nzg3NzUyXX0=
 -->
