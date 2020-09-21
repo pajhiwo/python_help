@@ -75,13 +75,14 @@ reveal_type(names)
 name = choose(names)
 reveal_type(name)
 ```
+In the example, `name` is now a `str`
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzczMDEzOSwtMjAyMzIwNzU3MywtMz
-Q5NzgwMzQsMTI4MjM0Mjg0MSwtMTg1MTQxMjUwMCwxODE1Mjk4
-MDkzLC04MzI4NjkyMjMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE3NzIxMDE2MjYsLTIwMjMyMDc1NzMsLT
+M0OTc4MDM0LDEyODIzNDI4NDEsLTE4NTE0MTI1MDAsMTgxNTI5
+ODA5MywtODMyODY5MjIzLDczMDk5ODExNl19
 -->
