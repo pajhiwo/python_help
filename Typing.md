@@ -88,12 +88,13 @@ reveal_type(name)
 In the example, `name` is now a `str`
 
 
-
+## Callable
+Functions, as well as lambdas, methods and classes, are [represented by  `typing.Callable`](https://mypy.readthedocs.io/en/latest/kinds_of_types.html#callable-types-and-lambdas). The types of the arguments and the return value are usually also represented. For instance, `Callable[[A1, A2, A3], Rt]` represents a function with three arguments with types `A1`, `A2`, and `A3`, respectively. The return type of the function is `Rt`.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDI2MTE4MzgsMTg2MjkwODE3OSwtMj
-AyMzIwNzU3MywtMzQ5NzgwMzQsMTI4MjM0Mjg0MSwtMTg1MTQx
-MjUwMCwxODE1Mjk4MDkzLC04MzI4NjkyMjMsNzMwOTk4MTE2XX
-0=
+eyJoaXN0b3J5IjpbLTM3Mjg4NTgxNSwtMjA0MjYxMTgzOCwxOD
+YyOTA4MTc5LC0yMDIzMjA3NTczLC0zNDk3ODAzNCwxMjgyMzQy
+ODQxLC0xODUxNDEyNTAwLDE4MTUyOTgwOTMsLTgzMjg2OTIyMy
+w3MzA5OTgxMTZdfQ==
 -->
