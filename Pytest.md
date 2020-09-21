@@ -94,7 +94,8 @@ def test_something(mocker):
   sut = SUT()
   sut.mocked_method() = mocker.Mock(return_value=[1, 2]) # mocket_method will return 1 on 1st call and 2 on 2nd
   sut.mocked_method = mocker.Mock(side_effect=Exception()) # will raise exception on a mocked_method call
-  
+  mocked_builtin = mocker.patch("path.to.module.where.builtin.is.used.glob.glob)
+  mocked_builtin.return_value = "aaa"  # patch glob/glo
 ```
 
 
@@ -143,7 +144,7 @@ def test_something():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTE3ODcwNzAsMTA0NjU0OTgyMCwxMD
-A0ODY3MDM2LDcwNzQxMTIwMiwxMTg5NTMwNjAyLDExNTkwNzc0
-NzYsLTE2MTg3ODc3NTJdfQ==
+eyJoaXN0b3J5IjpbMTgwMDgwNzA5NCwxMDQ2NTQ5ODIwLDEwMD
+Q4NjcwMzYsNzA3NDExMjAyLDExODk1MzA2MDIsMTE1OTA3NzQ3
+NiwtMTYxODc4Nzc1Ml19
 -->
