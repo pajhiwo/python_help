@@ -116,10 +116,23 @@ do_twice(create_greeting, "Jekyll")
 
 ```
 
+## Class
+
+# User-defined classes are valid as types in annotations
+
+```pythonx: MyClass = MyClass()
+```
+```python
+# You can use the ClassVar annotation to declare a class variable
+class Car:
+    seats: ClassVar[int] = 4
+    passengers: ClassVar[List[str]]
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDA5MDY4NywtMTU5Njk1Njg5OSwtMz
-cyODg1ODE1LC0yMDQyNjExODM4LDE4NjI5MDgxNzksLTIwMjMy
-MDc1NzMsLTM0OTc4MDM0LDEyODIzNDI4NDEsLTE4NTE0MTI1MD
-AsMTgxNTI5ODA5MywtODMyODY5MjIzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE4MzM1NjQ2NjMsLTE1OTY5NTY4OTksLT
+M3Mjg4NTgxNSwtMjA0MjYxMTgzOCwxODYyOTA4MTc5LC0yMDIz
+MjA3NTczLC0zNDk3ODAzNCwxMjgyMzQyODQxLC0xODUxNDEyNT
+AwLDE4MTUyOTgwOTMsLTgzMjg2OTIyMyw3MzA5OTgxMTZdfQ==
+
 -->
