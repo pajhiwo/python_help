@@ -61,9 +61,27 @@ A type variable must be defined using `TypeVar` from the `typing` module.
 When used, a type variable ranges over all possible types and takes the most specific type possible
 ```python
 
+import random
+from typing import Sequence, TypeVar
+
+Choosable = TypeVar("Chooseable")
+
+def choose(items: Sequence[Choosable]) -> Choosable:
+    return random.choice(items)
+
+names = ["Guido", "Jukka", "Ivan"]
+reveal_type(names)
+
+name = choose(names)
+reveal_type(name)
 ```
+
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NjgwMDYxNywtMjAyMzIwNzU3MywtMz
+eyJoaXN0b3J5IjpbLTI4NzczMDEzOSwtMjAyMzIwNzU3MywtMz
 Q5NzgwMzQsMTI4MjM0Mjg0MSwtMTg1MTQxMjUwMCwxODE1Mjk4
 MDkzLC04MzI4NjkyMjMsNzMwOTk4MTE2XX0=
 -->
