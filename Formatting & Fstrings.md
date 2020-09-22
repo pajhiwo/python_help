@@ -8,10 +8,14 @@ f/F"{variable/'text':[filler][adjusting][length]}"
 # > right align
 
 #examples
-var = "some value"
-f"{var:*<}"
+>>> print(f"{var}plus text")  
+varrplus text
+>>> print(f"{var:*<10}plus text")  
+varr******plus text  
+>>> print(f"{var:*>10}plus text")  
+******varrplus text
 ```
 # Formatting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzEzNTYwNV19
+eyJoaXN0b3J5IjpbOTQ5ODQ2NDIzXX0=
 -->
