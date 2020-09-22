@@ -1,6 +1,6 @@
 # Tools
 ## Formatters
-* [isort](https://pycqa.github.io/isort/) - sorts the imports. Supports running from code.
+* [isort](https://pycqa.github.io/isort/) - sorts the imports. Supports running from code.Does n
 * [black](https://github.com/psf/black) - formats the code, vary little config options, other tools should be configured to apply black formatting rules (like isort). Does not support running from code
 * [autopep8](https://github.com/hhatto/autopep8) - formats the code like black. Much more config options. Supports running from code.
 
@@ -57,8 +57,8 @@ target-version = ['py36']
 [flake8]
 max-line-length = 120
 max-complexity = 10
-```
+```Solutions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwNTY5NTc2LDE0ODkyMTI0OSwtMTkxMD
-A2NTY5MywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE1NDg5NjA4NTMsMzUwNTY5NTc2LDE0OD
+kyMTI0OSwtMTkxMDA2NTY5MywtMjA4ODc0NjYxMl19
 -->
