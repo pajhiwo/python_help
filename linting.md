@@ -13,8 +13,7 @@ all of them supports the config in `pyproject.toml`
 does not support config in `pyproject.toml`. Config has to be placed in `.flake8` file
 
 # Including in the pipeline
-Using PyCharm is not a go as it cannot be used in CI 
-1. Script that can do 2 things:
+Using PyCharm is not a go as it cannot be used in CI. Script that can do 2 things:
 	* check linting using flake8 with  plugins. To be run in CI and fails the job/stage if there are some issues in formatting found
 	*  fix linting by applying imports formatting and whole codebase formatting
 
@@ -26,8 +25,12 @@ It can be achieved using flake8 for checking, black and isort for formatting.
         isort_config = isort.Config(settings_file=CodeFormatter.PYPROJECT_TOML_PATH)
         is_fixed_isort = isort.file(pyfile, config=isort_config)
   ```
-* black using subprocess. Capture all output and decide if it t
+* black using subprocess. Capture all output and decide if it there were some formatting performed:
+```python
+_, err = subprocess.Popen(["black", pyfile], stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
+        is_fixed_black = True if "1 file reformatted" in str(err) else False
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDAxNjczMDksLTE5MTAwNjU2OTMsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTA3ODk3MzI4MywtMTkxMDA2NTY5MywtMj
+A4ODc0NjYxMl19
 -->
