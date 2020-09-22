@@ -31,7 +31,10 @@ _, err = subprocess.Popen(["black", pyfile], stdout=subprocess.PIPE, stderr=subp
         is_fixed_black = True if "1 file reformatted" in str(err) else False
 ```
 
+## Config
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTIxMjQ5LC0xOTEwMDY1NjkzLC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTcwOTA1MjEyOSwxNDg5MjEyNDksLTE5MT
+AwNjU2OTMsLTIwODg3NDY2MTJdfQ==
 -->
