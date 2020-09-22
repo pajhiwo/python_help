@@ -14,8 +14,13 @@ varrplus text
 varr******plus text  
 >>> print(f"{var:*>10}plus text")  
 ******varrplus text
+# filler and len may be replaced by variables
+>>> length = 10  
+>>> filler = "*"
+>>> print(f"{var:{filler}>{length}}plus text")  
+******varrplus text
 ```
 # Formatting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5ODQ2NDIzXX0=
+eyJoaXN0b3J5IjpbLTgxMjAwNjM3N119
 -->
