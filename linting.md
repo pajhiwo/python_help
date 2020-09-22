@@ -16,8 +16,12 @@ does not support config in `pyproject.toml`. Config has to be placed in `.flake8
 Using PyCharm is not a go as it cannot be used in CI 
 1. Script that can do 2 things:
 	* check linting using flake8 with  plugins. To be run in CI and fails the job/stage if there are some issues in formatting found
-	*  
+	*  fix linting by applying imports formatting and whole codebase formatting
+
+It can be achieved using flake8 for checking, black and isort for formatting.
+* isort used from code using:
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTUyNjMsLTE5MTAwNjU2OTMsLTIwOD
-g3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEyNDAxOTk3MDksLTE5MTAwNjU2OTMsLT
+IwODg3NDY2MTJdfQ==
 -->
