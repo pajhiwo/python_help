@@ -20,8 +20,14 @@ Using PyCharm is not a go as it cannot be used in CI
 
 It can be achieved using flake8 for checking, black and isort for formatting.
 * isort used from code using:
-* 
+```python
+        # need to pass config loaded into var as currently 'quiet' read directly from toml in isort.file does not work:
+        # https://github.com/PyCQA/isort/issues/1461
+        isort_config = isort.Config(settings_file=CodeFormatter.PYPROJECT_TOML_PATH)
+        is_fixed_isort = isort.file(pyfile, config=isort_config)
+  ```
+* black using subprocess. Capture all output and decide if it t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDAxOTk3MDksLTE5MTAwNjU2OTMsLT
+eyJoaXN0b3J5IjpbLTIxMDAxNjczMDksLTE5MTAwNjU2OTMsLT
 IwODg3NDY2MTJdfQ==
 -->
