@@ -1,4 +1,6 @@
 # Pytest
+sources:
+* https://martinheinz.dev/blog/7
 
 ## Testing for exception
 Here we can see simple context manager that _Pytest_ provides for us. It allows us to specify type of exception that should be raised as well as message of said exception.
@@ -144,7 +146,7 @@ def test_something():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU2NDA3NjksMTA0NjU0OTgyMCwxMD
+eyJoaXN0b3J5IjpbLTE3MjM2MjYwNDksMTA0NjU0OTgyMCwxMD
 A0ODY3MDM2LDcwNzQxMTIwMiwxMTg5NTMwNjAyLDExNTkwNzc0
 NzYsLTE2MTg3ODc3NTJdfQ==
 -->
