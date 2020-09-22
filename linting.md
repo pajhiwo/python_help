@@ -13,7 +13,8 @@ all of them supports the config in `pyproject.toml`
 does not support config in `pyproject.toml`. Config has to be placed in `.flake8` file
 
 # Including in the pipeline
+Using PyCharm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzY1OTc0NjMsLTE5MTAwNjU2OTMsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTA1MjIzNTYyNywtMTkxMDA2NTY5MywtMj
+A4ODc0NjYxMl19
 -->
