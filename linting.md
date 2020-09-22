@@ -14,8 +14,8 @@ does not support config in `pyproject.toml`. Config has to be placed in `.flake8
 
 # Including in the pipeline
 Using PyCharm is not a go as it cannot be used in CI. Script that can do 2 things:
-	* check linting using flake8 with  plugins. To be run in CI and fails the job/stage if there are some issues in formatting found
-	*  fix linting by applying imports formatting and whole codebase formatting
+* check linting using flake8 with  plugins. To be run in CI and fails the job/stage if there are some issues in formatting found
+*  fix linting by applying imports formatting and whole codebase formatting
 
 It can be achieved using flake8 for checking, black and isort for formatting.
 * isort used from code using:
@@ -30,7 +30,8 @@ It can be achieved using flake8 for checking, black and isort for formatting.
 _, err = subprocess.Popen(["black", pyfile], stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
         is_fixed_black = True if "1 file reformatted" in str(err) else False
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODk3MzI4MywtMTkxMDA2NTY5MywtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTQ4OTIxMjQ5LC0xOTEwMDY1NjkzLC0yMD
+g4NzQ2NjEyXX0=
 -->
