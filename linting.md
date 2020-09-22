@@ -7,8 +7,8 @@
 all of them supports the config in `pyproject.toml`
 ## Linters
 * [flake8](https://flake8.pycqa.org/en/latest/) - 
-doe
+does not support config in pyproject.toml. Config has to be placed in `.flake8` file
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjM3Mzc3OSwtMTkxMDA2NTY5MywtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyNzk1NTIzMzQsLTE5MTAwNjU2OTMsLT
+IwODg3NDY2MTJdfQ==
 -->
