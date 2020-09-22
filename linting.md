@@ -1,8 +1,8 @@
 # Tools
 ## Formatters
-* [isort](https://pycqa.github.io/isort/) - sorts the imports
-* [black](https://github.com/psf/black) - formats the code, vary little config options, other tools should be configured to apply black formatting rules (like isort)
-* [autopep8](https://github.com/hhatto/autopep8) - formats the code like black. Much more config options
+* [isort](https://pycqa.github.io/isort/) - sorts the imports. Does n
+* [black](https://github.com/psf/black) - formats the code, vary little config options, other tools should be configured to apply black formatting rules (like isort). Does not support running from code
+* [autopep8](https://github.com/hhatto/autopep8) - formats the code like black. Much more config options. Supports running from code
 
 all of them supports the config in `pyproject.toml`
 ## Linters
@@ -11,7 +11,9 @@ all of them supports the config in `pyproject.toml`
 	* isort (flake8-isort)
 
 does not support config in pyproject.toml. Config has to be placed in `.flake8` file
+
+# Solutions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzI4NjYxNDgsLTE5MTAwNjU2OTMsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMzEwODE1MDg5LC0xOTEwMDY1NjkzLC0yMD
+g4NzQ2NjEyXX0=
 -->
