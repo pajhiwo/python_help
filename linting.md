@@ -36,7 +36,7 @@ _, err = subprocess.Popen(["black", pyfile], stdout=subprocess.PIPE, stderr=subp
 ```toml
 [tool.isort]
 sections = "FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
-known_first_party = "RouteIFTestLibrary"
+known_first_party = "our_module"
 case_sensitive = true
 quiet = true
 # settings below to comply to black formatting rules
@@ -51,7 +51,14 @@ line_length = 120
 line_length = 120
 target-version = ['py36']
 ```
+---
+`flake8`:
+```toml
+[flake8]
+max-line-length = 120
+max-complexity = 10
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODE3Mjc4ODAsMTQ4OTIxMjQ5LC0xOT
-EwMDY1NjkzLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMzUwNTY5NTc2LDE0ODkyMTI0OSwtMTkxMD
+A2NTY5MywtMjA4ODc0NjYxMl19
 -->
