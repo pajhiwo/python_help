@@ -2,9 +2,16 @@
 source: https://www.peterbe.com/plog/how-to-pad-fill-string-by-variable-python
 General template:
 ```python
-f/F"{zmienna/'tekst':[filler}"
+f/F"{variable/'text':[filler][adjusting][length]}"
+#where:
+# < left align
+#
+
+#examples
+var = "some value"
+f"{var:*<}"
 ```
 # Formatting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTA1NDA3Nl19
+eyJoaXN0b3J5IjpbLTIwMTcyMjU0OF19
 -->
