@@ -15,8 +15,9 @@ does not support config in `pyproject.toml`. Config has to be placed in `.flake8
 # Including in the pipeline
 Using PyCharm is not a go as it cannot be used in CI 
 1. Script that can do 2 things:
-	* check linting using flake8 with  plugins. To be run in CI and fails the job/stage if there are some  
+	* check linting using flake8 with  plugins. To be run in CI and fails the job/stage if there are some issues in formatting found
+	*  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODQzNTE5NSwtMTkxMDA2NTY5MywtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTgyOTUyNjMsLTE5MTAwNjU2OTMsLTIwOD
+g3NDY2MTJdfQ==
 -->
