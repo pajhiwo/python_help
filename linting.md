@@ -13,8 +13,10 @@ all of them supports the config in `pyproject.toml`
 does not support config in `pyproject.toml`. Config has to be placed in `.flake8` file
 
 # Including in the pipeline
-Using PyCharm is not a go as it cannot be used 
+Using PyCharm is not a go as it cannot be used in CI 
+1. Script that can do 2 things:
+	* check linting using flake8 with  plugins. To be run in CI and fails the job/stage if there are some  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTQ4ODczMSwtMTkxMDA2NTY5MywtMj
+eyJoaXN0b3J5IjpbLTM4ODQzNTE5NSwtMTkxMDA2NTY5MywtMj
 A4ODc0NjYxMl19
 -->
