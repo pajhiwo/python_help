@@ -5,7 +5,7 @@ General template:
 f/F"{variable/'text':[filler][adjusting][length]}"
 #where:
 # < left align
-#
+# > right align
 
 #examples
 var = "some value"
@@ -13,5 +13,5 @@ f"{var:*<}"
 ```
 # Formatting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTcyMjU0OF19
+eyJoaXN0b3J5IjpbLTExNzEzNTYwNV19
 -->
