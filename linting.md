@@ -7,9 +7,11 @@
 all of them supports the config in `pyproject.toml`
 ## Linters
 * [flake8](https://flake8.pycqa.org/en/latest/) - linter checking code according to PEP8 and with support for plugins:
-	* black
+	* black (flake8-black)
+	* isort (flake8-isort)
+
 does not support config in pyproject.toml. Config has to be placed in `.flake8` file
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Mzk2Mzg4NywtMTkxMDA2NTY5MywtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEwMzI4NjYxNDgsLTE5MTAwNjU2OTMsLT
+IwODg3NDY2MTJdfQ==
 -->
