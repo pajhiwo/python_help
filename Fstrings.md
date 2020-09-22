@@ -6,7 +6,7 @@ f/F"{variable/'text'[:[filler][align][length]]}"
 #where:
 # < left align
 # > right align
-# part with aligning 
+# part related to aligning and filling is optional  
 
 
 #examples
@@ -24,5 +24,5 @@ varr******plus text
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDA1NjExMl19
+eyJoaXN0b3J5IjpbMTIwMTE5MTM4Ml19
 -->
