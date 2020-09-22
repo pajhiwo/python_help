@@ -2,7 +2,7 @@
 source: https://www.peterbe.com/plog/how-to-pad-fill-string-by-variable-python
 General template:
 ```python
-f/F"{variable/'text'[:[filler][align][length]]}"
+f/F"{variable[:[filler][align][length]]}"
 #where:
 # < left align
 # > right align
@@ -24,5 +24,5 @@ varr******plus text
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTE5MTM4Ml19
+eyJoaXN0b3J5IjpbMTkzNDMxNjE1Nl19
 -->
