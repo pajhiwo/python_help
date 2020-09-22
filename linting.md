@@ -32,9 +32,26 @@ _, err = subprocess.Popen(["black", pyfile], stdout=subprocess.PIPE, stderr=subp
 ```
 
 ## Config
+`pyproject.toml`:
+```toml
+[tool.isort]
+sections = "FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+known_first_party = "RouteIFTestLibrary"
+case_sensitive = true
+quiet = true
+# settings below to comply to black formatting rules
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+line_length = 120
 
-
+[tool.black]
+line_length = 120
+target-version = ['py36']
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTA1MjEyOSwxNDg5MjEyNDksLTE5MT
-AwNjU2OTMsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTExODE3Mjc4ODAsMTQ4OTIxMjQ5LC0xOT
+EwMDY1NjkzLC0yMDg4NzQ2NjEyXX0=
 -->
