@@ -100,7 +100,7 @@ def test_something(mocker):
   mocked_builtin = mocker.patch("path.to.module.where.builtin.is.used.glob.glob)
   mocked_builtin.return_value = "aaa"  # patch glob.glob in given module
   # or in 1 line
-  
+  mocker.patch("path.to.module.where.builtin.is.used.glob.glob).return_value = "aaa"
 ```
 
 ## Conftest
@@ -148,7 +148,7 @@ def test_something():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzYzNjE5LC0xNzIzNjI2MDQ5LDEwND
+eyJoaXN0b3J5IjpbNjQ2ODM0NzI2LC0xNzIzNjI2MDQ5LDEwND
 Y1NDk4MjAsMTAwNDg2NzAzNiw3MDc0MTEyMDIsMTE4OTUzMDYw
 MiwxMTU5MDc3NDc2LC0xNjE4Nzg3NzUyXX0=
 -->
