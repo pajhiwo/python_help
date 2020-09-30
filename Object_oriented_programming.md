@@ -1,7 +1,7 @@
 
 # Object Oriented Programming
-[Link](https://medium.com/@mrfksiv/python-design-patterns-01-introduction-54e681aaf2d0)
-* **TODO**: check or/and combine with `Inheritance_Composition`
+
+
 
 ## Encapsulation
 Hide internal representation or state of a structured data object inside a class, so it is not visible by other external objects.
@@ -90,7 +90,8 @@ Too big hierarchical structure of classes
 ## `__mro__`
 The MRO is also used by super() to determine which method or attribute to invoke. MRO shows the order in which Python is going to look for a matching attribute or method.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjI1NjY3LDQxMDE5ODY4OCwtMTcxMj
-QzOTkyNywtOTE1NzU4OTQwLDIwNDM4MDM3NDIsLTE5NDI2NTA3
-NzgsMTM4OTg5MDY4NCwtMzEzMzY5NzA3LDYwNDc5NzEwNF19
+eyJoaXN0b3J5IjpbLTE4MjgzNjEyMDAsNDEwMTk4Njg4LC0xNz
+EyNDM5OTI3LC05MTU3NTg5NDAsMjA0MzgwMzc0MiwtMTk0MjY1
+MDc3OCwxMzg5ODkwNjg0LC0zMTMzNjk3MDcsNjA0Nzk3MTA0XX
+0=
 -->
