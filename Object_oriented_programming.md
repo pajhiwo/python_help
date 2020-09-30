@@ -5,6 +5,7 @@
 
 ## Encapsulation
 Hide internal representation or state of an object, so it is not visible by other external objects.
+
 By keeping attributes private (**single underscore “_” prefix**) and only allowing access to them via _getter_ and _setter_ methods, we hide specific information and restrict access to the internal state
 
 ## Polymorphism
@@ -89,6 +90,7 @@ Too big hierarchical structure of classes
 ## `__mro__`
 The MRO is also used by super() to determine which method or attribute to invoke. MRO shows the order in which Python is going to look for a matching attribute or method.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MzgwMzc0MiwtMTk0MjY1MDc3OCwxMz
-g5ODkwNjg0LC0zMTMzNjk3MDcsNjA0Nzk3MTA0XX0=
+eyJoaXN0b3J5IjpbLTExNTc5NDM2MzIsMjA0MzgwMzc0MiwtMT
+k0MjY1MDc3OCwxMzg5ODkwNjg0LC0zMTMzNjk3MDcsNjA0Nzk3
+MTA0XX0=
 -->
