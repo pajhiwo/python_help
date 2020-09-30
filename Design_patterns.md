@@ -259,7 +259,7 @@ class Adapter(Target):
 	"""
 
     def __init__(self, adaptee: Adaptee) -> None:
-        self.adaptee = adaptee  # create
+        self.adaptee = adaptee
 
     def request(self) -> str:
         return f"Adapter: (TRANSLATED) {self.adaptee.specific_request()[::-1]}"
@@ -298,11 +298,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjYzOTM0Myw3ODc3MTY3MzEsNzMzNj
-UzNDk3LDM2MTQwNjU4Miw4NzgyODU1NjMsNjUxODQzOTEsMTA4
-NDgyOTI0OSwxOTM2MzA0NywxNDIxNDMwNDcwLDExOTA3Njc5ND
-csNzc4MDMyMjYzLDExNzI4MzA4NzUsLTEwNzc5OTU1NTEsMjAx
-NjMxODA3NywtMTM2NzIwMDMxMCwtMTAwODc1NDY4NywxNTI4Mj
-AwOTk5LC02ODkxMDM4OTIsLTE0NjMxMTAxMzQsMTI0MDY4NzA4
-XX0=
+eyJoaXN0b3J5IjpbLTE3Nzk4NjcxOTAsNzg3NzE2NzMxLDczMz
+Y1MzQ5NywzNjE0MDY1ODIsODc4Mjg1NTYzLDY1MTg0MzkxLDEw
+ODQ4MjkyNDksMTkzNjMwNDcsMTQyMTQzMDQ3MCwxMTkwNzY3OT
+Q3LDc3ODAzMjI2MywxMTcyODMwODc1LC0xMDc3OTk1NTUxLDIw
+MTYzMTgwNzcsLTEzNjcyMDAzMTAsLTEwMDg3NTQ2ODcsMTUyOD
+IwMDk5OSwtNjg5MTAzODkyLC0xNDYzMTEwMTM0LDEyNDA2ODcw
+OF19
 -->
