@@ -234,8 +234,8 @@ Converts interface of a class into another.
 
 ```python
 class Target():
-    """
- The Target defines the domain-specific interface used by the client code.
+	 """
+	 The Target defines the domain-specific interface used by the client code.
 	 """
 
     def request(self) -> str:
@@ -297,11 +297,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3NzE2NzMxLDczMzY1MzQ5NywzNjE0MD
-Y1ODIsODc4Mjg1NTYzLDY1MTg0MzkxLDEwODQ4MjkyNDksMTkz
-NjMwNDcsMTQyMTQzMDQ3MCwxMTkwNzY3OTQ3LDc3ODAzMjI2My
-wxMTcyODMwODc1LC0xMDc3OTk1NTUxLDIwMTYzMTgwNzcsLTEz
-NjcyMDAzMTAsLTEwMDg3NTQ2ODcsMTUyODIwMDk5OSwtNjg5MT
-AzODkyLC0xNDYzMTEwMTM0LDEyNDA2ODcwOCwtNTU1NTg5Nzhd
-fQ==
+eyJoaXN0b3J5IjpbLTg0MjUyNDU5Myw3ODc3MTY3MzEsNzMzNj
+UzNDk3LDM2MTQwNjU4Miw4NzgyODU1NjMsNjUxODQzOTEsMTA4
+NDgyOTI0OSwxOTM2MzA0NywxNDIxNDMwNDcwLDExOTA3Njc5ND
+csNzc4MDMyMjYzLDExNzI4MzA4NzUsLTEwNzc5OTU1NTEsMjAx
+NjMxODA3NywtMTM2NzIwMDMxMCwtMTAwODc1NDY4NywxNTI4Mj
+AwOTk5LC02ODkxMDM4OTIsLTE0NjMxMTAxMzQsMTI0MDY4NzA4
+XX0=
 -->
