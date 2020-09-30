@@ -287,6 +287,7 @@ if __name__ == "__main__":
 ```
 
 ## Abstract pattern
+Abstract Factory patterns work around a super-factory which creates other factories. This factory is also called as factory of factories. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object
 
 Resources:
 https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Factory.html
@@ -357,11 +358,11 @@ g2.play()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTk1MjkwOCw0OTc4Nzc5NDIsLTE3Nz
-k4NjcxOTAsNzg3NzE2NzMxLDczMzY1MzQ5NywzNjE0MDY1ODIs
-ODc4Mjg1NTYzLDY1MTg0MzkxLDEwODQ4MjkyNDksMTkzNjMwND
-csMTQyMTQzMDQ3MCwxMTkwNzY3OTQ3LDc3ODAzMjI2MywxMTcy
-ODMwODc1LC0xMDc3OTk1NTUxLDIwMTYzMTgwNzcsLTEzNjcyMD
-AzMTAsLTEwMDg3NTQ2ODcsMTUyODIwMDk5OSwtNjg5MTAzODky
-XX0=
+eyJoaXN0b3J5IjpbLTEyODYyMzYyODgsNDk3ODc3OTQyLC0xNz
+c5ODY3MTkwLDc4NzcxNjczMSw3MzM2NTM0OTcsMzYxNDA2NTgy
+LDg3ODI4NTU2Myw2NTE4NDM5MSwxMDg0ODI5MjQ5LDE5MzYzMD
+Q3LDE0MjE0MzA0NzAsMTE5MDc2Nzk0Nyw3NzgwMzIyNjMsMTE3
+MjgzMDg3NSwtMTA3Nzk5NTU1MSwyMDE2MzE4MDc3LC0xMzY3Mj
+AwMzEwLC0xMDA4NzU0Njg3LDE1MjgyMDA5OTksLTY4OTEwMzg5
+Ml19
 -->
