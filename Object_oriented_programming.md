@@ -8,7 +8,8 @@ Hide internal representation or state of a structured data object inside a class
 Publicly accessible methods are generally provided in the class (so-called "getters" and "setters") to access the values.
 
 ## Polymorphism
-Polymorphism allows us to define methods in the child class with the same name as defined in their parent class -> Method Overriding
+Override parent class method with child class method with the same name.
+Overload method by creating the same name method but with differen parameters - Dynamic polymorphism
 
 
 ## Abstraction
@@ -89,7 +90,7 @@ Too big hierarchical structure of classes
 ## `__mro__`
 The MRO is also used by super() to determine which method or attribute to invoke. MRO shows the order in which Python is going to look for a matching attribute or method.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTc1ODk0MCwyMDQzODAzNzQyLC0xOT
-QyNjUwNzc4LDEzODk4OTA2ODQsLTMxMzM2OTcwNyw2MDQ3OTcx
-MDRdfQ==
+eyJoaXN0b3J5IjpbLTI0NTA1MDgzOSwtOTE1NzU4OTQwLDIwND
+M4MDM3NDIsLTE5NDI2NTA3NzgsMTM4OTg5MDY4NCwtMzEzMzY5
+NzA3LDYwNDc5NzEwNF19
 -->
