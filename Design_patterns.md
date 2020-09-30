@@ -287,6 +287,60 @@ if __name__ == "__main__":
 ```
 
 ## Abstract pattern
+```python
+# An example of the Abstract Factory pattern.
+
+class Obstacle:
+    def action(self): pass
+
+class Character:
+    def interactWith(self, obstacle): pass
+
+class Kitty(Character):
+    def interactWith(self, obstacle):
+        print("Kitty has encountered a",
+        obstacle.action())
+
+class KungFuGuy(Character):
+    def interactWith(self, obstacle):
+        print("KungFuGuy now battles a",
+        obstacle.action())
+
+class Puzzle(Obstacle):
+    def action(self):
+        print("Puzzle")
+
+class NastyWeapon(Obstacle):
+    def action(self):
+        print("NastyWeapon")
+
+# The Abstract Factory:
+class GameElementFactory:
+    def makeCharacter(self): pass
+    def makeObstacle(self): pass
+
+# Concrete factories:
+class KittiesAndPuzzles(GameElementFactory):
+    def makeCharacter(self): return Kitty()
+    def makeObstacle(self): return Puzzle()
+
+class KillAndDismember(GameElementFactory):
+    def makeCharacter(self): return KungFuGuy()
+    def makeObstacle(self): return NastyWeapon()
+
+class GameEnvironment:
+    def __init__(self, factory):
+        self.factory = factory
+        self.p = factory.makeCharacter()
+        self.ob = factory.makeObstacle()
+    def play(self):
+        self.p.interactWith(self.ob)
+
+g1 = GameEnvironment(KittiesAndPuzzles())
+g2 = GameEnvironment(KillAndDismember())
+g1.play()
+g2.play()
+```
 
 ## Policy-based design
 
@@ -298,11 +352,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzk4NjcxOTAsNzg3NzE2NzMxLDczMz
-Y1MzQ5NywzNjE0MDY1ODIsODc4Mjg1NTYzLDY1MTg0MzkxLDEw
-ODQ4MjkyNDksMTkzNjMwNDcsMTQyMTQzMDQ3MCwxMTkwNzY3OT
-Q3LDc3ODAzMjI2MywxMTcyODMwODc1LC0xMDc3OTk1NTUxLDIw
-MTYzMTgwNzcsLTEzNjcyMDAzMTAsLTEwMDg3NTQ2ODcsMTUyOD
-IwMDk5OSwtNjg5MTAzODkyLC0xNDYzMTEwMTM0LDEyNDA2ODcw
-OF19
+eyJoaXN0b3J5IjpbNDk3ODc3OTQyLC0xNzc5ODY3MTkwLDc4Nz
+cxNjczMSw3MzM2NTM0OTcsMzYxNDA2NTgyLDg3ODI4NTU2Myw2
+NTE4NDM5MSwxMDg0ODI5MjQ5LDE5MzYzMDQ3LDE0MjE0MzA0Nz
+AsMTE5MDc2Nzk0Nyw3NzgwMzIyNjMsMTE3MjgzMDg3NSwtMTA3
+Nzk5NTU1MSwyMDE2MzE4MDc3LC0xMzY3MjAwMzEwLC0xMDA4Nz
+U0Njg3LDE1MjgyMDA5OTksLTY4OTEwMzg5MiwtMTQ2MzExMDEz
+NF19
 -->
