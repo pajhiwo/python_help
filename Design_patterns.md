@@ -236,7 +236,7 @@ Converts interface of a class into another.
 class Target():
     """
  The Target defines the domain-specific interface used by the client code.
- """
+	 """
 
     def request(self) -> str:
         return "Target: The default target's behavior."
@@ -246,7 +246,7 @@ class Adaptee:
  The Adaptee contains some useful behavior, but its interface is incompatible
  with the existing client code. The Adaptee needs some adaptation before the
  client code can use it.
- """
+	 """
 
     def specific_request(self) -> str:
         return ".eetpadA eht fo roivaheb laicepS"
@@ -255,7 +255,7 @@ class Adapter(Target):
     """
  The Adapter makes the Adaptee's interface compatible with the Target's
  interface.
- """
+	 """
 
     def __init__(self, adaptee: Adaptee) -> None:
         self.adaptee = adaptee
@@ -290,22 +290,18 @@ if __name__ == "__main__":
 ## Policy-based design
 
 ## Page object
+
 ## Policy-based design
 
-## Page object pattern
-
-## Abstract pattern
-
-## Factory pattern
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzNjUzNDk3LDM2MTQwNjU4Miw4NzgyOD
-U1NjMsNjUxODQzOTEsMTA4NDgyOTI0OSwxOTM2MzA0NywxNDIx
-NDMwNDcwLDExOTA3Njc5NDcsNzc4MDMyMjYzLDExNzI4MzA4Nz
-UsLTEwNzc5OTU1NTEsMjAxNjMxODA3NywtMTM2NzIwMDMxMCwt
-MTAwODc1NDY4NywxNTI4MjAwOTk5LC02ODkxMDM4OTIsLTE0Nj
-MxMTAxMzQsMTI0MDY4NzA4LC01NTU1ODk3OCwtOTI0OTY4NzM0
-XX0=
+eyJoaXN0b3J5IjpbNzg3NzE2NzMxLDczMzY1MzQ5NywzNjE0MD
+Y1ODIsODc4Mjg1NTYzLDY1MTg0MzkxLDEwODQ4MjkyNDksMTkz
+NjMwNDcsMTQyMTQzMDQ3MCwxMTkwNzY3OTQ3LDc3ODAzMjI2My
+wxMTcyODMwODc1LC0xMDc3OTk1NTUxLDIwMTYzMTgwNzcsLTEz
+NjcyMDAzMTAsLTEwMDg3NTQ2ODcsMTUyODIwMDk5OSwtNjg5MT
+AzODkyLC0xNDYzMTEwMTM0LDEyNDA2ODcwOCwtNTU1NTg5Nzhd
+fQ==
 -->
