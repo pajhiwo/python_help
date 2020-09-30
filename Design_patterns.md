@@ -287,6 +287,11 @@ if __name__ == "__main__":
 ```
 
 ## Abstract pattern
+
+Resources:
+https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Factory.html
+https://refactoring.guru/design-patterns/abstract-factory/python/example#example-0
+
 ```python
 # An example of the Abstract Factory pattern.
 
@@ -352,11 +357,11 @@ g2.play()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3ODc3OTQyLC0xNzc5ODY3MTkwLDc4Nz
-cxNjczMSw3MzM2NTM0OTcsMzYxNDA2NTgyLDg3ODI4NTU2Myw2
-NTE4NDM5MSwxMDg0ODI5MjQ5LDE5MzYzMDQ3LDE0MjE0MzA0Nz
-AsMTE5MDc2Nzk0Nyw3NzgwMzIyNjMsMTE3MjgzMDg3NSwtMTA3
-Nzk5NTU1MSwyMDE2MzE4MDc3LC0xMzY3MjAwMzEwLC0xMDA4Nz
-U0Njg3LDE1MjgyMDA5OTksLTY4OTEwMzg5MiwtMTQ2MzExMDEz
-NF19
+eyJoaXN0b3J5IjpbMjA5NTk1MjkwOCw0OTc4Nzc5NDIsLTE3Nz
+k4NjcxOTAsNzg3NzE2NzMxLDczMzY1MzQ5NywzNjE0MDY1ODIs
+ODc4Mjg1NTYzLDY1MTg0MzkxLDEwODQ4MjkyNDksMTkzNjMwND
+csMTQyMTQzMDQ3MCwxMTkwNzY3OTQ3LDc3ODAzMjI2MywxMTcy
+ODMwODc1LC0xMDc3OTk1NTUxLDIwMTYzMTgwNzcsLTEzNjcyMD
+AzMTAsLTEwMDg3NTQ2ODcsMTUyODIwMDk5OSwtNjg5MTAzODky
+XX0=
 -->
