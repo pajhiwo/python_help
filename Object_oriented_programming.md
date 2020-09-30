@@ -9,7 +9,7 @@ Publicly accessible methods are generally provided in the class (so-called "gett
 
 ## Polymorphism
 **Override** parent class method with child class method with the same name - Static polymorphism
-**Overload** method by creating the same name method but with differen parameters - Dynamic polymorphism
+**Overload** method by creating the same name method but with differen parameters - Dynamic polymorphism - not in python
 
 
 ## Abstraction
@@ -90,7 +90,7 @@ Too big hierarchical structure of classes
 ## `__mro__`
 The MRO is also used by super() to determine which method or attribute to invoke. MRO shows the order in which Python is going to look for a matching attribute or method.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI0Mzk5MjcsLTkxNTc1ODk0MCwyMD
-QzODAzNzQyLC0xOTQyNjUwNzc4LDEzODk4OTA2ODQsLTMxMzM2
-OTcwNyw2MDQ3OTcxMDRdfQ==
+eyJoaXN0b3J5IjpbNDEwMTk4Njg4LC0xNzEyNDM5OTI3LC05MT
+U3NTg5NDAsMjA0MzgwMzc0MiwtMTk0MjY1MDc3OCwxMzg5ODkw
+Njg0LC0zMTMzNjk3MDcsNjA0Nzk3MTA0XX0=
 -->
