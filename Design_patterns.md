@@ -233,40 +233,41 @@ circle.draw()
 Converts interface of a class into another. 
 
 ```python
+# (via object composition)
 class Target():
-	 """
-	 The Target defines the domain-specific interface used by the client code.
-	 """
+	"""
+	The Target defines the domain-specific interface used by the client code.
+	"""
 
     def request(self) -> str:
         return "Target: The default target's behavior."
 
 class Adaptee:
-    """
- The Adaptee contains some useful behavior, but its interface is incompatible
- with the existing client code. The Adaptee needs some adaptation before the
- client code can use it.
-	 """
+	"""
+	The Adaptee contains some useful behavior, but its interface is incompatible
+	with the existing client code. The Adaptee needs some adaptation before the
+	client code can use it.
+	"""
 
     def specific_request(self) -> str:
         return ".eetpadA eht fo roivaheb laicepS"
 
 class Adapter(Target):
-    """
- The Adapter makes the Adaptee's interface compatible with the Target's
- interface.
-	 """
+	"""
+	The Adapter makes the Adaptee's interface compatible with the Target's
+	interface.
+	"""
 
     def __init__(self, adaptee: Adaptee) -> None:
-        self.adaptee = adaptee
+        self.adaptee = adaptee  # create
 
     def request(self) -> str:
         return f"Adapter: (TRANSLATED) {self.adaptee.specific_request()[::-1]}"
 
 def client_code(target: Target) -> None:
-    """
- The client code supports all classes that follow the Target interface.
- """
+	"""
+	The client code supports all classes that follow the Target interface.
+	"""
 
     print(target.request(), end="")
 
@@ -297,7 +298,7 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MjUyNDU5Myw3ODc3MTY3MzEsNzMzNj
+eyJoaXN0b3J5IjpbLTk2MjYzOTM0Myw3ODc3MTY3MzEsNzMzNj
 UzNDk3LDM2MTQwNjU4Miw4NzgyODU1NjMsNjUxODQzOTEsMTA4
 NDgyOTI0OSwxOTM2MzA0NywxNDIxNDMwNDcwLDExOTA3Njc5ND
 csNzc4MDMyMjYzLDExNzI4MzA4NzUsLTEwNzc5OTU1NTEsMjAx
