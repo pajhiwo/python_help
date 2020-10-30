@@ -42,6 +42,7 @@ new_list =  [expression(i)  for i in old_list if filter(i)]
 ```
 
 ### += operator
+Implementation of `+=` is defined by the class that implements it. That is, to define `+=` the `list` class has defined a `object.__iadd__(self, other)` magic method. And the way it works is the same as `list.extends`.
 ```python
 ```
 In [25]: lst = [3, 4, 5, 6, 7]
@@ -294,7 +295,7 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzY3MTI4LDExNzkzNzk5MCwxNTYyMj
+eyJoaXN0b3J5IjpbOTQyMTAwNzQwLDExNzkzNzk5MCwxNTYyMj
 kyODM1LDEyNDU4ODA1NDksODUzNDk2MDM3LC0yMDQxMjAyOTEs
 MTIzMjE5MTU3LDYyODM3NDY4OSwtMTE3NjUwNjgwMSwtNDk0Mj
 AyMzI4LDE4MzA0NjgxNjgsLTg2ODEzOTU2MiwxNjE3ODA4ODY4
