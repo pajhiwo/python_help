@@ -41,6 +41,23 @@ Creating new list in one line
 new_list =  [expression(i)  for i in old_list if filter(i)]
 ```
 
+### += operator
+```python
+```
+In [25]: lst = [3, 4, 5, 6, 7]
+
+In [26]: lst_copy = lst
+
+In [27]: lst += [8, 9]
+
+In [28]: lst
+Out[28]: [3, 4, 5, 6, 7, 8, 9]
+
+In [29]: lst_copy
+Out[29]: [3, 4, 5, 6, 7, 8, 9]
+```
+```
+
 ## Dictionary
 Mutable, not sequenced, slow, keys must be unique
 ***since Python3.7 builtin dict keeps insertion order***
@@ -277,9 +294,9 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTM3OTkwLDE1NjIyOTI4MzUsMTI0NT
-g4MDU0OSw4NTM0OTYwMzcsLTIwNDEyMDI5MSwxMjMyMTkxNTcs
-NjI4Mzc0Njg5LC0xMTc2NTA2ODAxLC00OTQyMDIzMjgsMTgzMD
-Q2ODE2OCwtODY4MTM5NTYyLDE2MTc4MDg4NjgsNjAyMjkxNjQw
-XX0=
+eyJoaXN0b3J5IjpbMTIzMzY3MTI4LDExNzkzNzk5MCwxNTYyMj
+kyODM1LDEyNDU4ODA1NDksODUzNDk2MDM3LC0yMDQxMjAyOTEs
+MTIzMjE5MTU3LDYyODM3NDY4OSwtMTE3NjUwNjgwMSwtNDk0Mj
+AyMzI4LDE4MzA0NjgxNjgsLTg2ODEzOTU2MiwxNjE3ODA4ODY4
+LDYwMjI5MTY0MF19
 -->
