@@ -260,8 +260,9 @@ Bar.static_method(None)
 
 ## Property
  Property is 
- ```python
-#start class
+
+Base class
+```python
 class Celsius:
     def __init__(self, temperature = 0):
         self.temperature = temperature
@@ -269,7 +270,28 @@ class Celsius:
     def to_fahrenheit(self):
         return (self.temperature * 1.8) + 32
 
- ```
+```
+Extended class using @property decorator
+```python
+class Celsius:
+    def __init__(self, temperature=0):
+        self.temperature = temperature
+
+    def to_fahrenheit(self):
+        return (self.temperature * 1.8) + 32
+
+    @property
+    def temperature(self):
+        print("Getting value...")
+        return self._temperature
+
+    @temperature.setter
+    def temperature(self, value):
+        print("Setting value...")
+        if value < -273.15:
+            raise ValueError("Temperature below -273 is not possible")
+        self._temperature = value
+```
   
 ##  `_` and `__` prefix 
 _ is **private** property, ignored in from module import *
@@ -327,7 +349,7 @@ class Person:
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlsyMDY2ODA1ODY0LDE3NDE2NzQzNTUsMjMwMzM0OD
-A5LC0xMjQ5OTc1MDM2LC0xNjYyMTE3MTgwLC0xNDU4Nzc2ODc2
-LC02Mzg0NjA4ODMsLTQyODcxNTc0MiwzNjY4ODM1MTBdfQ==
+c3RvcnkiOlstNDk5MDQyODMsMTc0MTY3NDM1NSwyMzAzMzQ4MD
+ksLTEyNDk5NzUwMzYsLTE2NjIxMTcxODAsLTE0NTg3NzY4NzYs
+LTYzODQ2MDg4MywtNDI4NzE1NzQyLDM2Njg4MzUxMF19
 -->
