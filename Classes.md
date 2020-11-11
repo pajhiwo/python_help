@@ -257,6 +257,19 @@ Bar.class_method(None)
 Bar.static_method(None)
 >>>I'm Foo class
 ```
+
+## Property
+ Property is 
+ ```python
+#start class
+class Celsius:
+    def __init__(self, temperature = 0):
+        self.temperature = temperature
+
+    def to_fahrenheit(self):
+        return (self.temperature * 1.8) + 32
+
+ ```
   
 ##  `_` and `__` prefix 
 _ is **private** property, ignored in from module import *
@@ -314,7 +327,7 @@ class Person:
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlsxNzQxNjc0MzU1LDIzMDMzNDgwOSwtMTI0OTk3NT
-AzNiwtMTY2MjExNzE4MCwtMTQ1ODc3Njg3NiwtNjM4NDYwODgz
-LC00Mjg3MTU3NDIsMzY2ODgzNTEwXX0=
+c3RvcnkiOlsyMDY2ODA1ODY0LDE3NDE2NzQzNTUsMjMwMzM0OD
+A5LC0xMjQ5OTc1MDM2LC0xNjYyMTE3MTgwLC0xNDU4Nzc2ODc2
+LC02Mzg0NjA4ODMsLTQyODcxNTc0MiwzNjY4ODM1MTBdfQ==
 -->
