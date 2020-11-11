@@ -259,6 +259,7 @@ Bar.static_method(None)
 ```
 
 ## Property
+https://www.programiz.com/python-programming/property
  Property function/decorator is used to define properties in the Python class - to encapsulate / hide / protect data.
  Method takes the get, set and delete methods as arguments and returns an object of the `property` class.
 
@@ -362,8 +363,8 @@ class Person:
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOls4OTc0NDEwNTcsLTE2Mzg3NjIxMDcsMTc0MTY3ND
-M1NSwyMzAzMzQ4MDksLTEyNDk5NzUwMzYsLTE2NjIxMTcxODAs
-LTE0NTg3NzY4NzYsLTYzODQ2MDg4MywtNDI4NzE1NzQyLDM2Nj
-g4MzUxMF19
+c3RvcnkiOlstMTMzNzkwMjMwMCw4OTc0NDEwNTcsLTE2Mzg3Nj
+IxMDcsMTc0MTY3NDM1NSwyMzAzMzQ4MDksLTEyNDk5NzUwMzYs
+LTE2NjIxMTcxODAsLTE0NTg3NzY4NzYsLTYzODQ2MDg4MywtND
+I4NzE1NzQyLDM2Njg4MzUxMF19
 -->
