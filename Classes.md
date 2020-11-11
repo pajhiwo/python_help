@@ -291,6 +291,14 @@ class Celsius:
         if value < -273.15:
             raise ValueError("Temperature below -273 is not possible")
         self._temperature = value
+
+
+>>> Setting value...
+>>> Getting value...
+>>> 37
+Getting value...
+98.60000000000001
+
 ```
   
 ##  `_` and `__` prefix 
@@ -349,7 +357,7 @@ class Person:
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlstNDk5MDQyODMsMTc0MTY3NDM1NSwyMzAzMzQ4MD
+c3RvcnkiOlszODczMjQ4NjYsMTc0MTY3NDM1NSwyMzAzMzQ4MD
 ksLTEyNDk5NzUwMzYsLTE2NjIxMTcxODAsLTE0NTg3NzY4NzYs
 LTYzODQ2MDg4MywtNDI4NzE1NzQyLDM2Njg4MzUxMF19
 -->
