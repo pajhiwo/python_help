@@ -293,11 +293,15 @@ class Celsius:
         self._temperature = value
 
 
+human = Celsius(37)
+print(human.temperature)
+print(human.to_fahrenheit())
+
 >>> Setting value...
 >>> Getting value...
 >>> 37
-Getting value...
-98.60000000000001
+>>> Getting value...
+>>> 98.60000000000001
 
 ```
   
@@ -357,7 +361,7 @@ class Person:
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlszODczMjQ4NjYsMTc0MTY3NDM1NSwyMzAzMzQ4MD
-ksLTEyNDk5NzUwMzYsLTE2NjIxMTcxODAsLTE0NTg3NzY4NzYs
-LTYzODQ2MDg4MywtNDI4NzE1NzQyLDM2Njg4MzUxMF19
+c3RvcnkiOlstMTMyMzcwOTQxNCwxNzQxNjc0MzU1LDIzMDMzND
+gwOSwtMTI0OTk3NTAzNiwtMTY2MjExNzE4MCwtMTQ1ODc3Njg3
+NiwtNjM4NDYwODgzLC00Mjg3MTU3NDIsMzY2ODgzNTEwXX0=
 -->
