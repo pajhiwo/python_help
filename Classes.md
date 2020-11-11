@@ -259,7 +259,8 @@ Bar.static_method(None)
 ```
 
 ## Property
- Property method takes the get, set and delete methods as arguments and returns an object of the `property` class.
+ Property function/decorator is used to define properties in the Python class. 
+ Method takes the get, set and delete methods as arguments and returns an object of the `property` class.
 
 Base class
 ```python
@@ -361,7 +362,7 @@ class Person:
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlsxMjA0MTk5NDU5LDE3NDE2NzQzNTUsMjMwMzM0OD
-A5LC0xMjQ5OTc1MDM2LC0xNjYyMTE3MTgwLC0xNDU4Nzc2ODc2
-LC02Mzg0NjA4ODMsLTQyODcxNTc0MiwzNjY4ODM1MTBdfQ==
+c3RvcnkiOlstMTYzODc2MjEwNywxNzQxNjc0MzU1LDIzMDMzND
+gwOSwtMTI0OTk3NTAzNiwtMTY2MjExNzE4MCwtMTQ1ODc3Njg3
+NiwtNjM4NDYwODgzLC00Mjg3MTU3NDIsMzY2ODgzNTEwXX0=
 -->
