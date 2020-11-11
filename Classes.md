@@ -293,6 +293,11 @@ class Celsius:
         if value < -273.15:
             raise ValueError("Temperature below -273 is not possible")
         self._temperature = value
+      
+	@temperature.deleter
+	def temperature(self):
+		del self.temperature
+```
 
 
 human = Celsius(37)
@@ -363,8 +368,8 @@ class Person:
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlstMTMzNzkwMjMwMCw4OTc0NDEwNTcsLTE2Mzg3Nj
-IxMDcsMTc0MTY3NDM1NSwyMzAzMzQ4MDksLTEyNDk5NzUwMzYs
-LTE2NjIxMTcxODAsLTE0NTg3NzY4NzYsLTYzODQ2MDg4MywtND
-I4NzE1NzQyLDM2Njg4MzUxMF19
+c3RvcnkiOlstNDIyNjc1ODEwLC0xMzM3OTAyMzAwLDg5NzQ0MT
+A1NywtMTYzODc2MjEwNywxNzQxNjc0MzU1LDIzMDMzNDgwOSwt
+MTI0OTk3NTAzNiwtMTY2MjExNzE4MCwtMTQ1ODc3Njg3NiwtNj
+M4NDYwODgzLC00Mjg3MTU3NDIsMzY2ODgzNTEwXX0=
 -->
