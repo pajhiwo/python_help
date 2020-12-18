@@ -26,8 +26,10 @@ No client should be forced to depend on methods it does not use - split interfac
 ## 1. DRY - Don’t repeat yourself
 
 ## 2.KISS - Keep It Simple, Stupid
+
+## 3. YAGNI - You Aren’t Gonna Need It
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDI3NjQyNiwtMjk0OTM4Mjk0LC04OD
+eyJoaXN0b3J5IjpbLTI3NTYxNjE0NCwtMjk0OTM4Mjk0LC04OD
 Q3NTQyNDEsLTE0MjI5MjA3ODUsLTE1MzE0MzYwNzgsLTE3NjY1
 MjQ0NDQsLTE3MjA2Njg5OTksLTExMjU0NDI4NCwtMTEwMzgyMz
 I4NiwtODg4NTAyODgxLC05OTY1ODE4NDVdfQ==
