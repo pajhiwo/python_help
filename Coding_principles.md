@@ -20,9 +20,13 @@ No client should be forced to depend on methods it does not use - split interfac
 1.  High-level modules should not depend on low-level modules. Both should depend on abstractions (e.g. interfaces).
 2.  Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions.
 [Link](https://medium.com/@mrfksiv/python-design-patterns-01-introduction-54e681aaf2d0)
+
+
+# OOP principles
+## 1. DRY (Don’t repeat yourself)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDc1NDI0MSwtMTQyMjkyMDc4NSwtMT
-UzMTQzNjA3OCwtMTc2NjUyNDQ0NCwtMTcyMDY2ODk5OSwtMTEy
-NTQ0Mjg0LC0xMTAzODIzMjg2LC04ODg1MDI4ODEsLTk5NjU4MT
-g0NV19
+eyJoaXN0b3J5IjpbLTI5NDkzODI5NCwtODg0NzU0MjQxLC0xND
+IyOTIwNzg1LC0xNTMxNDM2MDc4LC0xNzY2NTI0NDQ0LC0xNzIw
+NjY4OTk5LC0xMTI1NDQyODQsLTExMDM4MjMyODYsLTg4ODUwMj
+g4MSwtOTk2NTgxODQ1XX0=
 -->
