@@ -23,10 +23,12 @@ No client should be forced to depend on methods it does not use - split interfac
 
 
 # OOP principles
-## 1. DRY (Don’t repeat yourself)
+## 1. DRY - Don’t repeat yourself
+
+## 2.KISS - Keep It Simple, Stupid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NDkzODI5NCwtODg0NzU0MjQxLC0xND
-IyOTIwNzg1LC0xNTMxNDM2MDc4LC0xNzY2NTI0NDQ0LC0xNzIw
-NjY4OTk5LC0xMTI1NDQyODQsLTExMDM4MjMyODYsLTg4ODUwMj
-g4MSwtOTk2NTgxODQ1XX0=
+eyJoaXN0b3J5IjpbLTcxNDI3NjQyNiwtMjk0OTM4Mjk0LC04OD
+Q3NTQyNDEsLTE0MjI5MjA3ODUsLTE1MzE0MzYwNzgsLTE3NjY1
+MjQ0NDQsLTE3MjA2Njg5OTksLTExMjU0NDI4NCwtMTEwMzgyMz
+I4NiwtODg4NTAyODgxLC05OTY1ODE4NDVdfQ==
 -->
