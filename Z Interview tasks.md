@@ -119,12 +119,12 @@ def parse_int(string):
     hundreds = ["hundred", "thousand", "million", "billion", "trillion"]  
   
     current = result = 0  
-  for word in string.replace(" and", "").replace("-", " ").split():  
+    for word in string.replace(" and", "").replace("-", " ").split():  
         if word in units:  
             num = units.index(word)  
         elif word in tens:  
             num = tens.index(word) * 10  
-  elif word in hundreds:  
+        elif word in hundreds:  
             idx = hundreds.index(word)  
             num = 10 ** (idx * 3 or 2)  
   
@@ -140,6 +140,6 @@ def parse_int(string):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY0MDE1MTgsLTExODIwNzQ3OTVdfQ
-==
+eyJoaXN0b3J5IjpbLTEwMjgzNTU1NjYsLTE2NDY0MDE1MTgsLT
+ExODIwNzQ3OTVdfQ==
 -->
