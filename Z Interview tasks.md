@@ -162,11 +162,13 @@ def search(root,key):
 	
 	# Key is smaller than root's key 
 	return search(root.left,key) 
+
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5ODc3NjYzLDEzNDE0MjEyNDIsLTEwMj
-gzNTU1NjYsLTE2NDY0MDE1MTgsLTExODIwNzQ3OTVdfQ==
+eyJoaXN0b3J5IjpbLTEzNDExNTgwMzEsOTk5ODc3NjYzLDEzND
+E0MjEyNDIsLTEwMjgzNTU1NjYsLTE2NDY0MDE1MTgsLTExODIw
+NzQ3OTVdfQ==
 -->
