@@ -303,13 +303,13 @@ human = Celsius(37)
 print(human.temperature)
 print(human.to_fahrenheit())
 
->>> Setting value...
->>> Getting value...
->>> 37
->>> Getting value...
->>> 98.60000000000001
+> Setting value...
+> Getting value...
+> 37
+> Getting value...
+> 98.60000000000001
 
-```
+
   
 ##  `_` and `__` prefix 
 _ is **private** property, ignored in from module import *
@@ -367,9 +367,9 @@ class Person:
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOls1Mzc1NDM5MzIsLTE2Nzg4OTQ2MCwtNDIyNjc1OD
-EwLC0xMzM3OTAyMzAwLDg5NzQ0MTA1NywtMTYzODc2MjEwNywx
-NzQxNjc0MzU1LDIzMDMzNDgwOSwtMTI0OTk3NTAzNiwtMTY2Mj
-ExNzE4MCwtMTQ1ODc3Njg3NiwtNjM4NDYwODgzLC00Mjg3MTU3
-NDIsMzY2ODgzNTEwXX0=
+c3RvcnkiOlstMTU3MDg0NTEzNCw1Mzc1NDM5MzIsLTE2Nzg4OT
+Q2MCwtNDIyNjc1ODEwLC0xMzM3OTAyMzAwLDg5NzQ0MTA1Nywt
+MTYzODc2MjEwNywxNzQxNjc0MzU1LDIzMDMzNDgwOSwtMTI0OT
+k3NTAzNiwtMTY2MjExNzE4MCwtMTQ1ODc3Njg3NiwtNjM4NDYw
+ODgzLC00Mjg3MTU3NDIsMzY2ODgzNTEwXX0=
 -->
