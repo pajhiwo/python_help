@@ -84,7 +84,7 @@ def fibonacci(n):
         return result  
     return recurse(n)
 ```
-### Faster methong by using decorator
+### Faster methond by using decorator
 ```python
 from functools import lru_cache
 
@@ -140,5 +140,6 @@ def parse_int(string):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODIwNzQ3OTVdfQ==
+eyJoaXN0b3J5IjpbLTE2NDY0MDE1MTgsLTExODIwNzQ3OTVdfQ
+==
 -->
