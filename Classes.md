@@ -174,11 +174,11 @@ class Person:
         self.name = name  
   
     @classmethod  
-  def class_met(cls, name):  
+	def class_met(cls, name):  
         return cls(name)  
   
     @staticmethod  
-  def static_met(name):  
+	def static_met(name):  
         return Person(name)  
   
   
@@ -367,9 +367,9 @@ class Person:
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlstMTY3ODg5NDYwLC00MjI2NzU4MTAsLTEzMzc5MD
-IzMDAsODk3NDQxMDU3LC0xNjM4NzYyMTA3LDE3NDE2NzQzNTUs
-MjMwMzM0ODA5LC0xMjQ5OTc1MDM2LC0xNjYyMTE3MTgwLC0xND
-U4Nzc2ODc2LC02Mzg0NjA4ODMsLTQyODcxNTc0MiwzNjY4ODM1
-MTBdfQ==
+c3RvcnkiOls1Mzc1NDM5MzIsLTE2Nzg4OTQ2MCwtNDIyNjc1OD
+EwLC0xMzM3OTAyMzAwLDg5NzQ0MTA1NywtMTYzODc2MjEwNywx
+NzQxNjc0MzU1LDIzMDMzNDgwOSwtMTI0OTk3NTAzNiwtMTY2Mj
+ExNzE4MCwtMTQ1ODc3Njg3NiwtNjM4NDYwODgzLC00Mjg3MTU3
+NDIsMzY2ODgzNTEwXX0=
 -->
