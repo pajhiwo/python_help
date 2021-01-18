@@ -16,7 +16,6 @@ All the members of a class in Python are public by default. You don’t need to 
 
 ## self
     
-
 parameter is a reference to the class itself, and is used to access variables that belongs to the class.
 ```python
 class TestClass:
@@ -368,8 +367,9 @@ class Person:
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ2NsYXNzLCBzdGF0aWNtZX
 Rob2QsIGNsYXNzbWV0aG9kLCBjb25zdHJ1Y3RvcidcbiIsImhp
-c3RvcnkiOlstNDIyNjc1ODEwLC0xMzM3OTAyMzAwLDg5NzQ0MT
-A1NywtMTYzODc2MjEwNywxNzQxNjc0MzU1LDIzMDMzNDgwOSwt
-MTI0OTk3NTAzNiwtMTY2MjExNzE4MCwtMTQ1ODc3Njg3NiwtNj
-M4NDYwODgzLC00Mjg3MTU3NDIsMzY2ODgzNTEwXX0=
+c3RvcnkiOlstMTY3ODg5NDYwLC00MjI2NzU4MTAsLTEzMzc5MD
+IzMDAsODk3NDQxMDU3LC0xNjM4NzYyMTA3LDE3NDE2NzQzNTUs
+MjMwMzM0ODA5LC0xMjQ5OTc1MDM2LC0xNjYyMTE3MTgwLC0xND
+U4Nzc2ODc2LC02Mzg0NjA4ODMsLTQyODcxNTc0MiwzNjY4ODM1
+MTBdfQ==
 -->
