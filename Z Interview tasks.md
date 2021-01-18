@@ -150,6 +150,7 @@ class Node:
 		self.left = None
 		self.right = None
 		self.val = key 
+...
 
 def search(root,key): 
 	# Base Cases: root is null or key is present at root 
@@ -168,7 +169,7 @@ def search(root,key):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDExNTgwMzEsOTk5ODc3NjYzLDEzND
-E0MjEyNDIsLTEwMjgzNTU1NjYsLTE2NDY0MDE1MTgsLTExODIw
-NzQ3OTVdfQ==
+eyJoaXN0b3J5IjpbLTYxNDU1OTkyNyw5OTk4Nzc2NjMsMTM0MT
+QyMTI0MiwtMTAyODM1NTU2NiwtMTY0NjQwMTUxOCwtMTE4MjA3
+NDc5NV19
 -->
