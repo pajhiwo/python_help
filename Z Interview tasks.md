@@ -141,7 +141,16 @@ def parse_int(string):
 
 ## Binary tree
 
+
+
 ```python
+
+class Node: 
+	def __init__(self, key): 
+		self.left = None
+		self.right = None
+		self.val = key 
+
 def search(root,key): 
 	# Base Cases: root is null or key is present at root 
 	if root is None or root.val == key: 
@@ -158,6 +167,6 @@ def search(root,key):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTQyMTI0MiwtMTAyODM1NTU2NiwtMT
-Y0NjQwMTUxOCwtMTE4MjA3NDc5NV19
+eyJoaXN0b3J5IjpbOTk5ODc3NjYzLDEzNDE0MjEyNDIsLTEwMj
+gzNTU1NjYsLTE2NDY0MDE1MTgsLTExODIwNzQ3OTVdfQ==
 -->
