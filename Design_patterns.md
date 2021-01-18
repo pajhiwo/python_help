@@ -139,7 +139,7 @@ class Borg:
         self.__dict__ = self.__shared_state
     # and whatever else you want in your class -- that's all!
 
-if _ _name_ _ == '_ _main_ _':
+if __name__ == '__main__':
     class Example(Borg):
         def _ _init_ _(self, name=None):
             Borg._ _init_ _(self)
@@ -359,11 +359,11 @@ g2.play()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODY4NDk4MCwtMTI4NjIzNjI4OCw0OT
-c4Nzc5NDIsLTE3Nzk4NjcxOTAsNzg3NzE2NzMxLDczMzY1MzQ5
-NywzNjE0MDY1ODIsODc4Mjg1NTYzLDY1MTg0MzkxLDEwODQ4Mj
-kyNDksMTkzNjMwNDcsMTQyMTQzMDQ3MCwxMTkwNzY3OTQ3LDc3
-ODAzMjI2MywxMTcyODMwODc1LC0xMDc3OTk1NTUxLDIwMTYzMT
-gwNzcsLTEzNjcyMDAzMTAsLTEwMDg3NTQ2ODcsMTUyODIwMDk5
-OV19
+eyJoaXN0b3J5IjpbLTE0MTY5NTIyODAsLTM5ODY4NDk4MCwtMT
+I4NjIzNjI4OCw0OTc4Nzc5NDIsLTE3Nzk4NjcxOTAsNzg3NzE2
+NzMxLDczMzY1MzQ5NywzNjE0MDY1ODIsODc4Mjg1NTYzLDY1MT
+g0MzkxLDEwODQ4MjkyNDksMTkzNjMwNDcsMTQyMTQzMDQ3MCwx
+MTkwNzY3OTQ3LDc3ODAzMjI2MywxMTcyODMwODc1LC0xMDc3OT
+k1NTUxLDIwMTYzMTgwNzcsLTEzNjcyMDAzMTAsLTEwMDg3NTQ2
+ODddfQ==
 -->
