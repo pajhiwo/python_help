@@ -141,10 +141,10 @@ class Borg:
 
 if __name__ == '__main__':
     class Example(Borg):
-        def _ _init_ _(self, name=None):
-            Borg._ _init_ _(self)
+        def __init__(self, name=None):
+            Borg.__init__(self)
             if name is not None: self.name = name
-        def _ _str_ _(self): return 'Example(%s)' % self.name
+        def __str__(self): return 'Example(%s)' % self.name
     a = Example('Lara')
     b = Example(  )
     print a, b
@@ -359,11 +359,11 @@ g2.play()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTY5NTIyODAsLTM5ODY4NDk4MCwtMT
-I4NjIzNjI4OCw0OTc4Nzc5NDIsLTE3Nzk4NjcxOTAsNzg3NzE2
-NzMxLDczMzY1MzQ5NywzNjE0MDY1ODIsODc4Mjg1NTYzLDY1MT
-g0MzkxLDEwODQ4MjkyNDksMTkzNjMwNDcsMTQyMTQzMDQ3MCwx
-MTkwNzY3OTQ3LDc3ODAzMjI2MywxMTcyODMwODc1LC0xMDc3OT
-k1NTUxLDIwMTYzMTgwNzcsLTEzNjcyMDAzMTAsLTEwMDg3NTQ2
-ODddfQ==
+eyJoaXN0b3J5IjpbLTgxNDkwMDA2MiwtMzk4Njg0OTgwLC0xMj
+g2MjM2Mjg4LDQ5Nzg3Nzk0MiwtMTc3OTg2NzE5MCw3ODc3MTY3
+MzEsNzMzNjUzNDk3LDM2MTQwNjU4Miw4NzgyODU1NjMsNjUxOD
+QzOTEsMTA4NDgyOTI0OSwxOTM2MzA0NywxNDIxNDMwNDcwLDEx
+OTA3Njc5NDcsNzc4MDMyMjYzLDExNzI4MzA4NzUsLTEwNzc5OT
+U1NTEsMjAxNjMxODA3NywtMTM2NzIwMDMxMCwtMTAwODc1NDY4
+N119
 -->
