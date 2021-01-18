@@ -4,9 +4,7 @@ Every object has an identity, a type and a value. Object’s identity never chan
   
 ## `Object.__new__(cls, [, ...])`
 Creates a new instance of class - object.
-
 Takes the class of which an instance was requested as its first argument.
-
 The remaining arguments are passed to the object constructor.
 
 If `__new__()` is invoked, it returns an (object) instance or subclass of cls, then the new instance’s `__init__()` method will be invoked
@@ -15,9 +13,7 @@ If `__new__()` is invoked, it returns an (object) instance or subclass of cls, t
   
 ## `Object.__init__(self, [, ...])`
 Customize a new instance of class - object.
-
 Called after the instance has been created (by `__new__()`), but before it is returned to the caller.
-
 The arguments are passed to the class constructor expression
 
 [https://docs.python.org/3/reference/datamodel.html?highlight=__new__#object.__init__](https://docs.python.org/3/reference/datamodel.html?highlight=__new__#object.__init__)
@@ -127,6 +123,6 @@ False
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzMyOTE3NTYsNTUwNjU0NzI3LC0xNz
-E4OTU0MDY5XX0=
+eyJoaXN0b3J5IjpbNTQwNzIzNzMyLC0xMzczMjkxNzU2LDU1MD
+Y1NDcyNywtMTcxODk1NDA2OV19
 -->
