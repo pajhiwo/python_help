@@ -145,31 +145,41 @@ def parse_int(string):
 
 ```python
 
-class Node: 
-	def __init__(self, key): 
+class Node(object):
+	def __init__(self, d):
+		self.data = d
 		self.left = None
 		self.right = None
-		self.val = key 
-...
-
-def search(root,key): 
-	# Base Cases: root is null or key is present at root 
-	if root is None or root.val == key: 
-		return root 
-
-	# Key is greater than root's key 
-	if root.val < key: 
-		return search(root.right,key) 
-	
-	# Key is smaller than root's key 
-	return search(root.left,key) 
+	def insert(self, d):
+		if self.data == d:
+			return False
+		elif d < self.data:
+			if self.left:
+				return self.left.insert(d)
+			else:
+				self.left = Node(d)
+				return True
+		else:
+			if self.right:
+				return self.right.insert(d)
+			else:
+				self.right = Node(d)
+				return True
+	def find(self, d):
+		if self.data == d:
+			return True
+		elif d < self.data and self.left:
+			return self.left.find(d)
+		elif d > self.data and self.right:
+			return self.right.find(d)
+		return False
 
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDU1OTkyNyw5OTk4Nzc2NjMsMTM0MT
-QyMTI0MiwtMTAyODM1NTU2NiwtMTY0NjQwMTUxOCwtMTE4MjA3
-NDc5NV19
+eyJoaXN0b3J5IjpbNTcxNTY1MDg1LDk5OTg3NzY2MywxMzQxND
+IxMjQyLC0xMDI4MzU1NTY2LC0xNjQ2NDAxNTE4LC0xMTgyMDc0
+Nzk1XX0=
 -->
