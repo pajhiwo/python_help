@@ -1,5 +1,6 @@
 ## HackerRank
 https://github.com/marinskiy/HackerrankPractice
+https://shounaklohokare.medium.com/
 
 ## Palindrome test
 
@@ -185,7 +186,7 @@ class Node(object):
 n(n+1)/2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MTg4Nzg5LDE0MDE3MTQ4NjQsNTcxNT
-Y1MDg1LDk5OTg3NzY2MywxMzQxNDIxMjQyLC0xMDI4MzU1NTY2
-LC0xNjQ2NDAxNTE4LC0xMTgyMDc0Nzk1XX0=
+eyJoaXN0b3J5IjpbLTE5NTAyNzQzMTMsMTQwMTcxNDg2NCw1Nz
+E1NjUwODUsOTk5ODc3NjYzLDEzNDE0MjEyNDIsLTEwMjgzNTU1
+NjYsLTE2NDY0MDE1MTgsLTExODIwNzQ3OTVdfQ==
 -->
