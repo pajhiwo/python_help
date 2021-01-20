@@ -177,9 +177,12 @@ class Node(object):
 ```
 
 
-
+## Count sum of infinite list
+```python
+n(n+1)/2
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxNTY1MDg1LDk5OTg3NzY2MywxMzQxND
-IxMjQyLC0xMDI4MzU1NTY2LC0xNjQ2NDAxNTE4LC0xMTgyMDc0
-Nzk1XX0=
+eyJoaXN0b3J5IjpbMTQwMTcxNDg2NCw1NzE1NjUwODUsOTk5OD
+c3NjYzLDEzNDE0MjEyNDIsLTEwMjgzNTU1NjYsLTE2NDY0MDE1
+MTgsLTExODIwNzQ3OTVdfQ==
 -->
