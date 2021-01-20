@@ -1,3 +1,4 @@
+##Haker
 ## Palindrome test
 
 ```python
@@ -182,7 +183,7 @@ class Node(object):
 n(n+1)/2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTcxNDg2NCw1NzE1NjUwODUsOTk5OD
-c3NjYzLDEzNDE0MjEyNDIsLTEwMjgzNTU1NjYsLTE2NDY0MDE1
-MTgsLTExODIwNzQ3OTVdfQ==
+eyJoaXN0b3J5IjpbMTcwNjE0ODg1OSwxNDAxNzE0ODY0LDU3MT
+U2NTA4NSw5OTk4Nzc2NjMsMTM0MTQyMTI0MiwtMTAyODM1NTU2
+NiwtMTY0NjQwMTUxOCwtMTE4MjA3NDc5NV19
 -->
