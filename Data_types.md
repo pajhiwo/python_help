@@ -250,6 +250,19 @@ print(cheese_count.most_common(3))
 # Prints: [('parmesan', 4), ('cheddar', 3), ('gouda', 2)]
 ```
 
+## List dictionary
+You can add or remove substract lists using Counter
+```python
+from collections import Counter  
+  
+magazine = list("two times three is not four".split())  
+note = list("two times two is four".split())  
+  
+print(Counter(note) - Counter(magazine))
+
+> Counter({'two': 1})
+```
+
 <br/>
 
 # Dict methods
@@ -293,20 +306,10 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 # returns ['apple', 'ape']
 ```
 
-## Counter dictionary
-You can add or remove
-```python
-from collections import Counter  
-  
-magazine = list("two times three is not four".split())  
-note = list("two times two is four".split())  
-  
-print(Counter(note) - Counter(magazine))
 
-> Counter({'two': 1})
-```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk4MjQ5NzMsOTQyMTAwNzQwLDExNz
+eyJoaXN0b3J5IjpbLTEyODA4NjI1MjMsOTQyMTAwNzQwLDExNz
 kzNzk5MCwxNTYyMjkyODM1LDEyNDU4ODA1NDksODUzNDk2MDM3
 LC0yMDQxMjAyOTEsMTIzMjE5MTU3LDYyODM3NDY4OSwtMTE3Nj
 UwNjgwMSwtNDk0MjAyMzI4LDE4MzA0NjgxNjgsLTg2ODEzOTU2
