@@ -293,11 +293,22 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 # returns ['apple', 'ape']
 ```
 
+## Counter dictionary
+You can add or remove
+```python
+from collections import Counter  
+  
+magazine = list("two times three is not four".split())  
+note = list("two times two is four".split())  
+  
+print(Counter(note) - Counter(magazine))
 
+> Counter({'two': 1})
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyMTAwNzQwLDExNzkzNzk5MCwxNTYyMj
-kyODM1LDEyNDU4ODA1NDksODUzNDk2MDM3LC0yMDQxMjAyOTEs
-MTIzMjE5MTU3LDYyODM3NDY4OSwtMTE3NjUwNjgwMSwtNDk0Mj
-AyMzI4LDE4MzA0NjgxNjgsLTg2ODEzOTU2MiwxNjE3ODA4ODY4
-LDYwMjI5MTY0MF19
+eyJoaXN0b3J5IjpbLTIwNDk4MjQ5NzMsOTQyMTAwNzQwLDExNz
+kzNzk5MCwxNTYyMjkyODM1LDEyNDU4ODA1NDksODUzNDk2MDM3
+LC0yMDQxMjAyOTEsMTIzMjE5MTU3LDYyODM3NDY4OSwtMTE3Nj
+UwNjgwMSwtNDk0MjAyMzI4LDE4MzA0NjgxNjgsLTg2ODEzOTU2
+MiwxNjE3ODA4ODY4LDYwMjI5MTY0MF19
 -->
