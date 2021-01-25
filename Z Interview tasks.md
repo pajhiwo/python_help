@@ -156,6 +156,7 @@ class Node(object):
 		self.data = d
 		self.left = None
 		self.right = None
+		
 	def insert(self, d):
 		if self.data == d:
 			return False
@@ -171,6 +172,7 @@ class Node(object):
 			else:
 				self.right = Node(d)
 				return True
+				
 	def find(self, d):
 		if self.data == d:
 			return True
@@ -188,8 +190,8 @@ class Node(object):
 n(n+1)/2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTkwMjI1MTcsLTE5NTAyNzQzMTMsMT
-QwMTcxNDg2NCw1NzE1NjUwODUsOTk5ODc3NjYzLDEzNDE0MjEy
-NDIsLTEwMjgzNTU1NjYsLTE2NDY0MDE1MTgsLTExODIwNzQ3OT
-VdfQ==
+eyJoaXN0b3J5IjpbLTMwOTA5Nzg2MSwtMTExOTAyMjUxNywtMT
+k1MDI3NDMxMywxNDAxNzE0ODY0LDU3MTU2NTA4NSw5OTk4Nzc2
+NjMsMTM0MTQyMTI0MiwtMTAyODM1NTU2NiwtMTY0NjQwMTUxOC
+wtMTE4MjA3NDc5NV19
 -->
