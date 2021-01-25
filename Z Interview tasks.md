@@ -186,12 +186,13 @@ class Node(object):
 
 
 ## Count sum of infinite list
+Given number `n`, I need to find the sum of numbers from `1` to `n`
 ```python
 n(n+1)/2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTA5Nzg2MSwtMTExOTAyMjUxNywtMT
-k1MDI3NDMxMywxNDAxNzE0ODY0LDU3MTU2NTA4NSw5OTk4Nzc2
-NjMsMTM0MTQyMTI0MiwtMTAyODM1NTU2NiwtMTY0NjQwMTUxOC
-wtMTE4MjA3NDc5NV19
+eyJoaXN0b3J5IjpbMTkxNTU3NTY2MywtMzA5MDk3ODYxLC0xMT
+E5MDIyNTE3LC0xOTUwMjc0MzEzLDE0MDE3MTQ4NjQsNTcxNTY1
+MDg1LDk5OTg3NzY2MywxMzQxNDIxMjQyLC0xMDI4MzU1NTY2LC
+0xNjQ2NDAxNTE4LC0xMTgyMDc0Nzk1XX0=
 -->
