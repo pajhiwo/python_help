@@ -20,7 +20,7 @@ print(set(text1)&set(text2))
 ## Count letters in string
 ```python
 from collections import Counter
-counter(Counter(text1))
+print(Counter(text1))
 ```
 
 ## Print diamond
@@ -191,8 +191,8 @@ Given number `n`, I need to find the sum of numbers from `1` to `n`
 n*(n+1)/2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1OTAxODg3LC0zMDkwOTc4NjEsLTExMT
-kwMjI1MTcsLTE5NTAyNzQzMTMsMTQwMTcxNDg2NCw1NzE1NjUw
-ODUsOTk5ODc3NjYzLDEzNDE0MjEyNDIsLTEwMjgzNTU1NjYsLT
-E2NDY0MDE1MTgsLTExODIwNzQ3OTVdfQ==
+eyJoaXN0b3J5IjpbNjA0ODc5ODU2LDcyNTkwMTg4NywtMzA5MD
+k3ODYxLC0xMTE5MDIyNTE3LC0xOTUwMjc0MzEzLDE0MDE3MTQ4
+NjQsNTcxNTY1MDg1LDk5OTg3NzY2MywxMzQxNDIxMjQyLC0xMD
+I4MzU1NTY2LC0xNjQ2NDAxNTE4LC0xMTgyMDc0Nzk1XX0=
 -->
