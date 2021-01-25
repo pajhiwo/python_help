@@ -10,7 +10,8 @@ Threads are components of a process, which can run parallely. There can be multi
 ### Deadlock
 Overusing mutex locks also has a downside - it can introduce deadlocks in the program. A deadlock is a state when a thread is waiting for another thread to release a lock, but that other thread needs a resource to finish that the first thread is holding onto. This way, both of the threads come to a standstill and the program halts. Deadlock can be thought of as an extreme case of starvation. To avoid this, we have to be careful not to introduce too many locks that are interdependent.
 
-> Written with [StackEdit](https://stackedit.io/).
+### GIL
+`GIL`, or the Global Interpreter Lock - protects access to Python objects, preventing multiple threads from executing Python bytecodes at once.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQyODAyNTBdfQ==
+eyJoaXN0b3J5IjpbOTA4MDE2MjkwXX0=
 -->
