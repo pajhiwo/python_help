@@ -1,4 +1,6 @@
 ## Multithreading and multiprocessing
+ou can use `threading` if your program is network bound or `multiprocessing` if it's CPU bound
+
 ### Process
 
 A process is an instance of a computer program being executed. Each process has its own memory space it uses to store the instructions being run, as well as any data it needs to store and access to execute.
@@ -13,5 +15,5 @@ Overusing mutex locks also has a downside - it can introduce deadlocks in the pr
 ### GIL
 `GIL`, or the Global Interpreter Lock - protects access to Python objects, preventing multiple threads from executing Python bytecodes at once.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4MDE2MjkwXX0=
+eyJoaXN0b3J5IjpbLTEyMDExMDM4OThdfQ==
 -->
