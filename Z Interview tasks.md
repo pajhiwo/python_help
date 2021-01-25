@@ -40,6 +40,8 @@ def toJadenCase(string):
 
 ## Group chars by similar char next to each other
 ```python
+import itertools
+
 example = "AAAABBBCCDAABBB"
 def unique_in_order(iterable):  
     output = []  
@@ -186,7 +188,8 @@ class Node(object):
 n(n+1)/2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTAyNzQzMTMsMTQwMTcxNDg2NCw1Nz
-E1NjUwODUsOTk5ODc3NjYzLDEzNDE0MjEyNDIsLTEwMjgzNTU1
-NjYsLTE2NDY0MDE1MTgsLTExODIwNzQ3OTVdfQ==
+eyJoaXN0b3J5IjpbLTExMTkwMjI1MTcsLTE5NTAyNzQzMTMsMT
+QwMTcxNDg2NCw1NzE1NjUwODUsOTk5ODc3NjYzLDEzNDE0MjEy
+NDIsLTEwMjgzNTU1NjYsLTE2NDY0MDE1MTgsLTExODIwNzQ3OT
+VdfQ==
 -->
