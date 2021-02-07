@@ -2,6 +2,9 @@
 ## boilerplate
 Are sections of code that are repeated in multiple places with little to no variation
 
+## test double
+is a generic (meta) term used for these objects or procedures
+
 ## split(), sub(), subn() methods of “re”
 `split()` – uses a regex pattern to “split” a given string into a list.
 
@@ -107,7 +110,7 @@ ip in net
 **Pickle** module accepts any Python object and converts it into a string representation and dumps it into a file
 [https://docs.python.org/3/library/pickle.html](https://docs.python.org/3/library/pickle.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU3OTI1NSw3MDYwNDUyNjksLTExMj
-M0MzMyODYsLTEyMjAxNTI1ODQsMTYzMzUyODAwMSwtMTU4MjE0
-ODc0NSwtNDM3NTM1NSw1MDMwMTM5NjVdfQ==
+eyJoaXN0b3J5IjpbMTcwNjE3MzMyMiwtMTUyNTc5MjU1LDcwNj
+A0NTI2OSwtMTEyMzQzMzI4NiwtMTIyMDE1MjU4NCwxNjMzNTI4
+MDAxLC0xNTgyMTQ4NzQ1LC00Mzc1MzU1LDUwMzAxMzk2NV19
 -->
