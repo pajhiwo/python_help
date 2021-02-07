@@ -157,9 +157,11 @@ def test_something():
     call_SUT()
 ```
 
-
+## Monkeypatching
+https://docs.pytest.org/en/latest/monkeypatch.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1NzgxMTM1LDY0NjgzNDcyNiwtMTcyMz
-YyNjA0OSwxMDQ2NTQ5ODIwLDEwMDQ4NjcwMzYsNzA3NDExMjAy
-LDExODk1MzA2MDIsMTE1OTA3NzQ3NiwtMTYxODc4Nzc1Ml19
+eyJoaXN0b3J5IjpbMTU4OTMyNDY3OCw5NTU3ODExMzUsNjQ2OD
+M0NzI2LC0xNzIzNjI2MDQ5LDEwNDY1NDk4MjAsMTAwNDg2NzAz
+Niw3MDc0MTEyMDIsMTE4OTUzMDYwMiwxMTU5MDc3NDc2LC0xNj
+E4Nzg3NzUyXX0=
 -->
