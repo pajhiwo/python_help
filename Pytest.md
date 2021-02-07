@@ -8,6 +8,11 @@ Most functional tests follow the Arrange-Act-Assert model:
 2.  **Act**  by calling some function or method
 3.  **Assert**  that some end condition is true
 
+## Execution
+-   **Name-based filtering**: You can limit  `pytest`  to running only those tests whose fully qualified names match a particular expression. You can do this with the  `-k`  parameter.
+-   **Directory scoping**: By default,  `pytest`  will run only those tests that are in or under the current directory.
+-   **Test categorization**:  `pytest`  can include or exclude tests from particular categories that you define. You can do this with the  `-m`  parameter.
+
 ## Testing for exception
 Here we can see simple context manager that _Pytest_ provides for us. It allows us to specify type of exception that should be raised as well as message of said exception.
 ```python
@@ -154,8 +159,7 @@ def test_something():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTc3NDcwOTEsNjQ2ODM0NzI2LC0xNz
-IzNjI2MDQ5LDEwNDY1NDk4MjAsMTAwNDg2NzAzNiw3MDc0MTEy
-MDIsMTE4OTUzMDYwMiwxMTU5MDc3NDc2LC0xNjE4Nzg3NzUyXX
-0=
+eyJoaXN0b3J5IjpbOTU1NzgxMTM1LDY0NjgzNDcyNiwtMTcyMz
+YyNjA0OSwxMDQ2NTQ5ODIwLDEwMDQ4NjcwMzYsNzA3NDExMjAy
+LDExODk1MzA2MDIsMTE1OTA3NzQ3NiwtMTYxODc4Nzc1Ml19
 -->
