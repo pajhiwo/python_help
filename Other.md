@@ -1,4 +1,6 @@
 # Other
+## boilerplate
+Are sections of code that are repeated in multiple places with little to no variation
 
 ## split(), sub(), subn() methods of “re”
 `split()` – uses a regex pattern to “split” a given string into a list.
@@ -105,7 +107,7 @@ ip in net
 **Pickle** module accepts any Python object and converts it into a string representation and dumps it into a file
 [https://docs.python.org/3/library/pickle.html](https://docs.python.org/3/library/pickle.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2MDQ1MjY5LC0xMTIzNDMzMjg2LC0xMj
-IwMTUyNTg0LDE2MzM1MjgwMDEsLTE1ODIxNDg3NDUsLTQzNzUz
-NTUsNTAzMDEzOTY1XX0=
+eyJoaXN0b3J5IjpbLTE1MjU3OTI1NSw3MDYwNDUyNjksLTExMj
+M0MzMyODYsLTEyMjAxNTI1ODQsMTYzMzUyODAwMSwtMTU4MjE0
+ODc0NSwtNDM3NTM1NSw1MDMwMTM5NjVdfQ==
 -->
