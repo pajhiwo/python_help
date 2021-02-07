@@ -2,6 +2,12 @@
 sources:
 * https://martinheinz.dev/blog/7
 
+Most functional tests follow the Arrange-Act-Assert model:
+
+1.  **Arrange**, or set up, the conditions for the test
+2.  **Act**  by calling some function or method
+3.  **Assert**  that some end condition is true
+
 ## Testing for exception
 Here we can see simple context manager that _Pytest_ provides for us. It allows us to specify type of exception that should be raised as well as message of said exception.
 ```python
@@ -148,7 +154,8 @@ def test_something():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2ODM0NzI2LC0xNzIzNjI2MDQ5LDEwND
-Y1NDk4MjAsMTAwNDg2NzAzNiw3MDc0MTEyMDIsMTE4OTUzMDYw
-MiwxMTU5MDc3NDc2LC0xNjE4Nzg3NzUyXX0=
+eyJoaXN0b3J5IjpbLTE3NTc3NDcwOTEsNjQ2ODM0NzI2LC0xNz
+IzNjI2MDQ5LDEwNDY1NDk4MjAsMTAwNDg2NzAzNiw3MDc0MTEy
+MDIsMTE4OTUzMDYwMiwxMTU5MDc3NDc2LC0xNjE4Nzg3NzUyXX
+0=
 -->
