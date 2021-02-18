@@ -107,6 +107,18 @@ collections.OrderedDict
 ***since Python3.7 builtin dict keeps insertion order***
 <br/>
 
+## Enum	
+To create constant values use Enum class
+```python
+from enum import Enum  
+  
+class ConstClassValues(Enum):
+	x = 1
+	y = 2
+
+print(ConstClassValues.x.value)
+```
+
 # List methods
 
 ## List reverse
@@ -309,9 +321,9 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA4NjI1MjMsOTQyMTAwNzQwLDExNz
-kzNzk5MCwxNTYyMjkyODM1LDEyNDU4ODA1NDksODUzNDk2MDM3
-LC0yMDQxMjAyOTEsMTIzMjE5MTU3LDYyODM3NDY4OSwtMTE3Nj
-UwNjgwMSwtNDk0MjAyMzI4LDE4MzA0NjgxNjgsLTg2ODEzOTU2
-MiwxNjE3ODA4ODY4LDYwMjI5MTY0MF19
+eyJoaXN0b3J5IjpbNjA1MjIzMDkzLC0xMjgwODYyNTIzLDk0Mj
+EwMDc0MCwxMTc5Mzc5OTAsMTU2MjI5MjgzNSwxMjQ1ODgwNTQ5
+LDg1MzQ5NjAzNywtMjA0MTIwMjkxLDEyMzIxOTE1Nyw2MjgzNz
+Q2ODksLTExNzY1MDY4MDEsLTQ5NDIwMjMyOCwxODMwNDY4MTY4
+LC04NjgxMzk1NjIsMTYxNzgwODg2OCw2MDIyOTE2NDBdfQ==
 -->
