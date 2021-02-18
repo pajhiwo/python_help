@@ -60,7 +60,7 @@ Out[29]: [3, 4, 5, 6, 7, 8, 9]
 ```
 
 ## Dictionary
-Mutable, not sequenced, slow, keys must be unique
+Mutable, not sequenced, slow, keys must be unique. It is hash table - list of tuples with collision handling.
 ***since Python3.7 builtin dict keeps insertion order***
 ```python
 dict = {“key1”: “value”, “key2”: “value”}
@@ -321,7 +321,7 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1MjIzMDkzLC0xMjgwODYyNTIzLDk0Mj
+eyJoaXN0b3J5IjpbMzY3MDY2Nzg0LC0xMjgwODYyNTIzLDk0Mj
 EwMDc0MCwxMTc5Mzc5OTAsMTU2MjI5MjgzNSwxMjQ1ODgwNTQ5
 LDg1MzQ5NjAzNywtMjA0MTIwMjkxLDEyMzIxOTE1Nyw2MjgzNz
 Q2ODksLTExNzY1MDY4MDEsLTQ5NDIwMjMyOCwxODMwNDY4MTY4
