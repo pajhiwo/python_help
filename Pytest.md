@@ -10,6 +10,7 @@ Most functional tests follow the Arrange-Act-Assert model:
 
 ## CMD arguments
 **-s** :   show print from code
+**-p no:warning** : do not show warnings
 
 ## Execution
 -   **Name-based filtering**: You can limit  `pytest`  to running only those tests whose fully qualified names match a particular expression. You can do this with the  `-k`  parameter.
@@ -163,8 +164,8 @@ def test_something():
 ## Monkeypatching
 https://docs.pytest.org/en/latest/monkeypatch.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjEzNzA3NjksMTU4OTMyNDY3OCw5NT
-U3ODExMzUsNjQ2ODM0NzI2LC0xNzIzNjI2MDQ5LDEwNDY1NDk4
-MjAsMTAwNDg2NzAzNiw3MDc0MTEyMDIsMTE4OTUzMDYwMiwxMT
-U5MDc3NDc2LC0xNjE4Nzg3NzUyXX0=
+eyJoaXN0b3J5IjpbODY3NTA5NTY3LDE1ODkzMjQ2NzgsOTU1Nz
+gxMTM1LDY0NjgzNDcyNiwtMTcyMzYyNjA0OSwxMDQ2NTQ5ODIw
+LDEwMDQ4NjcwMzYsNzA3NDExMjAyLDExODk1MzA2MDIsMTE1OT
+A3NzQ3NiwtMTYxODc4Nzc1Ml19
 -->
