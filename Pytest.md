@@ -8,6 +8,9 @@ Most functional tests follow the Arrange-Act-Assert model:
 2.  **Act**  by calling some function or method
 3.  **Assert**  that some end condition is true
 
+## CMD arguments
+**-s** :   show print from code
+
 ## Execution
 -   **Name-based filtering**: You can limit  `pytest`  to running only those tests whose fully qualified names match a particular expression. You can do this with the  `-k`  parameter.
 -   **Directory scoping**: By default,  `pytest`  will run only those tests that are in or under the current directory.
@@ -160,8 +163,8 @@ def test_something():
 ## Monkeypatching
 https://docs.pytest.org/en/latest/monkeypatch.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTMyNDY3OCw5NTU3ODExMzUsNjQ2OD
-M0NzI2LC0xNzIzNjI2MDQ5LDEwNDY1NDk4MjAsMTAwNDg2NzAz
-Niw3MDc0MTEyMDIsMTE4OTUzMDYwMiwxMTU5MDc3NDc2LC0xNj
-E4Nzg3NzUyXX0=
+eyJoaXN0b3J5IjpbLTExNjEzNzA3NjksMTU4OTMyNDY3OCw5NT
+U3ODExMzUsNjQ2ODM0NzI2LC0xNzIzNjI2MDQ5LDEwNDY1NDk4
+MjAsMTAwNDg2NzAzNiw3MDc0MTEyMDIsMTE4OTUzMDYwMiwxMT
+U5MDc3NDc2LC0xNjE4Nzg3NzUyXX0=
 -->
