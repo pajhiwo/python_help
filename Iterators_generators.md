@@ -20,6 +20,7 @@ next(x)
 
 ## Generator
 Generators simplifies creation of iterators. Generator is a function that produces a sequence of results instead of a single value. When next method is called for the first time, the function starts executing until it reaches yield statement. The yielded value is returned by the next call (next iteration).
+Every generator is an iterator, but not vice versa
 
 ```python
 def yrange(n):
@@ -128,6 +129,6 @@ print(*range(5))
 >>> 0 1 2 3 4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3Mjg2NjMwOSwtNDIzMDQwNjgyLDUzMz
-Q1NDI3MSwtMjAxNjg2NjE0MV19
+eyJoaXN0b3J5IjpbLTcwMzczMzE2OCwxNDcyODY2MzA5LC00Mj
+MwNDA2ODIsNTMzNDU0MjcxLC0yMDE2ODY2MTQxXX0=
 -->
