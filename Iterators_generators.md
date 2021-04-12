@@ -3,7 +3,8 @@
 # Iterators and Generators
 
 ## Iterator
-iter()” takes an iterable object and returns an iterator. Iterator object can be used only once. It means after it raises StopIteration once, it will keep raising the same exception
+iter()” takes an iterable object and returns an iterator. Iterator object can be used only once. It means after it raises StopIteration once, it will keep raising the same exception.
+In creating an iterator in python, we use the iter() and next() functions
 ```python
 x = iter([1, 2, 3])
 x
@@ -127,6 +128,6 @@ print(*range(5))
 >>> 0 1 2 3 4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTU5ODc4NCwtNDIzMDQwNjgyLDUzMz
+eyJoaXN0b3J5IjpbMTQ3Mjg2NjMwOSwtNDIzMDQwNjgyLDUzMz
 Q1NDI3MSwtMjAxNjg2NjE0MV19
 -->
