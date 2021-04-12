@@ -130,7 +130,7 @@ print("Object created:", s1)
 >>> Object created: <__main__.Singleton object at 0x7f59442d58d0>
 ```  
 ## Borg "singleton"
-Borg is also known as **monostate**. In the borg pattern, all of the instances are different, but they share the same
+Borg is also known as **monostate**. In the borg pattern, all of the instances are different, but they share the same state
 
 ```python
 class Borg:
@@ -359,11 +359,11 @@ g2.play()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjY4ODA3ODAsOTgxMDY2NDkwLC04MT
-Q5MDAwNjIsLTM5ODY4NDk4MCwtMTI4NjIzNjI4OCw0OTc4Nzc5
-NDIsLTE3Nzk4NjcxOTAsNzg3NzE2NzMxLDczMzY1MzQ5NywzNj
-E0MDY1ODIsODc4Mjg1NTYzLDY1MTg0MzkxLDEwODQ4MjkyNDks
-MTkzNjMwNDcsMTQyMTQzMDQ3MCwxMTkwNzY3OTQ3LDc3ODAzMj
-I2MywxMTcyODMwODc1LC0xMDc3OTk1NTUxLDIwMTYzMTgwNzdd
-fQ==
+eyJoaXN0b3J5IjpbLTIzNjU4ODY5OSw5ODEwNjY0OTAsLTgxND
+kwMDA2MiwtMzk4Njg0OTgwLC0xMjg2MjM2Mjg4LDQ5Nzg3Nzk0
+MiwtMTc3OTg2NzE5MCw3ODc3MTY3MzEsNzMzNjUzNDk3LDM2MT
+QwNjU4Miw4NzgyODU1NjMsNjUxODQzOTEsMTA4NDgyOTI0OSwx
+OTM2MzA0NywxNDIxNDMwNDcwLDExOTA3Njc5NDcsNzc4MDMyMj
+YzLDExNzI4MzA4NzUsLTEwNzc5OTU1NTEsMjAxNjMxODA3N119
+
 -->
