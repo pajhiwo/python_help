@@ -114,8 +114,7 @@ for _ in range(10000):
         infile.write('foo')
         files.append(infile)
 ``` 
-Decorator + generator can also be created as context manager. Everything before the
-call to yield is considered the code for `__enter__()`. Everything after is the code for `__exit__()`:
+Decorator + generator can also be created as context manager. Everything before the call to yield is considered the code for `__enter__()`. Everything after is the code for `__exit__()`:
 ```python
 from contextlib import contextmanager
 
@@ -136,7 +135,7 @@ print(*range(5))
 >>> 0 1 2 3 4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzMxNTMxNCwxNjkzMzQ2NzU2LC03MD
+eyJoaXN0b3J5IjpbMTE4MjIyNDM3NCwxNjkzMzQ2NzU2LC03MD
 M3MzMxNjgsMTQ3Mjg2NjMwOSwtNDIzMDQwNjgyLDUzMzQ1NDI3
 MSwtMjAxNjg2NjE0MV19
 -->
