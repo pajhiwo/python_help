@@ -99,8 +99,6 @@ are attribute references: in the expression modname.funcname, modname is a modul
 ## Unpack tuple, list, dict to function arguments
 For tuple, list  use *
 ```python
-function_name(*variable)
-
 def updateStudentDetail(name, phone, address):
     print(f"Student Name: {name}")
     print(f"Student phone: {phone}")
@@ -181,7 +179,7 @@ print("Optional parameter wasn't supplied...")
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiY2F0ZWdvcmllczogJ2tleXdvcmQsIH
 JlZmVyZW5jZSwgYXJndW1lbnRzLCBhcmdzLCBsYW1iZGEnXG4i
-LCJoaXN0b3J5IjpbMTUzOTY5OTE0MCwtMTI1MjQxNzc2MywtNT
-c1MTgxMTY1LC01MjY1OTU5ODMsLTM4NDA5Nzk4NSwxMTgwNDY1
-OTUsMTQxNzQ4ODAxMl19
+LCJoaXN0b3J5IjpbMjg0NDA4MDEsMTUzOTY5OTE0MCwtMTI1Mj
+QxNzc2MywtNTc1MTgxMTY1LC01MjY1OTU5ODMsLTM4NDA5Nzk4
+NSwxMTgwNDY1OTUsMTQxNzQ4ODAxMl19
 -->
