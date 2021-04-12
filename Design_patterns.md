@@ -117,7 +117,7 @@ Alternatively you can have only methods and variables (without class) on "module
 ```python
 class Singleton:
     def __new__(self):
-        if  not  hasattr(self, 'instance'):
+        if not hasattr(self, 'instance'):
             self.instance = super().__new__(self)
         return  self.instance
 
@@ -359,11 +359,11 @@ g2.play()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxMDY2NDkwLC04MTQ5MDAwNjIsLTM5OD
-Y4NDk4MCwtMTI4NjIzNjI4OCw0OTc4Nzc5NDIsLTE3Nzk4Njcx
-OTAsNzg3NzE2NzMxLDczMzY1MzQ5NywzNjE0MDY1ODIsODc4Mj
-g1NTYzLDY1MTg0MzkxLDEwODQ4MjkyNDksMTkzNjMwNDcsMTQy
-MTQzMDQ3MCwxMTkwNzY3OTQ3LDc3ODAzMjI2MywxMTcyODMwOD
-c1LC0xMDc3OTk1NTUxLDIwMTYzMTgwNzcsLTEzNjcyMDAzMTBd
+eyJoaXN0b3J5IjpbLTE5NjY4ODA3ODAsOTgxMDY2NDkwLC04MT
+Q5MDAwNjIsLTM5ODY4NDk4MCwtMTI4NjIzNjI4OCw0OTc4Nzc5
+NDIsLTE3Nzk4NjcxOTAsNzg3NzE2NzMxLDczMzY1MzQ5NywzNj
+E0MDY1ODIsODc4Mjg1NTYzLDY1MTg0MzkxLDEwODQ4MjkyNDks
+MTkzNjMwNDcsMTQyMTQzMDQ3MCwxMTkwNzY3OTQ3LDc3ODAzMj
+I2MywxMTcyODMwODc1LC0xMDc3OTk1NTUxLDIwMTYzMTgwNzdd
 fQ==
 -->
