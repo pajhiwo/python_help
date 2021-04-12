@@ -15,9 +15,9 @@ Resources:
 def singleton(class_):  
     instances = {}  
     def getinstance(*args, **kwargs):  
-	if class_ not in instances:  
-	    instances[class_] = class_(*args, **kwargs)  
-	return instances[class_]  
+		if class_ not in instances:  
+		    instances[class_] = class_(*args, **kwargs)  
+		return instances[class_]  
     return getinstance  
   
 @singleton  
@@ -359,11 +359,11 @@ g2.play()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDkwMDA2MiwtMzk4Njg0OTgwLC0xMj
-g2MjM2Mjg4LDQ5Nzg3Nzk0MiwtMTc3OTg2NzE5MCw3ODc3MTY3
-MzEsNzMzNjUzNDk3LDM2MTQwNjU4Miw4NzgyODU1NjMsNjUxOD
-QzOTEsMTA4NDgyOTI0OSwxOTM2MzA0NywxNDIxNDMwNDcwLDEx
-OTA3Njc5NDcsNzc4MDMyMjYzLDExNzI4MzA4NzUsLTEwNzc5OT
-U1NTEsMjAxNjMxODA3NywtMTM2NzIwMDMxMCwtMTAwODc1NDY4
-N119
+eyJoaXN0b3J5IjpbOTgxMDY2NDkwLC04MTQ5MDAwNjIsLTM5OD
+Y4NDk4MCwtMTI4NjIzNjI4OCw0OTc4Nzc5NDIsLTE3Nzk4Njcx
+OTAsNzg3NzE2NzMxLDczMzY1MzQ5NywzNjE0MDY1ODIsODc4Mj
+g1NTYzLDY1MTg0MzkxLDEwODQ4MjkyNDksMTkzNjMwNDcsMTQy
+MTQzMDQ3MCwxMTkwNzY3OTQ3LDc3ODAzMjI2MywxMTcyODMwOD
+c1LC0xMDc3OTk1NTUxLDIwMTYzMTgwNzcsLTEzNjcyMDAzMTBd
+fQ==
 -->
