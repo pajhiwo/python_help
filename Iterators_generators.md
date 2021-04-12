@@ -9,10 +9,10 @@ x = iter([1, 2, 3])
 x
 >>> <listiterator object at 0x1004ca850>
 
-x.__next__()
+next(x)
 >>> 1
 
-x.__next__()
+next(x)
 >>> 2
 ```
   
@@ -127,6 +127,6 @@ print(*range(5))
 >>> 0 1 2 3 4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3MzE0MDA2LC00MjMwNDA2ODIsNTMzND
-U0MjcxLC0yMDE2ODY2MTQxXX0=
+eyJoaXN0b3J5IjpbMTk4OTU5ODc4NCwtNDIzMDQwNjgyLDUzMz
+Q1NDI3MSwtMjAxNjg2NjE0MV19
 -->
