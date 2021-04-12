@@ -244,20 +244,23 @@ Converts interface of a class into another.
 ```python
 # (via object composition)
 class Target:  
+    """
+    The Target defines the domain-specific interface used by the client code. 
     """  
- The Target defines the domain-specific interface used by the client code. """  
   def request(self) -> str:  
         return "Target: The default target's behavior."  
   
 class Adaptee:  
+    """
+    The Adaptee contains some useful behavior, but its interface is incompatible with the existing client code. The Adaptee needs some adaptation before the client code can use it. 
     """  
- The Adaptee contains some useful behavior, but its interface is incompatible with the existing client code. The Adaptee needs some adaptation before the client code can use it. """  
   def specific_request(self) -> str:  
         return ".eetpadA eht fo roivaheb laicepS"  
   
 class Adapter(Target):  
+    """
+    The Adapter makes the Adaptee's interface compatible with the Target's interface. 
     """  
- The Adapter makes the Adaptee's interface compatible with the Target's interface. """  
   def __init__(self, adaptee: Adaptee) -> None:  
         self.adaptee = adaptee  
   
@@ -265,8 +268,9 @@ class Adapter(Target):
         return f"Adapter: (TRANSLATED) {self.adaptee.specific_request()[::-1]}"  
   
 def client_code(target: Target) -> None:  
+    """
+    The client code supports all classes that follow the Target interface. 
     """  
- The client code supports all classes that follow the Target interface. """  
   print(target.request(), end="")  
   
 if __name__ == "__main__":  
@@ -282,6 +286,17 @@ if __name__ == "__main__":
     print("Client: But I can work with it via the Adapter:")  
     adapter = Adapter(adaptee)  
     client_code(adapter)
+
+>>Client: I can work just fine with the Target objects:
+>>Target: The default target's behavior.
+
+>>Client: The Adaptee class has a weird interface. See, I don't understand it:
+>>Adaptee: .eetpadA eht fo roivaheb laicepS
+
+>>Client: But I can work with it via the Adapter:
+>>Adapter: (TRANSLATED) Special behavior of the Adaptee.
+>>Process finished with exit code 0
+
 ```
 
 ## Abstract pattern
@@ -356,11 +371,11 @@ g2.play()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTA4NTE4MSwxMDE3MDUzMzQyLDk4MT
-A2NjQ5MCwtODE0OTAwMDYyLC0zOTg2ODQ5ODAsLTEyODYyMzYy
-ODgsNDk3ODc3OTQyLC0xNzc5ODY3MTkwLDc4NzcxNjczMSw3Mz
-M2NTM0OTcsMzYxNDA2NTgyLDg3ODI4NTU2Myw2NTE4NDM5MSwx
-MDg0ODI5MjQ5LDE5MzYzMDQ3LDE0MjE0MzA0NzAsMTE5MDc2Nz
-k0Nyw3NzgwMzIyNjMsMTE3MjgzMDg3NSwtMTA3Nzk5NTU1MV19
-
+eyJoaXN0b3J5IjpbLTE2ODY2MjkyMjUsMTAxNzA1MzM0Miw5OD
+EwNjY0OTAsLTgxNDkwMDA2MiwtMzk4Njg0OTgwLC0xMjg2MjM2
+Mjg4LDQ5Nzg3Nzk0MiwtMTc3OTg2NzE5MCw3ODc3MTY3MzEsNz
+MzNjUzNDk3LDM2MTQwNjU4Miw4NzgyODU1NjMsNjUxODQzOTEs
+MTA4NDgyOTI0OSwxOTM2MzA0NywxNDIxNDMwNDcwLDExOTA3Nj
+c5NDcsNzc4MDMyMjYzLDExNzI4MzA4NzUsLTEwNzc5OTU1NTFd
+fQ==
 -->
