@@ -68,7 +68,7 @@ dict = {“key1”: “value”, “key2”: “value”}
 Python dictionaries are implemented as **hash tables**. It is an array whose indexes are obtained using a hash function on the keys. Python hash table is just a contiguous block of memory. **Each slot in the table can store one and only one entry.** Each **entry** in the table actually a combination of the three values: **< hash, key, value >**.
 
 ## Set
-Mutable, unordered collection of items. Every element is unique (no duplicates) and must be immutable.
+Mutable, unordered and unindexed collection of items. Every element is unique (no duplicates) and must be immutable.
 ```python
 A = {1, 2, 3, 3}
 >>> set([1, 2, 3])
@@ -83,7 +83,7 @@ done by 2 sets ->  is done by `|` --> `Set1 | Set2`
 done by 2 sets ->  is done by `&` --> `Set1 & Set2`
   
 ## Sequences    
-It is ordered set - organized by non negative indexes: String, List, Tuple, Dict, Set, byteArray
+It is ordered set - organized by non negative indexes: String, List, Tuple, Dict, range, byteArray
 
   
 ## String
@@ -321,9 +321,10 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3MDY2Nzg0LC0xMjgwODYyNTIzLDk0Mj
-EwMDc0MCwxMTc5Mzc5OTAsMTU2MjI5MjgzNSwxMjQ1ODgwNTQ5
-LDg1MzQ5NjAzNywtMjA0MTIwMjkxLDEyMzIxOTE1Nyw2MjgzNz
-Q2ODksLTExNzY1MDY4MDEsLTQ5NDIwMjMyOCwxODMwNDY4MTY4
-LC04NjgxMzk1NjIsMTYxNzgwODg2OCw2MDIyOTE2NDBdfQ==
+eyJoaXN0b3J5IjpbLTEwNDE0ODQ3MTYsMzY3MDY2Nzg0LC0xMj
+gwODYyNTIzLDk0MjEwMDc0MCwxMTc5Mzc5OTAsMTU2MjI5Mjgz
+NSwxMjQ1ODgwNTQ5LDg1MzQ5NjAzNywtMjA0MTIwMjkxLDEyMz
+IxOTE1Nyw2MjgzNzQ2ODksLTExNzY1MDY4MDEsLTQ5NDIwMjMy
+OCwxODMwNDY4MTY4LC04NjgxMzk1NjIsMTYxNzgwODg2OCw2MD
+IyOTE2NDBdfQ==
 -->
