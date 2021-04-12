@@ -159,8 +159,8 @@ for i,v in enumerate([‘Python’,’Java’,’C++’]):
 ## Enumerate / Iterating over list index and value pairs:
 ```python
 a = ['Hello', 'world', '!']
-for i, x in enumerate(a): --or-- for k, v in m.iteritems():
-    print '{}: {}'.format(i, x)
+for i, v in enumerate(a): --or-- for k, v in m.iteritems():
+    print '{}: {}'.format(i, v)
 
 >>> 0: Hello
 >>> 1: world
@@ -321,7 +321,7 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDMwMTY1MiwzNjcwNjY3ODQsLTEyOD
+eyJoaXN0b3J5IjpbMTk5ODE1NjU2NCwzNjcwNjY3ODQsLTEyOD
 A4NjI1MjMsOTQyMTAwNzQwLDExNzkzNzk5MCwxNTYyMjkyODM1
 LDEyNDU4ODA1NDksODUzNDk2MDM3LC0yMDQxMjAyOTEsMTIzMj
 E5MTU3LDYyODM3NDY4OSwtMTE3NjUwNjgwMSwtNDk0MjAyMzI4
