@@ -145,18 +145,26 @@ if __name__ == '__main__':
             Borg.__init__(self)
             if name is not None: self.name = name
         def __str__(self): return 'Example(%s)' % self.name
-    a = Example('Lara')
-    b = Example(  )
-    print(a, b)
-    c = Example('Boris')
-    print(a, b, c)
-    b.name = 'Marcel'
-    print(a, b, c)
+    a = Example('Lara')  
+	b = Example(  )  
+	print(a, b)  
+	print(id(a), id(b))  
+	c = Example('Boris')  
+	print(a, b, c)  
+	print(id(a), id(b), id(c))  
+	b.name = 'Marcel'  
+	print(a, b, c)  
+	print(id(a), id(b), id(c))
 
->>>
-**Example(Lara) Example(Lara)**
-**Example(Boris) Example(Boris) Example(Boris)**
-**Example(Marcel) Example(Marcel) Example(Marcel)**
+
+>>Example(Lara) Example(Lara)
+>>2654276067280 2654276067232
+
+>>Example(Boris) Example(Boris) Example(Boris)
+>>2654276067280 2654276067232 2654276067088
+
+>>Example(Marcel) Example(Marcel) Example(Marcel)
+>>2654276067280 2654276067232 2654276067088
 ```
 
 ## Factory pattern
@@ -359,11 +367,11 @@ g2.play()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDYzODY0LDk4MTA2NjQ5MCwtODE0OT
-AwMDYyLC0zOTg2ODQ5ODAsLTEyODYyMzYyODgsNDk3ODc3OTQy
-LC0xNzc5ODY3MTkwLDc4NzcxNjczMSw3MzM2NTM0OTcsMzYxND
-A2NTgyLDg3ODI4NTU2Myw2NTE4NDM5MSwxMDg0ODI5MjQ5LDE5
-MzYzMDQ3LDE0MjE0MzA0NzAsMTE5MDc2Nzk0Nyw3NzgwMzIyNj
-MsMTE3MjgzMDg3NSwtMTA3Nzk5NTU1MSwyMDE2MzE4MDc3XX0=
+eyJoaXN0b3J5IjpbMTAxNzA1MzM0Miw5ODEwNjY0OTAsLTgxND
+kwMDA2MiwtMzk4Njg0OTgwLC0xMjg2MjM2Mjg4LDQ5Nzg3Nzk0
+MiwtMTc3OTg2NzE5MCw3ODc3MTY3MzEsNzMzNjUzNDk3LDM2MT
+QwNjU4Miw4NzgyODU1NjMsNjUxODQzOTEsMTA4NDgyOTI0OSwx
+OTM2MzA0NywxNDIxNDMwNDcwLDExOTA3Njc5NDcsNzc4MDMyMj
+YzLDExNzI4MzA4NzUsLTEwNzc5OTU1NTEsMjAxNjMxODA3N119
 
 -->
