@@ -210,8 +210,10 @@ Array[0:2,2:4]
 
 ## Iterate 2d array
 ```python
-for i in array.flat:
+for i in array:
     print i
+or
+print([elem for row in array for elem in row])    
 ```
 
 ## Stack (concatenate) arrays
@@ -321,10 +323,10 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODE1NjU2NCwzNjcwNjY3ODQsLTEyOD
-A4NjI1MjMsOTQyMTAwNzQwLDExNzkzNzk5MCwxNTYyMjkyODM1
-LDEyNDU4ODA1NDksODUzNDk2MDM3LC0yMDQxMjAyOTEsMTIzMj
-E5MTU3LDYyODM3NDY4OSwtMTE3NjUwNjgwMSwtNDk0MjAyMzI4
-LDE4MzA0NjgxNjgsLTg2ODEzOTU2MiwxNjE3ODA4ODY4LDYwMj
-I5MTY0MF19
+eyJoaXN0b3J5IjpbLTg4ODI0NDMwOSwxOTk4MTU2NTY0LDM2Nz
+A2Njc4NCwtMTI4MDg2MjUyMyw5NDIxMDA3NDAsMTE3OTM3OTkw
+LDE1NjIyOTI4MzUsMTI0NTg4MDU0OSw4NTM0OTYwMzcsLTIwND
+EyMDI5MSwxMjMyMTkxNTcsNjI4Mzc0Njg5LC0xMTc2NTA2ODAx
+LC00OTQyMDIzMjgsMTgzMDQ2ODE2OCwtODY4MTM5NTYyLDE2MT
+c4MDg4NjgsNjAyMjkxNjQwXX0=
 -->
