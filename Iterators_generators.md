@@ -33,6 +33,7 @@ def yrange(n):
 
 x = (i for i in range(0))
 type(x)
+
 >>> generator
 
 ```
@@ -136,7 +137,7 @@ print(*range(5))
 >>> 0 1 2 3 4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzODg3NzY2LC03MDM3MzMxNjgsMTQ3Mj
-g2NjMwOSwtNDIzMDQwNjgyLDUzMzQ1NDI3MSwtMjAxNjg2NjE0
-MV19
+eyJoaXN0b3J5IjpbMTY5MzM0Njc1NiwtNzAzNzMzMTY4LDE0Nz
+I4NjYzMDksLTQyMzA0MDY4Miw1MzM0NTQyNzEsLTIwMTY4NjYx
+NDFdfQ==
 -->
