@@ -29,6 +29,13 @@ def yrange(n):
         yield i
         i += 1
 ```
+```python
+
+x = (i for i in range(0))
+type(x)
+>>> generator
+
+```
   
 
 ## Range
@@ -129,6 +136,7 @@ print(*range(5))
 >>> 0 1 2 3 4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzczMzE2OCwxNDcyODY2MzA5LC00Mj
-MwNDA2ODIsNTMzNDU0MjcxLC0yMDE2ODY2MTQxXX0=
+eyJoaXN0b3J5IjpbNTIzODg3NzY2LC03MDM3MzMxNjgsMTQ3Mj
+g2NjMwOSwtNDIzMDQwNjgyLDUzMzQ1NDI3MSwtMjAxNjg2NjE0
+MV19
 -->
