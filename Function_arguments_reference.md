@@ -140,7 +140,7 @@ test(a="value", b="value 2")  # Works...
 ```
 
 ## Positional only arguments (Python 3.8)
-There is a new function parameter syntax (/) to highlight that some of the functions must be stated positionally and not by keyword arguments. We also have an operator (*) that indicates that the arguments must be keyword only. This can be a little confusing but after seeing the code this gets easier to understand, so let’s see them in action.
+There is a new function parameter syntax (/) to highlight that some of the functions must be stated positionally and not by keyword arguments. We also have an operator (*) that indicates that the arguments must be keyword only. 
 ```python
 def func( a,b,/,c,d,*,e,f ):
 	print(a,b,c,d,e,f )
@@ -181,7 +181,8 @@ print("Optional parameter wasn't supplied...")
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiY2F0ZWdvcmllczogJ2tleXdvcmQsIH
 JlZmVyZW5jZSwgYXJndW1lbnRzLCBhcmdzLCBsYW1iZGEnXG4i
-LCJoaXN0b3J5IjpbLTE3NTYxNzMzNjYsMTUzOTY5OTE0MCwtMT
-I1MjQxNzc2MywtNTc1MTgxMTY1LC01MjY1OTU5ODMsLTM4NDA5
-Nzk4NSwxMTgwNDY1OTUsMTQxNzQ4ODAxMl19
+LCJoaXN0b3J5IjpbLTE4OTU2MjYwNzgsLTE3NTYxNzMzNjYsMT
+UzOTY5OTE0MCwtMTI1MjQxNzc2MywtNTc1MTgxMTY1LC01MjY1
+OTU5ODMsLTM4NDA5Nzk4NSwxMTgwNDY1OTUsMTQxNzQ4ODAxMl
+19
 -->
