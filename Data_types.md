@@ -108,7 +108,7 @@ collections.OrderedDict
 <br/>
 
 ## Enum	
-To create constant values use Enum class
+To create **constant values** use Enum class
 ```python
 from enum import Enum  
   
@@ -321,10 +321,10 @@ difflib.get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'], n=2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE0ODQ3MTYsMzY3MDY2Nzg0LC0xMj
-gwODYyNTIzLDk0MjEwMDc0MCwxMTc5Mzc5OTAsMTU2MjI5Mjgz
-NSwxMjQ1ODgwNTQ5LDg1MzQ5NjAzNywtMjA0MTIwMjkxLDEyMz
-IxOTE1Nyw2MjgzNzQ2ODksLTExNzY1MDY4MDEsLTQ5NDIwMjMy
-OCwxODMwNDY4MTY4LC04NjgxMzk1NjIsMTYxNzgwODg2OCw2MD
-IyOTE2NDBdfQ==
+eyJoaXN0b3J5IjpbMTA0MDMwMTY1MiwzNjcwNjY3ODQsLTEyOD
+A4NjI1MjMsOTQyMTAwNzQwLDExNzkzNzk5MCwxNTYyMjkyODM1
+LDEyNDU4ODA1NDksODUzNDk2MDM3LC0yMDQxMjAyOTEsMTIzMj
+E5MTU3LDYyODM3NDY4OSwtMTE3NjUwNjgwMSwtNDk0MjAyMzI4
+LDE4MzA0NjgxNjgsLTg2ODEzOTU2MiwxNjE3ODA4ODY4LDYwMj
+I5MTY0MF19
 -->
