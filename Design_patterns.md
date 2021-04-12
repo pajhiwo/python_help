@@ -243,55 +243,44 @@ Converts interface of a class into another.
 
 ```python
 # (via object composition)
-class Target():
-	"""
-	The Target defines the domain-specific interface used by the client code.
-	"""
-
-    def request(self) -> str:
-        return "Target: The default target's behavior."
-
-class Adaptee:
-	"""
-	The Adaptee contains some useful behavior, but its interface is incompatible
-	with the existing client code. The Adaptee needs some adaptation before the
-	client code can use it.
-	"""
-
-    def specific_request(self) -> str:
-        return ".eetpadA eht fo roivaheb laicepS"
-
-class Adapter(Target):
-	"""
-	The Adapter makes the Adaptee's interface compatible with the Target's
-	interface.
-	"""
-
-    def __init__(self, adaptee: Adaptee) -> None:
-        self.adaptee = adaptee
-
-    def request(self) -> str:
-        return f"Adapter: (TRANSLATED) {self.adaptee.specific_request()[::-1]}"
-
-def client_code(target: Target) -> None:
-	"""
-	The client code supports all classes that follow the Target interface.
-	"""
-
-    print(target.request(), end="")
-
-if __name__ == "__main__":
-    print("Client: I can work just fine with the Target objects:")
-    target = Target()
-    client_code(target)
-    print("\n")
-
-    adaptee = Adaptee()
-    print("Client: The Adaptee class has a weird interface. See, I don't understand it:")
-    print(f"Adaptee: {adaptee.specific_request()}", end="\n\n")
-
-    print("Client: But I can work with it via the Adapter:")
-    adapter = Adapter(adaptee)
+class Target:  
+    """  
+ The Target defines the domain-specific interface used by the client code. """  
+  def request(self) -> str:  
+        return "Target: The default target's behavior."  
+  
+class Adaptee:  
+    """  
+ The Adaptee contains some useful behavior, but its interface is incompatible with the existing client code. The Adaptee needs some adaptation before the client code can use it. """  
+  def specific_request(self) -> str:  
+        return ".eetpadA eht fo roivaheb laicepS"  
+  
+class Adapter(Target):  
+    """  
+ The Adapter makes the Adaptee's interface compatible with the Target's interface. """  
+  def __init__(self, adaptee: Adaptee) -> None:  
+        self.adaptee = adaptee  
+  
+    def request(self) -> str:  
+        return f"Adapter: (TRANSLATED) {self.adaptee.specific_request()[::-1]}"  
+  
+def client_code(target: Target) -> None:  
+    """  
+ The client code supports all classes that follow the Target interface. """  
+  print(target.request(), end="")  
+  
+if __name__ == "__main__":  
+    print("Client: I can work just fine with the Target objects:")  
+    target = Target()  
+    client_code(target)  
+    print("\n")  
+  
+    adaptee = Adaptee()  
+    print("Client: The Adaptee class has a weird interface. See, I don't understand it:")  
+    print(f"Adaptee: {adaptee.specific_request()}", end="\n\n")  
+  
+    print("Client: But I can work with it via the Adapter:")  
+    adapter = Adapter(adaptee)  
     client_code(adapter)
 ```
 
@@ -367,11 +356,11 @@ g2.play()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzA1MzM0Miw5ODEwNjY0OTAsLTgxND
-kwMDA2MiwtMzk4Njg0OTgwLC0xMjg2MjM2Mjg4LDQ5Nzg3Nzk0
-MiwtMTc3OTg2NzE5MCw3ODc3MTY3MzEsNzMzNjUzNDk3LDM2MT
-QwNjU4Miw4NzgyODU1NjMsNjUxODQzOTEsMTA4NDgyOTI0OSwx
-OTM2MzA0NywxNDIxNDMwNDcwLDExOTA3Njc5NDcsNzc4MDMyMj
-YzLDExNzI4MzA4NzUsLTEwNzc5OTU1NTEsMjAxNjMxODA3N119
+eyJoaXN0b3J5IjpbLTU3OTA4NTE4MSwxMDE3MDUzMzQyLDk4MT
+A2NjQ5MCwtODE0OTAwMDYyLC0zOTg2ODQ5ODAsLTEyODYyMzYy
+ODgsNDk3ODc3OTQyLC0xNzc5ODY3MTkwLDc4NzcxNjczMSw3Mz
+M2NTM0OTcsMzYxNDA2NTgyLDg3ODI4NTU2Myw2NTE4NDM5MSwx
+MDg0ODI5MjQ5LDE5MzYzMDQ3LDE0MjE0MzA0NzAsMTE5MDc2Nz
+k0Nyw3NzgwMzIyNjMsMTE3MjgzMDg3NSwtMTA3Nzk5NTU1MV19
 
 -->
